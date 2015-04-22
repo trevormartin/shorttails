@@ -1,0 +1,292 @@
+name	correlation
+Malawi	0.969551977935879
+Maldives	0.951345447594501
+Bureau for Food Security (USAID)	0.939681652832022
+Cameroon	0.934208687833898
+Western Hemisphere Regional Office (DOS)	0.931624269147668
+Tanzania	0.929622994302519
+Papua New Guinea	0.928353668227044
+Marshall Islands	0.915880584284897
+International Organizations and Development Institutions (US Treasury) - Asian Development Bank (AsDB)	0.911022010626164
+International Organizations (DOS) - International Chemicals and Toxins Programs	0.902351691421088
+International Organizations (DOS) - IDLO International Development Law Organization	0.898249647090498
+Micronesia	0.89203637876115
+U.S. Department of the Treasury - Office of Technical Assistance	0.890914544179995
+International Organizations and Development Institutions (US Treasury) - International Bank for Reconstruction and Development (IBRD)	0.886768537249443
+Nigeria	0.886723064522948
+Bureau for Energy Resources (DOS)	0.882446313618931
+International Organizations (DOS) - UNDF UN Democracy Fund	0.879417190408593
+International Organizations (DOS) - UNCDF UN Capital Development Fund	0.874399549536218
+Middle East Multilaterals (DOS)	0.868325813294982
+S/GPI - Special Representative for Global Partnerships	0.867597177800732
+Central Asia Regional Office (USAID)	0.862579786596278
+Mozambique	0.846997822920991
+Bureau of Arms Control, Verification, and Compliance (DOS)	0.833003472025223
+International Organizations (DOS) - International Panel on Climate Change / UN Framework Convention on Climate Change	0.828980833522558
+Burma	0.825941848982335
+Near East Regional Democracy (DOS)	0.821102586479708
+International Organizations (DOS) - OSCE Organization for Security and Cooperation in Europe	0.818326369497479
+International Organizations and Development Institutions (US Treasury) - Strategic Climate Funds (SCF)	0.816291361589192
+International Organizations (DOS) - Montreal Protocol Multilateral Fund	0.815621498506512
+International Organizations and Development Institutions (US Treasury) - African Development Bank (AfDB)	0.807964797698582
+Office of the Global AIDS Coordinator (DOS)	0.805889861103011
+Bureau of Oceans and International Environmental and Scientific Affairs (DOS)	0.802079041631066
+Ghana	0.801885930434693
+Worldwide	0.800812386140253
+Democratic Republic of Congo	0.798186229877458
+Barbados and Eastern Caribbean (DOS & USAID)	0.796723091739467
+Cote d'Ivoire	0.795048962268515
+Africa Region	0.787199894747952
+Ambassador-at-Large for Global Women’s Issues (DOS)	0.782591051761559
+Swaziland	0.778599723370862
+South Sudan	0.777598314837351
+International Organizations and Development Institutions (US Treasury) - Clean Technology Fund (CTF)	0.766708505213546
+Sahel Regional Program (USAID)	0.763270230021393
+Senegal	0.762389404429888
+International Organizations (DOS) - UN Women Trust Fund (formerly UNIFEM Trust Fund)	0.75589255703657
+International Organizations (DOS) - UNFPA UN Population Fund	0.753613382826879
+Bureau for Democracy, Conflict, and Humanitarian Assistance (USAID)	0.750026966381892
+Middle East Regional Office (USAID)	0.749824154100332
+International Organizations (DOS) - International Conservation Programs	0.749818837086796
+Bureau of Population, Refugees, and Migration (DOS)	0.739731431548313
+Yemen	0.729897125753583
+Bureau for Policy, Planning and Learning (USAID)	0.729674504356889
+Laos	0.728386079620082
+International Organizations (DOS) - WTO Technical Assistance	0.72607352705153
+South America Regional Office (USAID)	0.722004432610578
+Office of the Coordinator for Counterterrorism (DOS)	0.710852797698293
+Asia Regional (USAID)	0.700072248437054
+International Organizations (DOS) - ReCAAP - Regional Cooperation Agreement on Combating Piracy and Armed Robbery Against Ships in Asia	0.699003137941746
+LAB - Global Development Lab (State)	0.69838178745562
+Office of U.S. Foreign Assistance Resources (DOS & USAID)	0.694566976766518
+Zambia	0.68898078625919
+Senior Advisor for Civil Society and Emerging Democracies (DOS)	0.684037231974942
+International Organizations (DOS) - OAS Fund for Strengthening Democracy	0.683025415435069
+MENA Initiative (Dos)	0.674883190306459
+International Organizations (DOS) - UN OCHA UN Office for the Coordination of Humanitarian Affairs	0.654780481013606
+International Organizations (DOS) - UNICEF UN Children's Fund	0.654031276190942
+Nepal	0.651358846383913
+Syrian Arab Republic	0.647881503386741
+International Organizations (DOS) - IMO International Maritime Organization	0.62854975529219
+Mali	0.628242478613019
+Burundi	0.614813608013146
+Office of the Coordinator for Cyber Issues (DOS)	0.607361137406275
+International Organizations and Development Institutions (US Treasury) - Inter-American Development Bank (IDB and FSO)	0.607232756019976
+International Organizations and Development Institutions (US Treasury) - Global Agriculture and Food Security Program (GAFSP) 	0.597960074664709
+International Organizations (DOS) - ICAO International Civil Aviation Organization	0.595678889323292
+Bangladesh	0.591195643401764
+Samoa	0.585879157956112
+International Organizations (DOS) - WMO World Meteorological Organization	0.585323323952679
+International Organizations (DOS) - UN Voluntary Funds for Technical Cooperation in the Field of Human Rights	0.580613349337058
+Vietnam	0.579042958235493
+Multinational Force and Observers (DOS)	0.574619508858646
+Trans-Sahara Counter-Terrorism Partnership (DOS)	0.562525708009389
+S/SRMC - Special Representative to Muslim Communities	0.546207469615305
+Foreign Assistance Program Evaluation	0.539798593956163
+International Organizations and Development Institutions (US Treasury) - International Fund for Agricultural Development (IFAD)	0.53838077547355
+International Organizations (DOS) - UN-HABITAT UN Human Settlements Program	0.52884429118592
+USAID Operating Expense	0.521080657349675
+Lesotho	0.51430492095765
+Tunisia	0.510131113032705
+Uruguay	0.454411078147076
+Libya	0.446808423937453
+Pooled Funding	0.446781172693468
+International Organizations (DOS) - UNDP UN Development Program	0.44290188605675
+Central America Regional Office (USAID)	0.436706250149425
+International Organizations (DOS) - UNEP UN Environment Program	0.407576848477216
+Complex Crises Fund	0.406181197229962
+OPIC/State Regional Economic Partnership	0.406181197229962
+Africa Regional Office (DOS)	0.400778716695267
+Office to Monitor and Combat Trafficking In Persons (DOS)	0.39069949618276
+Regional Office Development Mission-Asia (USAID)	0.386514500232171
+Costa Rica	0.384794637460877
+International Organizations (DOS) - UNVFVT UN Voluntary Fund for Victims of Torture	0.366824752046935
+African Union (DOS)	0.361844157859359
+Educational and Cultural Affairs (DOS)	0.356524847610397
+Uganda	0.352709644201062
+Office of Innovation and Development Alliances (USAID)	0.351672998469967
+Sudan	0.351591010926335
+Rwanda	0.324260203229506
+International Organizations (DOS) - OAS Development Assistance	0.323585309574298
+East Africa Regional Office (USAID)	0.320807920763346
+Togo	0.311558776942385
+Philippines	0.307963347980323
+Europe and Eurasia Regional (DOS & USAID)	0.301342670954904
+Office of Science and Technology (USAID)	0.29012942659283
+Central African Republic	0.287453078464777
+International Organizations and Development Institutions (US Treasury) - Global Environment Facility (GEF)	0.282484286655913
+International Organizations (DOS) - Multilateral Action Initiatives	0.268277987461936
+Somalia	0.232732237404486
+Zimbabwe	0.227192846940025
+U.S. Department of Defense - World-Wide	0.190688646706326
+USAID Capital Investment Fund	0.184495869048247
+Barbados	0.182684351143575
+International Organizations (DOS) - UNHCHR UN High Commissioner for Human Rights	0.176811821190327
+Middle East Regional Office Cooperation (DOS)	0.175225646499348
+Central Africa Regional Office (USAID)	0.169322518249828
+Belize	0.144632586344123
+Germany	0.136789411925699
+International Organizations and Development Institutions (US Treasury) - International Development Association (IDA)	0.105701789712304
+Unallocated Earmarks	0.099413917285986
+Afghanistan	0.089384306628604
+South and Central Asia Regional Office (DOS)	0.0751130040135486
+Algeria	0.06638081730114
+Middle East Response Fund	0.0659905847179457
+United Kingdom	0.058025885318566
+USAID Forward: Program Effectiveness Initiatives	0.058025885318566
+Italy	0.0580258853185659
+Angola	0.0470005097728071
+International Organizations (DOS) - UNESCO/ICSECA International Contributions for Scientific, Educational, and Cultural Activities	0.026133617435971
+Moldova	0.0185877946326892
+Multilateral Food Security Programs	-0.00047243925380817
+International Organizations and Development Institutions (US Treasury) - Inter-American Investment Corporation (IIC)	-0.00586213279255659
+Near East Regional Office (DOS)	-0.0234262444401162
+West Bank and Gaza	-0.0258250722555761
+Cambodia	-0.0430662444198495
+Kazakhstan	-0.048996758057842
+Guatemala	-0.0554105841817183
+East Asia and Pacific Regional Office (DOS)	-0.081486907258223
+Madagascar	-0.0935863365820812
+USAID Inspector General Operating Expense	-0.101598361726083
+Benin	-0.110371945681553
+International Organizations and Development Institutions (US Treasury) - African Development Fund (AfDF)	-0.113370107635289
+Comoros	-0.124086852483751
+International Organizations and Development Institutions (US Treasury) - Multilateral Investment Fund (MIF)	-0.131800260797097
+Jordan	-0.136423844585964
+Haiti	-0.137288239544875
+South Africa	-0.161594144363332
+Civilian Stabilization Initiative	-0.166281857005904
+Kyrgyz Republic	-0.169141387466506
+West Africa Regional Office (USAID)	-0.170060938584017
+Assistance to Developing Countries Affected by the Global Financial Crisis	-0.174077655955698
+Pakistan	-0.191407045545667
+Uzbekistan	-0.216399672888687
+Cuba	-0.231851522359687
+USAID Program Management Initiatives	-0.245134907275913
+Niger	-0.248277229222769
+Mexico	-0.252228943093477
+Ukraine	-0.256147318645573
+Kenya	-0.266619496696873
+International Organizations and Development Institutions (US Treasury) - Asian Development Fund (AsDF)	-0.287400325604689
+Iran	-0.29012942659283
+Thailand	-0.291178594072848
+Djibouti	-0.318006888870217
+Lebanon	-0.322008003960362
+Seychelles	-0.324343096635671
+Israel	-0.342442555523961
+North Korea	-0.371023073596764
+Bureau of Political-Military Affairs (DOS)	-0.371937721118172
+Croatia	-0.372058797661347
+Gabon	-0.389529937712459
+Middle East Partnership Initiative (DOS)	-0.405870968540095
+Development Grants Program	-0.406181197229962
+Bureau for Economic Growth, Agriculture and Trade (USAID)	-0.423141828377038
+Georgia	-0.428304599690738
+Ethiopia	-0.44728135034275
+Republic of Congo	-0.450604328193044
+Burkina Faso	-0.451688432348749
+Tajikistan	-0.454554469830701
+Iraq	-0.471618086022556
+Guinea	-0.475115069604654
+Venezuela	-0.483882964307083
+Office of Development Partners (USAID)	-0.492355968276264
+The Bahamas	-0.49732703294994
+Bureau for Global Health (USAID)	-0.502635680954658
+Morocco	-0.502966542905074
+Malaysia	-0.506863009516875
+Honduras	-0.513013108770385
+Chad	-0.521439994612594
+Fiji	-0.522048613117688
+Brunei Darussalam	-0.522232967867094
+Eritrea	-0.522232967867094
+International Organizations and Development Institutions (US Treasury) - Multilateral Investment Guarantee Agency (MIGA)	-0.522232967867094
+Policy and Program Coordination	-0.522232967867094
+USAID Legislative and Public Affairs (LPA)	-0.522232967867094
+International Organizations and Development Institutions (US Treasury) - European Bank for Reconstruction & Development (EBRD)	-0.524523246307462
+Guinea-Bissau	-0.548729340311774
+Africa Regional Office (USAID)	-0.549619639058713
+Bosnia and Herzegovina	-0.552556712662061
+Cape Verde	-0.557225439166416
+The Gambia	-0.571178424208531
+South Asia Regional Office (USAID)	-0.582154875385863
+Bahrain	-0.58402798700758
+Bulgaria	-0.587712530194794
+Singapore	-0.594901210696073
+Sao Tome and Principe	-0.601344324685774
+Asia Middle East Regional Office (USAID)	-0.60282868744534
+Bureau of International Narcotics and Law Enforcement Affairs (DOS)	-0.604797832692118
+Bureau of International Security and Nonproliferation (DOS)	-0.606651658961739
+USAID Development Credit Authority Admin	-0.61516061079735
+Latvia	-0.623678630668323
+Suriname	-0.625098404191373
+Mauritania	-0.629858364813717
+Estonia	-0.632209617313988
+Saudi Arabia	-0.632394964310149
+Turkmenistan	-0.633696910861271
+Trinidad and Tobago	-0.637717912407471
+Czech Republic	-0.650274710340125
+Mongolia	-0.656336676008061
+Southern Africa Regional Office (USAID)	-0.658063682017455
+Lithuania	-0.661586286037953
+Oman	-0.666036812765006
+Romania	-0.6797842814152
+Kuwait	-0.68008908390628
+Liberia	-0.68484080028929
+Malta	-0.686353055507391
+International Organizations and Development Institutions	-0.700374863845452
+Kosovo	-0.702739989969915
+China	-0.711212208755739
+Mauritius	-0.719604620069864
+Bureau of Democracy, Human Rights and Labor (DOS)	-0.727761585447019
+Russia	-0.734440596309716
+Solomon Islands	-0.737921872266344
+India	-0.738892808533829
+Caribbean Regional Office (USAID)	-0.739013722490442
+Egypt	-0.741864141044117
+Botswana	-0.7444130052487
+Belarus	-0.746567702874138
+Peru	-0.75125713251615
+Qatar	-0.75153959271748
+Paraguay	-0.752311688779814
+Latin America and Caribbean Regional Office (USAID)	-0.756449764722668
+Ireland	-0.75649609581153
+Tonga	-0.762819815583256
+Chile	-0.770117299284109
+Hungary	-0.773400150958189
+Slovak Republic	-0.779097673638263
+Azerbaijan	-0.782441458153927
+Portugal	-0.782557817964353
+Sri Lanka	-0.785756735399575
+MCC/PeaceCorps	-0.792387000005701
+Greece	-0.794760761312819
+Eastern Caribbean (DOS)	-0.805506427812349
+Indonesia	-0.808517664635296
+Montenegro	-0.809192169740351
+Slovenia	-0.812649505444151
+United Arab Emirates	-0.813831797658506
+Brazil	-0.820042287512877
+El Salvador	-0.825242323046074
+Dominican Republic	-0.828317534346614
+Macedonia	-0.835076582809392
+Albania	-0.837579345652557
+Armenia	-0.839085644389429
+Vanuatu	-0.848667499977708
+Panama	-0.851781604444412
+Jamaica	-0.853954565021485
+Turkey	-0.855943076581335
+Poland	-0.864419726553263
+Namibia	-0.866279473203098
+Sudan, Pre-2011 Election	-0.890720351972655
+Serbia	-0.895443891931074
+Sierra Leone	-0.900764055798865
+Nicaragua	-0.902667773384379
+Cyprus	-0.906468740547999
+Timor-Leste	-0.90705907725374
+Europe Regional Office (DOS & USAID)	-0.9155375098911
+Colombia	-0.916179016543028
+Bolivia	-0.935275015178807
+International Fund for Ireland (USAID)	-0.937341400581551
+Guyana	-0.942298168502
+Argentina	-0.952305242961224
+Ecuador	-0.959324823248662
+Taiwan	-0.966676462974443
