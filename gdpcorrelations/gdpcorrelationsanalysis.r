@@ -14,6 +14,8 @@ library(ggbiplot)
 library(scales)
 library(WDI)
 library(preprocessCore)
+library(maps)
+library(geosphere)
 
 ##### Part 1: Load in the data
 
@@ -57,113 +59,76 @@ colnames(gdppercapgrownorm) = colnames(gdppercapgrowclean3); rownames(gdppercapg
 
 ##### Part 4: Analysis of correlations between GDP over time
 
-# Plot GDP per capita over time for each country
-
+# Plot GDP per capita over time for each country highlighting most increased and most decreased
+mostincreased = names(which.max(gdppercapnorm[,23]-gdppercapnorm[,1]))
+mostincreased
+mostdecreased = names(which.min(gdppercapnorm[,23]-gdppercapnorm[,1]))
+mostdecreased
+gdppercaptime = melt(gdppercapnorm)
+png("./plots/gdppercapovertime.png",width=1000,height=500)
+ggplot(data=gdppercaptime) + geom_line(aes(x=Var2,y=value,group=Var1),col="grey") + geom_line(aes(x=Var2,y=value,group=Var1),subset=.(Var1%in%mostincreased),col="blue",size=2) + geom_line(aes(x=Var2,y=value,group=Var1),subset=.(Var1%in%mostdecreased),col="red",size=2) + theme_bw(base_size=25) + scale_y_log10(labels = dollar)
+dev.off()
 
 # Plot GDP per capita growth over time for each country
-
-
-
-
-
-
-
-# Plot total aid over time
-totalaidtime = data.frame(totals=countrytotalssum,years=names(countrytotalssum))
-png("./plots/totalaidovertime.png",width=1000,height=500)
-ggplot(aes(x=years,y=totals),data=totalaidtime) + geom_bar(stat="identity") + theme_bw(base_size=25) + scale_y_continuous(labels = dollar)
+gdppercapgrowtime = melt(gdppercapgrownorm)
+png("./plots/gdppercapgrowthovertime.png",width=1000,height=500)
+ggplot(aes(x=Var2,y=value/100,group=Var1),data=gdppercapgrowtime) + geom_line() + theme_bw(base_size=25) + scale_y_continuous(labels = percent)
 dev.off()
 
-# Plot stacked barplot of percent aid over time
-countrytotalsmatnorminvrank = apply(1/abs(countrytotalsmatnorm),2,rank) # Find top 5 countries by percent aid each year
-countrytotalsmatnormtop = (countrytotalsmatnorminvrank<=5)
-topkeeppull = which(apply(countrytotalsmatnormtop,1,sum)>=1)
-topkeep = topkeeppull[order(apply(countrytotalsmatnormtop,1,sum)[topkeeppull],decreasing=TRUE)][1:7]
-countrytotalsmatnormcollapse = rbind(countrytotalsmatnorm[topkeep,],apply(countrytotalsmatnorm[-topkeep,],2,sum))
-rownames(countrytotalsmatnormcollapse)[nrow(countrytotalsmatnormcollapse)] = "All Other"
-countrytotalsmatnormcollapsemelt = melt(as.matrix(countrytotalsmatnormcollapse))
-png("./plots/percentaidovertime.png",width=1000,height=500)
-ggplot(aes(x=Var2,y=value,fill=Var1),data=countrytotalsmatnormcollapsemelt) + geom_bar(stat="identity", position="fill") + scale_y_continuous(labels = percent_format()) + theme_bw(base_size=25) + theme(legend.position="none") + scale_fill_brewer(type="qual") + scale_x_continuous(breaks=2006:2015)
-dev.off()
-png("./plots/percentaidovertimelegend.png",width=500,height=500)
-ggplot(aes(x=Var2,y=value,fill=Var1),data=countrytotalsmatnormcollapsemelt) + geom_bar(stat="identity", position="fill") + scale_y_continuous(labels = percent_format()) + theme_bw(base_size=15) + theme(legend.position="right") + scale_fill_brewer(type="qual")
+# Calculate all country pairwise correlations
+gdppercapcors = cor(t(gdppercapnorm),method="spearman")
+gdppercapgrowcors = cor(t(gdppercapgrownorm),method="spearman")
+gdppercapcorsv = gdppercapcors[lower.tri(gdppercapcors)]
+gdppercapgrowcorsv = gdppercapgrowcors[lower.tri(gdppercapgrowcors)]
+# Get indexes of matrices
+gdppercapcorsind = which(lower.tri(gdppercapcors),arr.ind=TRUE)
+gdppercapgrowcorsind = which(lower.tri(gdppercapgrowcors),arr.ind=TRUE)
+gdppercapcorsindn = gdppercapcorsind; gdppercapgrowcorsindn = gdppercapgrowcorsind
+gdppercapcorsindn[,1] = rownames(gdppercapcors)[gdppercapcorsind[,1]]
+gdppercapcorsindn[,2] = colnames(gdppercapcors)[gdppercapcorsind[,2]]
+gdppercapgrowcorsindn[,1] = rownames(gdppercapgrowcors)[gdppercapgrowcorsind[,1]]
+gdppercapgrowcorsindn[,2] = colnames(gdppercapgrowcors)[gdppercapgrowcorsind[,2]]
+# Extract long and lat coords for each pairwise comparison
+gdppercaplonglats = cbind(gdppercapc[match(gdppercapcorsindn[,1],gdppercapc$country),c("longitude","latitude")],gdppercapc[match(gdppercapcorsindn[,2],gdppercapc$country),c("longitude","latitude")])
+gdppercapgrowlonglats = cbind(gdppercapgrowc[match(gdppercapgrowcorsindn[,1],gdppercapgrowc$country),c("longitude","latitude")],gdppercapgrowc[match(gdppercapgrowcorsindn[,2],gdppercapgrowc$country),c("longitude","latitude")])
+
+# Plot top 50 and bottom 50 pairwise correlations on world map
+curres = 100
+curpal = colorRampPalette(c("red", "grey","blue"))
+plotcolors = curpal(curres)
+plotalphas = seq(0.05,1,length.out=curres)
+png("./plots/allcorrelations.png",width=1000,height=750)
+map("world",fill=TRUE,col=rgb(0.3,0.3,0.3,0.5))
+# Plot great circles on map
+for (i in 1:nrow(gdppercaplonglats)) {
+    start.cord = as.numeric(as.matrix(gdppercaplonglats[i,1:2]))
+    end.cord = as.numeric(as.matrix(gdppercaplonglats[i,3:4]))
+    gci = gcIntermediate(p1=start.cord, p2=end.cord, addStartEnd=TRUE, breakAtDateLine=TRUE)
+    curpercentile = round(((gdppercapcorsv[i]+1)/max(gdppercapcorsv+1))*curres)
+    curcol = alpha(plotcolors[curpercentile],plotalphas[curpercentile])
+    if (is.list(gci) == TRUE)
+    lines(gci[[1]], col=curcol)
+    else lines(gci, col=curcol)
+}
 dev.off()
 
-# Plot scores of principal components
-png("./plots/percentaidpc12.png",width=1000,height=1000)
-percentaidpc = prcomp(scale(as.matrix(countrytotalsmatnorm)))
-percentaidbiplot = ggbiplot(percentaidpc, obs.scale = 1, var.scale = 1, choices=1:2, circle = FALSE, var.axes=FALSE, labels=rownames(percentaidpc$x))
-#percentaidbiplot = ggbiplot(percentaidpc, obs.scale = 1, var.scale = 1, choices=1:2, circle = FALSE, var.axes=FALSE, alpha=0.5) + geom_point(size=5, alpha=0.5)
-percentaidbiplot + theme_bw(base_size=30) + theme(axis.text=element_text(size=35))
-dev.off()
 
-# Plot scores of principal components
-png("./plots/percentaidpc23.png",width=1000,height=1000)
-percentaidpc = prcomp(scale(as.matrix(countrytotalsmatnorm)))
-percentaidbiplot = ggbiplot(percentaidpc, obs.scale = 1, var.scale = 1, choices=2:3, circle = FALSE, var.axes=FALSE, labels=rownames(percentaidpc$x))
-#percentaidbiplot = ggbiplot(percentaidpc, obs.scale = 1, var.scale = 1, choices=2:3, circle = FALSE, var.axes=FALSE, alpha=0.5) + geom_point(size=5, alpha=0.5)
-percentaidbiplot + theme_bw(base_size=30) + theme(axis.text=element_text(size=35))
-dev.off()
 
-# Plot biplot of principal components
-png("./plots/percentaidpc12biplot.png",width=1000,height=1000)
-percentaidpc = prcomp(scale(as.matrix(countrytotalsmatnorm)))
-percentaidbiplot = ggbiplot(percentaidpc, obs.scale = 1, var.scale = 1, choices=1:2, circle = FALSE, var.axes=TRUE, alpha=0.5, varname.size=10, varname.adjust=10) + geom_point(size=5, alpha=0.5)
-percentaidbiplot + theme_bw(base_size=30) + theme(axis.text=element_text(size=35))
-dev.off()
+    if (is.list(gci) == TRUE)
+    lines(gci[[1]], col=rgb(1 - gdppercapcorsv[i],0, gdppercapcorsv[i],0.01)) 
+    else lines(gci, col=rgb(1 - gdppercapcorsv[i],0, gdppercapcorsv[i],0.01))
 
-# Find the top 10 increasing and top 10 decreasing percentage aid over time
-corvals = vector("numeric",nrow(countrytotalsmatnorm))
-for(i in 1:length(corvals)) {
-    corvals[i] = cor(1:ncol(countrytotalsmatnorm),as.numeric(countrytotalsmatnorm[i,]))
+
+
+
+
+##### code to transform to standard normal
+# Transform each gene to standard normal
+cleanexpdata = vector("list",length(expinfo))
+for(i in 1:length(expinfo) ) {
+	mat = cleanexpdatatemp[[i]]
+	mat2 = t(apply(mat, 1, rank, ties.method = "average"))
+	mat3 = qnorm(mat2 / (ncol(mat)+1))
+	cleanexpdata[[i]] = mat3
 }
 
-# Top 10 increasing
-top5up = rownames(countrytotalsmatnorm)[order(corvals,decreasing=TRUE)][1:5]
-# Top 10 decreasing
-top5down = rownames(countrytotalsmatnorm)[order(corvals,decreasing=FALSE)][1:5]
-
-# Export full correlation list
-countrytimeorder = order(corvals,decreasing=TRUE)
-countrytimecor = data.frame(name=rownames(countrytotalsmatnorm)[countrytimeorder],correlation=corvals[countrytimeorder])
-write.table(countrytimecor,file="countrytimecorrelations.txt",row.names=FALSE,quote=FALSE,sep="\t")
-
-# Permute columns and recalculate correlations for null distribution
-numperm = 100
-permcorvals = vector("list",numperm)
-for(j in 1:numperm) {
-permcorvals[[j]] = vector("numeric",nrow(countrytotalsmatnorm))
-    for(i in 1:length(permcorvals[[j]])) {
-	permcorvals[[j]][i] = cor(1:ncol(countrytotalsmatnorm),as.numeric(countrytotalsmatnorm[i,sample(1:10,10)]))
-    }
-}
-permcorvalstot = unlist(permcorvals)
-
-# Plot real vs. null distributions of correlations on same plot
-realnulldists = data.frame(vals=c(corvals,permcorvalstot),set=c(rep(1,length(corvals)),rep(2,length(permcorvalstot))))
-png("./plots/realvsnullcor.png",width=1000,height=1000)
-ggplot(aes(x=vals,fill=as.factor(set)),data=realnulldists) + geom_density(alpha=0.5) + theme_bw(base_size=30)
-dev.off()
-
-# Plot change in rank over time for top and bottom 10
-countrytotalsmatnormranks = apply(countrytotalsmatnorm,2,rank)
-top5uptop5down = c(top5up,top5down)
-countrytotalsmatnormranksc = countrytotalsmatnormranks[match(top5uptop5down,rownames(countrytotalsmatnormranks)),]
-countrytotalsmatnormrankscm = melt(countrytotalsmatnormranksc)
-countrycolors = vector("character",length=nrow(countrytotalsmatnormrankscm))
-countrycolors[!is.na(match(countrytotalsmatnormrankscm$Var1,top5up))] = "blue"
-countrycolors[!is.na(match(countrytotalsmatnormrankscm$Var1,top5down))] = "red"
-png("./plots/ranksovertime.png",width=1000,height=1000)
-ggplot(aes(x=Var2,y=value,group=Var1),data=countrytotalsmatnormrankscm) + geom_line(color=countrycolors, size=3) + theme_bw(base_size=30) + scale_x_continuous(breaks=2006:2015) + theme(axis.ticks.y=element_blank())
-dev.off()
-
-##### Part 5: Analysis of type of aid over time
-
-# Plot stacked barplot of percent type aid over time
-typetotalsmatnormmelt = melt(as.matrix(typetotalsmatnorm))
-png("./plots/percenttypeaidovertime.png",width=1000,height=500)
-ggplot(aes(x=Var2,y=value,fill=Var1),data=typetotalsmatnormmelt) + geom_bar(stat="identity", position="fill") + scale_y_continuous(labels = percent_format()) + theme_bw(base_size=25) + theme(legend.position="none") + scale_fill_brewer(type="qual",palette="Set3") + scale_x_continuous(breaks=2006:2015)
-dev.off()
-png("./plots/percenttypeaidovertimelegend.png",width=500,height=500)
-ggplot(aes(x=Var2,y=value,fill=Var1),data=typetotalsmatnormmelt) + geom_bar(stat="identity", position="fill") + scale_y_continuous(labels = percent_format()) + theme_bw(base_size=15) + theme(legend.position="right") + scale_fill_brewer(type="qual",palette="Set3")
-dev.off()
