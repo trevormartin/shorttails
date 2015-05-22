@@ -92,32 +92,74 @@ gdppercapgrowcorsindn[,2] = colnames(gdppercapgrowcors)[gdppercapgrowcorsind[,2]
 gdppercaplonglats = cbind(gdppercapc[match(gdppercapcorsindn[,1],gdppercapc$country),c("longitude","latitude")],gdppercapc[match(gdppercapcorsindn[,2],gdppercapc$country),c("longitude","latitude")])
 gdppercapgrowlonglats = cbind(gdppercapgrowc[match(gdppercapgrowcorsindn[,1],gdppercapgrowc$country),c("longitude","latitude")],gdppercapgrowc[match(gdppercapgrowcorsindn[,2],gdppercapgrowc$country),c("longitude","latitude")])
 
-# Plot top 50 and bottom 50 pairwise correlations on world map
+# Function to make world map plots
+makeworldmapplot <- function(longlatmat,valsvec,curresval,colsvec,alphasvec,lwdsvec) {
+    map("world",fill=TRUE,col=rgb(0.3,0.3,0.3,0.5))
+    # Plot great circles on map
+    for (i in 1:nrow(longlatmat)) {
+	start.cord = as.numeric(as.matrix(longlatmat[i,1:2]))
+	end.cord = as.numeric(as.matrix(longlatmat[i,3:4]))
+	gci = gcIntermediate(p1=start.cord, p2=end.cord, addStartEnd=TRUE, breakAtDateLine=TRUE)
+	curpercentile = round(((valsvec[i]+1)/max(valsvec+1))*curresval)
+	curabspercentile = round((abs(valsvec[i])/max(abs(valsvec)))*curresval)
+	curcol = alpha(colsvec[curpercentile],alphasvec[curabspercentile])
+	curlwd = lwdsvec[curabspercentile]
+	if (is.list(gci) == TRUE)
+	lines(gci[[1]], col=curcol, lwd=curlwd)
+	else lines(gci, col=curcol, lwd=curlwd)
+    }
+}
+
+# Plot all correlations on world map
 curres = 100
 curpal = colorRampPalette(c("red", "grey","blue"))
 plotcolors = curpal(curres)
-plotalphas = seq(0.05,1,length.out=curres)
-png("./plots/allcorrelations.png",width=1000,height=750)
-map("world",fill=TRUE,col=rgb(0.3,0.3,0.3,0.5))
-# Plot great circles on map
-for (i in 1:nrow(gdppercaplonglats)) {
-    start.cord = as.numeric(as.matrix(gdppercaplonglats[i,1:2]))
-    end.cord = as.numeric(as.matrix(gdppercaplonglats[i,3:4]))
-    gci = gcIntermediate(p1=start.cord, p2=end.cord, addStartEnd=TRUE, breakAtDateLine=TRUE)
-    curpercentile = round(((gdppercapcorsv[i]+1)/max(gdppercapcorsv+1))*curres)
-    curcol = alpha(plotcolors[curpercentile],plotalphas[curpercentile])
-    if (is.list(gci) == TRUE)
-    lines(gci[[1]], col=curcol)
-    else lines(gci, col=curcol)
-}
+plotalphas = exp(seq(log(0.05),log(1),length.out=curres))
+plotlwds = exp(seq(log(0.05),log(1),length.out=curres))
+# Order matrices by absolute strength of correlation
+absso = order(abs(gdppercapcorsv),decreasing=FALSE)
+gdppercaplonglatso = gdppercaplonglats[absso,]
+gdppercapcorsvo = gdppercapcorsv[absso]
+gdppercapcorsindno = gdppercapcorsindn[absso,]
+png("./plots/allcorrelations.png",width=10000,height=7500)
+makeworldmapplot(gdppercaplonglatso,gdppercapcorsvo,curres,plotcolors,plotalphas,plotlwds)
 dev.off()
 
+# Plot all growth correlations on world map
+curresg = 100
+curpal = colorRampPalette(c("red", "grey","blue"))
+plotcolorsg = curpal(curresg)
+plotalphasg = (seq((0.05),(1),length.out=curresg))
+plotlwdsg = (seq((0.05),(1),length.out=curresg))
+# Order matrices by absolute strength of correlation
+abssogrow = order(abs(gdppercapgrowcorsv),decreasing=FALSE)
+gdppercapgrowlonglatso = gdppercapgrowlonglats[abssogrow,]
+gdppercapgrowcorsvo = gdppercapgrowcorsv[abssogrow]
+gdppercapgrowcorsindno = gdppercapgrowcorsindn[abssogrow,]
+png("./plots/allcorrelationsgrow.png",width=10000,height=7500)
+makeworldmapplot(gdppercapgrowlonglatso,gdppercapgrowcorsvo,curresg,plotcolorsg,plotalphasg,plotlwdsg)
+dev.off()
 
+# Plot top 10 and bottom 10 growth correlations on map
+plotalphasgtb = rep(0.9,curresg)
+plotlwdsgtb = rescale(10000^(seq(1,5,length.out=curresg)),c(10,25))
+topposcor = which(gdppercapgrowcorsvo>0)[which(rank(1/gdppercapgrowcorsvo[gdppercapgrowcorsvo>0])<=10)]
+topnegcor = which(gdppercapgrowcorsvo<0)[which(rank(abs(1/gdppercapgrowcorsvo[gdppercapgrowcorsvo<0]))<=10)]
+gdppercapgrowlonglatsotb = gdppercapgrowlonglatso[c(topposcor,topnegcor),]
+gdppercapgrowcorsvotb = gdppercapgrowcorsvo[c(topposcor,topnegcor)]
+png("./plots/allcorrelationsgrowtb.png",width=10000,height=7500)
+makeworldmapplot(gdppercapgrowlonglatsotb,gdppercapgrowcorsvotb,curresg,plotcolorsg,plotalphasgtb,plotlwdsgtb)
+dev.off()
 
-    if (is.list(gci) == TRUE)
-    lines(gci[[1]], col=rgb(1 - gdppercapcorsv[i],0, gdppercapcorsv[i],0.01)) 
-    else lines(gci, col=rgb(1 - gdppercapcorsv[i],0, gdppercapcorsv[i],0.01))
-
+# Write lists of pairwise correlations
+allcorrelationswrite = cbind(gdppercapcorsindno,gdppercapcorsvo)
+colnames(allcorrelationswrite) = c("country1","country2","spearman_cor")
+allcorrelationswrite2 = allcorrelationswrite[nrow(allcorrelationswrite):1,]
+write.table(allcorrelationswrite2,file="allcorrelations.txt",quote=FALSE,row.names=FALSE,col.names=TRUE,sep="\t")
+allcorrelationswritegrow = cbind(gdppercapgrowcorsindno,gdppercapgrowcorsvo)
+colnames(allcorrelationswritegrow) = c("country1","country2","spearman_cor")
+allcorrelationswritegrow2 = allcorrelationswritegrow[nrow(allcorrelationswritegrow):1,]
+write.table(allcorrelationswritegrow2,file="allcorrelationsgrow.txt",quote=FALSE,row.names=FALSE,col.names=TRUE,sep="\t")
 
 
 
