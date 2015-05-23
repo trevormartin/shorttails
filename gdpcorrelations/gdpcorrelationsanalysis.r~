@@ -10,7 +10,7 @@ library(plyr)
 library(ggplot2)
 library(reshape2)
 library(ggplot2)
-library(ggbiplot)
+library(gplots)
 library(scales)
 library(WDI)
 library(preprocessCore)
@@ -161,16 +161,39 @@ colnames(allcorrelationswritegrow) = c("country1","country2","spearman_cor")
 allcorrelationswritegrow2 = allcorrelationswritegrow[nrow(allcorrelationswritegrow):1,]
 write.table(allcorrelationswritegrow2,file="allcorrelationsgrow.txt",quote=FALSE,row.names=FALSE,col.names=TRUE,sep="\t")
 
+# Look at correlations for a specific country
+curcountry = "United States"
+curcountry = "Canada"
+curcountrycors = allcorrelationswritegrow2[which(allcorrelationswritegrow2[,1]==curcountry | allcorrelationswritegrow2[,2]==curcountry),]
 
+# Look at correlations for a specific pair of countries
+curcountry1 = "United States"
+curcountry2 = "Russian Federation"
+curpaircors = allcorrelationswritegrow2[which((allcorrelationswritegrow2[,1]==curcountry1 | allcorrelationswritegrow2[,2]==curcountry1) & (allcorrelationswritegrow2[,1]==curcountry2 | allcorrelationswritegrow2[,2]==curcountry2)),]
 
+# Plot specific pair of countries over time
+curplotcountry1 = "Ukraine"
+curplotcountry2 = "Kazakhstan"
+curpairpal = colorRampPalette(c("black","orange"))
+plotpaircolors = curpairpal(ncol(gdppercapgrownorm))
+png("./plots/pairwisecountires.png",width=2150,height=1150)
+qplot(gdppercapgrownorm[which(rownames(gdppercapgrownorm)==curplotcountry1),],gdppercapgrownorm[which(rownames(gdppercapgrownorm)==curplotcountry2),],color=factor(1:ncol(gdppercapgrownorm)),alpha=.9,size=I(15)) + theme_bw(base_size=60) + scale_color_manual(values=plotpaircolors,labels=1991:2013) + geom_smooth(aes(group=1,alpha=.5,size=2),method="lm") + xlab(curplotcountry1) + ylab(curplotcountry2)
+dev.off()
 
-##### code to transform to standard normal
-# Transform each gene to standard normal
-cleanexpdata = vector("list",length(expinfo))
-for(i in 1:length(expinfo) ) {
-	mat = cleanexpdatatemp[[i]]
-	mat2 = t(apply(mat, 1, rank, ties.method = "average"))
-	mat3 = qnorm(mat2 / (ncol(mat)+1))
-	cleanexpdata[[i]] = mat3
-}
+# Clustering heatmap of correlations to look for interesting groups
+png("./plots/corgrowheatmap.png",width=5000,height=5000)
+heatdata = heatmap.2(gdppercapgrowcors,trace="none")
+dev.off()
+
+# Look at heatmap subgroups
+heatrowdend = as.hclust(heatdata$rowDendrogram)
+heatsubgroups = cutree(heatrowdend,h=5)[heatrowdend$order]
+table(heatsubgroups) # Membership
+unique(heatsubgroups) # Ordering
+names(heatsubgroups)[which(heatsubgroups==9)] # Names of countries in group number
+
+png("./plots/corgrowheatdendgroups.png",width=1000,height=500)
+plot(heatrowdend,cex=.2)
+rect.hclust(heatrowdend,h=5)
+dev.off()
 
