@@ -16,6 +16,7 @@ library(WDI)
 library(preprocessCore)
 library(maps)
 library(geosphere)
+library(RColorBrewer)
 
 ##### Part 1: Load in the data
 
@@ -181,8 +182,16 @@ qplot(gdppercapgrownorm[which(rownames(gdppercapgrownorm)==curplotcountry1),],gd
 dev.off()
 
 # Clustering heatmap of correlations to look for interesting groups
+heatregionnames = gdppercapgrowc[match(colnames(gdppercapgrowcors),gdppercapgrowc$country),"region"]
+heatregioncolorpal = brewer.pal(8,"Set1")
+# Color by region
+heatregioncolors = heatregioncolorpal[heatregionnames]
 png("./plots/corgrowheatmap.png",width=5000,height=5000)
-heatdata = heatmap.2(gdppercapgrowcors,trace="none")
+heatdata = heatmap.2(gdppercapgrowcors,trace="none",ColSideColors=heatregioncolors)
+dev.off()
+png("./plots/colorbarlegend.png",width=1000,height=1000)
+plot(1,1)
+legend("bottom",legend=as.character(unique(heatregionnames)),fill=heatregioncolorpal[unique(heatregionnames)],cex=2,bty="n")
 dev.off()
 
 # Look at heatmap subgroups
