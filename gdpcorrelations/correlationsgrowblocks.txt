@@ -1,0 +1,160 @@
+Belarus	3
+Azerbaijan	3
+Macedonia, FYR	3
+Kyrgyz Republic	3
+Lithuania	3
+Georgia	3
+Angola	3
+Ukraine	3
+Kazakhstan	3
+Russian Federation	3
+Latvia	3
+Bulgaria	3
+Armenia	3
+Tanzania	3
+Tajikistan	3
+South Africa	3
+Romania	3
+Jordan	3
+Uzbekistan	7
+Djibouti	7
+Bangladesh	7
+Turkmenistan	7
+Nigeria	7
+Zambia	7
+Congo, Dem. Rep.	7
+Mongolia	7
+Moldova	7
+Philippines	7
+Ethiopia	7
+Kenya	7
+India	7
+Lao PDR	7
+Ecuador	10
+Ghana	10
+Burundi	10
+Sierra Leone	10
+Saudi Arabia	10
+Panama	10
+Macao SAR, China	10
+Namibia	10
+Suriname	10
+Chad	10
+Turkey	11
+Honduras	11
+Hong Kong SAR, China	11
+Venezuela, RB	11
+Nicaragua	8
+Botswana	8
+Seychelles	8
+Dominican Republic	8
+Costa Rica	8
+Iraq	8
+Morocco	8
+Niger	8
+Burkina Faso	8
+Rwanda	8
+Congo, Rep.	8
+Mauritania	8
+Pakistan	8
+Iran, Islamic Rep.	8
+Sudan	8
+Central African Republic	8
+Uganda	8
+Bhutan	8
+Peru	9
+Colombia	9
+Sri Lanka	9
+Brazil	9
+Uruguay	9
+Paraguay	9
+Solomon Islands	9
+Malawi	9
+Lebanon	9
+China	9
+Indonesia	9
+Bolivia	9
+Papua New Guinea	9
+Lesotho	9
+Nepal	9
+Gabon	9
+Zimbabwe	9
+Togo	9
+Cote d'Ivoire	9
+Antigua and Barbuda	4
+Madagascar	4
+Czech Republic	4
+Samoa	4
+Iceland	4
+Grenada	4
+Switzerland	4
+Finland	4
+Sweden	4
+Trinidad and Tobago	4
+Greece	4
+St. Vincent and the Grenadines	4
+Mali	4
+Algeria	2
+Liberia	2
+Mozambique	2
+Cameroon	2
+Gambia, The	2
+Tunisia	2
+Senegal	2
+Belize	2
+Yemen, Rep.	2
+Guinea	2
+Comoros	2
+Benin	2
+Mexico	6
+Germany	6
+Singapore	6
+Guinea-Bissau	6
+Israel	6
+Guyana	6
+Bahrain	6
+Japan	6
+Thailand	6
+Chile	6
+Malaysia	6
+Marshall Islands	6
+Swaziland	6
+Fiji	6
+New Zealand	6
+El Salvador	6
+Guatemala	6
+Brunei Darussalam	6
+Micronesia, Fed. Sts.	6
+Tonga	6
+St. Lucia	1
+Dominica	1
+Vanuatu	1
+Tuvalu	1
+Kiribati	1
+Mauritius	1
+St. Kitts and Nevis	1
+Vietnam	1
+Albania	1
+Poland	1
+Egypt, Arab Rep.	1
+Cyprus	1
+Equatorial Guinea	5
+Spain	5
+United Kingdom	5
+Ireland	5
+Bahamas, The	5
+United States	5
+Norway	5
+Australia	5
+Puerto Rico	5
+Korea, Rep.	5
+Malta	5
+Luxembourg	5
+Canada	5
+Netherlands	5
+Portugal	5
+Belgium	5
+Austria	5
+France	5
+Denmark	5
+Italy	5

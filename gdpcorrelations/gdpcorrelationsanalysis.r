@@ -116,7 +116,7 @@ curres = 100
 curpal = colorRampPalette(c("red", "grey","blue"))
 plotcolors = curpal(curres)
 plotalphas = exp(seq(log(0.05),log(1),length.out=curres))
-plotlwds = exp(seq(log(0.05),log(1),length.out=curres))
+plotlwds = exp(seq(log(0.25),log(2),length.out=curres))
 # Order matrices by absolute strength of correlation
 absso = order(abs(gdppercapcorsv),decreasing=FALSE)
 gdppercaplonglatso = gdppercaplonglats[absso,]
@@ -131,7 +131,7 @@ curresg = 100
 curpal = colorRampPalette(c("red", "grey","blue"))
 plotcolorsg = curpal(curresg)
 plotalphasg = (seq((0.05),(1),length.out=curresg))
-plotlwdsg = (seq((0.05),(1),length.out=curresg))
+plotlwdsg = (seq((0.25),(2),length.out=curresg))
 # Order matrices by absolute strength of correlation
 abssogrow = order(abs(gdppercapgrowcorsv),decreasing=FALSE)
 gdppercapgrowlonglatso = gdppercapgrowlonglats[abssogrow,]
@@ -151,6 +151,8 @@ gdppercapgrowcorsvotb = gdppercapgrowcorsvo[c(topposcor,topnegcor)]
 png("./plots/allcorrelationsgrowtb.png",width=10000,height=7500)
 makeworldmapplot(gdppercapgrowlonglatsotb,gdppercapgrowcorsvotb,curresg,plotcolorsg,plotalphasgtb,plotlwdsgtb)
 dev.off()
+gdppercapgrowcorsindno[topposcor,]
+gdppercapgrowcorsindno[topnegcor,]
 
 # Write lists of pairwise correlations
 allcorrelationswrite = cbind(gdppercapcorsindno,gdppercapcorsvo)
@@ -173,11 +175,11 @@ curcountry2 = "Russian Federation"
 curpaircors = allcorrelationswritegrow2[which((allcorrelationswritegrow2[,1]==curcountry1 | allcorrelationswritegrow2[,2]==curcountry1) & (allcorrelationswritegrow2[,1]==curcountry2 | allcorrelationswritegrow2[,2]==curcountry2)),]
 
 # Plot specific pair of countries over time
-curplotcountry1 = "Ukraine"
-curplotcountry2 = "Kazakhstan"
+curplotcountry1 = "Bahamas, The"
+curplotcountry2 = "Ireland"
 curpairpal = colorRampPalette(c("black","orange"))
 plotpaircolors = curpairpal(ncol(gdppercapgrownorm))
-png("./plots/pairwisecountires.png",width=2150,height=1150)
+png("./plots/pairwisecountries.png",width=2150,height=1150)
 qplot(gdppercapgrownorm[which(rownames(gdppercapgrownorm)==curplotcountry1),],gdppercapgrownorm[which(rownames(gdppercapgrownorm)==curplotcountry2),],color=factor(1:ncol(gdppercapgrownorm)),alpha=.9,size=I(15)) + theme_bw(base_size=60) + scale_color_manual(values=plotpaircolors,labels=1991:2013) + geom_smooth(aes(group=1,alpha=.5,size=2),method="lm") + xlab(curplotcountry1) + ylab(curplotcountry2)
 dev.off()
 
@@ -197,9 +199,10 @@ dev.off()
 # Look at heatmap subgroups
 heatrowdend = as.hclust(heatdata$rowDendrogram)
 heatsubgroups = cutree(heatrowdend,h=5)[heatrowdend$order]
+write.table(as.matrix(heatsubgroups),file="correlationsgrowblocks.txt",quote=FALSE,col.names=FALSE,row.names=TRUE,sep="\t") # Write groups to file
 table(heatsubgroups) # Membership
 unique(heatsubgroups) # Ordering
-names(heatsubgroups)[which(heatsubgroups==9)] # Names of countries in group number
+names(heatsubgroups)[which(heatsubgroups==3)] # Names of countries in group number
 
 png("./plots/corgrowheatdendgroups.png",width=1000,height=500)
 plot(heatrowdend,cex=.2)
