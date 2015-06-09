@@ -1,0 +1,1650 @@
+School.Name	State	Admin2011	Tuition2011	AdminperDollar
+Ohio State University-Main Campus	Ohio	13034	10082.6301388286	1.29271825114417
+University of Washington-Seattle Campus	Washington	8910	10951.5902504338	0.813580475186883
+University of Florida	Florida	4087	5859.00757014415	0.697558409179432
+University of Wisconsin-Madison	Wisconsin	6688	10010.1304870856	0.668123158696924
+University of Michigan-Ann Arbor	Michigan	8556	13085.151430299	0.653870919689045
+University of North Carolina at Chapel Hill	North Carolina	4707	7259.28655809446	0.648410826922305
+University of California-Los Angeles	California	6793	13139.0083144509	0.517010099805534
+University of Iowa	Iowa	3942	8042.28279691874	0.49015933653941
+University of Alabama at Birmingham	Alabama	3109	6487.68312168693	0.479215760339355
+The University of Texas at Austin	Texas	4826	10143.7369881548	0.47576154681805
+University of Utah	Utah	3221	7003.46635837277	0.459915109915426
+University of Arizona	Arizona	4415	9617.59665836284	0.459054393403055
+North Carolina State University at Raleigh	North Carolina	3323	7268.60794188998	0.457171445559623
+University of Minnesota-Twin Cities	Minnesota	6164	13487.0066428172	0.457032473049367
+Florida State University	Florida	2554	6034.04244363794	0.423265169885048
+Michigan State University	Michigan	5007	12637.7250081136	0.396194726249022
+University of Georgia	Georgia	3873	9810.23859013707	0.394791621469207
+Indiana University-Purdue University-Indianapolis	Indiana	3355	8537.3518473923	0.392979000979651
+University of Missouri-Columbia	Missouri	3642	9309.99099311044	0.391192644836622
+University of South Florida-Main Campus	Florida	2346	6007.11400156197	0.390536953250761
+University of Illinois at Chicago	Illinois	5056	13107.9370351325	0.385720497927987
+University of Kentucky	Kentucky	3383	9453.9545872858	0.357839671088503
+Florida International University	Florida	2104	5880.75746566705	0.357777040165921
+University of Central Florida	Florida	2045	5783.40079046932	0.353598181085778
+Brigham Young University-Provo	Utah	1659	4722.83445640045	0.351272104774221
+University of Connecticut	Connecticut	3831	11051.0183442528	0.346664884688419
+University of New Mexico-Main Campus	New Mexico	2037	6016.4353853575	0.338572571552509
+West Virginia University	West Virginia	1934	5876.61462842459	0.329101042400405
+University of California-San Diego	California	4490	13671.3629001066	0.328423730158242
+University of Maryland-College Park	Maryland	2941	8964.06408336532	0.328087792841378
+University of California-Berkeley	California	4276	13292.2932924218	0.321690163309731
+University of Kansas	Kansas	2885	9551.31126248353	0.302052767490884
+University of Pittsburgh-Pittsburgh Campus	Pennsylvania	4998	16708.0625988272	0.299137016661096
+East Carolina University	North Carolina	1610	5555.54474213421	0.289800564072409
+Purdue University-Main Campus	Indiana	2844	9816.45284600075	0.289717685666738
+University of Houston	Texas	2216	7781.28405064398	0.284785902375149
+University of Illinois at Urbana-Champaign	Illinois	4069	14332.1454402784	0.283907250101208
+Pennsylvania State University-Main Campus	Pennsylvania	4682	16554.7776208563	0.282818658590826
+University of Louisville	Kentucky	2379	9248.88414378421	0.257220218462659
+University of Arkansas	Arkansas	1910	7430.17859434579	0.25705976992982
+University of Nebraska-Lincoln	Nebraska	2008	7833.06951617469	0.25634905905707
+University of California-Davis	California	3666	14354.9310451119	0.255382626950921
+Iowa State University	Iowa	1954	7753.3198992574	0.252021072958327
+Oklahoma State University-Main Campus	Oklahoma	1811	7360.78607053464	0.246033505477012
+Pima Community College	Arizona	384	1586.70666386085	0.242010706040417
+Florida Atlantic University	Florida	1067	4416.26450045866	0.241606905539554
+Rutgers University-New Brunswick	New Jersey	3179	13209.4365475726	0.240661286993666
+University of Virginia-Main Campus	Virginia	2802	12206.8699348982	0.229542873393725
+University of Cincinnati-Main Campus	Ohio	2454	10791.0553072886	0.227410566447795
+Auburn University	Alabama	1995	9008.59958372173	0.221455064292668
+University of Wyoming	Wyoming	944	4272.3009062833	0.220958219167487
+Wayne State University	Michigan	2195	10159.272627814	0.216058775112554
+New Mexico State University-Main Campus	New Mexico	1297	6033.00673432732	0.214984013298075
+Vanderbilt University	Tennessee	9183	42807.9372263033	0.214516292888729
+Houston Community College	Texas	696	3348.44820121549	0.207857478502236
+University of South Carolina-Columbia	South Carolina	2168	10531.0922703245	0.205866584808984
+Central New Mexico Community College	New Mexico	277	1356.77919690451	0.204159969899284
+Kansas State University	Kansas	1599	7930.42619137241	0.201628507902837
+Virginia Polytechnic Institute and State University	Virginia	2147	10884.2691452439	0.197257158138006
+University at Buffalo	New York	1516	7749.17706201494	0.195633676694672
+Duke University	North Carolina	8194	43435.5770685355	0.188647200129768
+The University of Alabama	Alabama	1678	8907.10007128154	0.188389036450847
+Berea College	Kentucky	172	942.495472658861	0.18249424531958
+The University of Texas at San Antonio	Texas	1329	7293.46496534472	0.182217917864117
+University of California-Irvine	California	2458	13590.5775738787	0.180860598943515
+Miami Dade College	Florida	588	3276.98425878312	0.179433269605741
+University of Colorado Denver	Colorado	1365	7658.0346426809	0.178244166250225
+Kennesaw State University	Georgia	980	5530.68771867947	0.177193153880326
+Stony Brook University	New York	1282	7243.75091843524	0.176980132866983
+Oregon State University	Oregon	1368	7871.39076066741	0.173793938275275
+Utah State University	Utah	988	5758.54376701458	0.171571154092697
+Cuyahoga Community College District	Ohio	627	3680.91088992263	0.170338271898014
+Washington State University	Washington	1900	11184.624845322	0.169876059883643
+University of Hawaii at Manoa	Hawaii	1595	9424.95472658861	0.169231582142285
+Temple University	Pennsylvania	2363	14081.5037871097	0.167808782053739
+Tallahassee Community College	Florida	349	2089.02567950871	0.167063527951498
+Texas Tech University	Texas	1260	7643.5347123323	0.164845198906087
+Columbia University in the City of New York	New York	7714	46907.2746777141	0.164452103708872
+Colorado State University-Fort Collins	Colorado	1303	8235.96043800358	0.158208627859297
+University of Puerto Rico-Mayaguez	Puerto Rico	445	2849.23631349948	0.156182201487332
+University of North Texas	Texas	1289	8274.28168249631	0.155783915687424
+University of Mississippi	Mississippi	934	5996.75690845583	0.155750852378724
+Palm Beach State College	Florida	374	2406.98843786724	0.155380887633756
+San Francisco State University	California	1006	6500.1116334143	0.154766572750625
+Central Piedmont Community College	North Carolina	390	2537.48781100463	0.153695319563168
+Harvard University	Massachusetts	6283	41274.0517372838	0.152226392504238
+University of Pennsylvania	Pennsylvania	6591	43601.2905582338	0.151165250285357
+University of North Carolina at Charlotte	North Carolina	824	5634.25864974088	0.14624816701269
+San Jacinto Community College	Texas	266	1845.63399151438	0.144123916888711
+Georgia State University	Georgia	1399	9746.02461287899	0.14354570766744
+University of North Carolina at Greensboro	North Carolina	850	5970.86417569048	0.142357952716569
+University of Nevada-Las Vegas	Nevada	945	6657.53944862765	0.141944333532233
+University of Southern California	California	6235	44347.0012618759	0.140595752194863
+University of Southern Mississippi	Mississippi	846	6042.32811812285	0.140012257438086
+Boise State University	Idaho	806	5764.75802287826	0.139815061933437
+University of Colorado Boulder	Colorado	1310	9478.81161074054	0.138202978790677
+The University of Montana	Montana	819	5926.32867533407	0.138196857593936
+University of Wisconsin-Milwaukee	Wisconsin	1215	8984.7782695776	0.135228712779032
+Hillsborough Community College	Florida	339	2509.52365961804	0.135085397063599
+Broward College	Florida	341	2533.34497376217	0.134604644662189
+Central Texas College	Texas	317	2361.41722820022	0.134241419184362
+University of Delaware	Delaware	1543	11591.6586043934	0.133112961023126
+Utah Valley University	Utah	617	4747.69147985518	0.129957896931167
+University of North Dakota	North Dakota	945	7345.25043087543	0.128654565136096
+San Juan College	New Mexico	150	1168.28010237274	0.128393866929133
+George Mason University	Virginia	1209	9596.88247215055	0.12597841054201
+Johns Hopkins University	Maryland	5511	43789.7896527655	0.125851255365689
+College of the Canyons	California	117	942.495472658861	0.124138527339482
+Salt Lake Community College	Utah	382	3160.98481599433	0.120848413465041
+University of Oregon	Oregon	1093	9102.84913098761	0.1200722965164
+University of South Alabama	Alabama	769	6425.54056305008	0.119678646870913
+Santa Barbara City College	California	134	1133.06598581186	0.118263191798125
+Clemson University	South Carolina	1474	12743.3673577963	0.115668014474857
+City College of San Francisco	California	120	1037.78072923536	0.115631362791267
+The University of Texas-Pan American	Texas	600	5213.76066963154	0.115080080966279
+Virginia Commonwealth University	Virginia	1134	9856.8455091147	0.115046948737442
+Georgia Southern University	Georgia	674	5861.07898876538	0.114995890908813
+University of Alaska Fairbanks	Alaska	662	5766.82944149949	0.114794447575662
+Wright State University-Main Campus	Ohio	926	8078.53262279024	0.114624776953636
+University of North Florida	Florida	662	5827.93629082573	0.113590809330245
+Kent State University at Kent	Ohio	1097	9679.73921699968	0.113329499422199
+San Diego State University	California	772	6812.89584521976	0.113314516695814
+California State University-Long Beach	California	731	6462.82609823219	0.113108412463698
+Florida Agricultural and Mechanical University	Florida	604	5372.22419415551	0.112430155215245
+Northern Arizona University	Arizona	1018	9141.17037548033	0.111364295619149
+California State University-Northridge	California	748	6719.68200726449	0.111314791264133
+California State University-Fullerton	California	703	6338.54098095849	0.110908804109948
+The University of Texas at El Paso	Texas	811	7317.28627948885	0.110833438657897
+Washington University in St Louis	Missouri	4815	43491.5053713087	0.11071127473956
+St Petersburg College	Florida	340	3094.69942011503	0.109865274084474
+Montana State University	Montana	712	6657.53944862765	0.10694641849201
+Emory University	Georgia	4525	42633.9380621202	0.10613610202761
+Old Dominion University	Virginia	721	6800.4673334924	0.10602212533969
+Portland Community College	Oregon	343	3235.55588635855	0.1060096045462
+University of Nevada-Reno	Nevada	618	5831.04341875757	0.105984462062483
+New York University	New York	4562	43091.7215774116	0.10586720216793
+East Tennessee State University	Tennessee	686	6494.93308686123	0.105620795599531
+College of the Redwoods	California	97	919.70986782535	0.105468043122508
+University of Louisiana at Lafayette	Louisiana	531	5037.69008682714	0.105405451873368
+University of California-Santa Barbara	California	1482	14080.4680777991	0.10525218279758
+Stanford University	California	4498	43048.2217863658	0.10448747505349
+Valencia College	Florida	321	3078.1280711452	0.1042841599117
+Rio Salado College	Arizona	200	1920.2050618786	0.104155542535823
+SUNY at Albany	New York	771	7428.10717572456	0.103794948263491
+Wake Technical Community College	North Carolina	236	2288.91757645723	0.103105503853607
+University of Memphis	Tennessee	786	7653.89180543844	0.102692854822106
+San Jose State University	California	715	7071.8231728733	0.10110546920102
+Weber State University	Utah	476	4710.40594467308	0.101052861598542
+The University of Texas at Arlington	Texas	907	9195.02725963227	0.098640273094337
+Florida State College at Jacksonville	Florida	273	2804.70081314307	0.0973365853215781
+Northern Illinois University	Illinois	1250	12865.5810564488	0.0971584567005195
+Yavapai College	Arizona	161	1665.42057146753	0.0966722777166917
+Portland State University	Oregon	774	8041.24708760813	0.0962537267624525
+College of Southern Nevada	Nevada	249	2602.73749757332	0.0956685029635748
+The University of Texas at Dallas	Texas	1015	10642.9488758708	0.0953683055173889
+University of New Orleans	Louisiana	512	5400.18834554209	0.0948115079028052
+Tulsa Community College	Oklahoma	240	2537.48781100463	0.0945817351157958
+Johnson County Community College	Kansas	282	2982.8428145687	0.0945406840154851
+Eastern Kentucky University	Kentucky	679	7208.53680187436	0.0941938729956191
+South Dakota State University	South Dakota	670	7132.93002219953	0.0939305443786475
+Troy University	Alabama	622	6640.96809965782	0.0936610431891774
+El Paso Community College	Texas	181	1936.77641084843	0.0934542567671561
+Saint Louis Community College	Missouri	385	4163.55142866881	0.0924691352072703
+Santa Fe College	Florida	235	2544.73777617892	0.0923474324937584
+University of North Carolina Wilmington	North Carolina	540	5874.54320980336	0.0919220406956672
+Daytona State College	Florida	295	3214.84170014627	0.0917619054109501
+University of Toledo	Ohio	830	9101.813421677	0.0911906190060171
+Ohio University-Main Campus	Ohio	936	10290.807710262	0.0909549596448701
+University of Central Oklahoma	Oklahoma	444	4886.47652747748	0.0908630170437356
+Southwestern College	Kansas	99	1089.56619476607	0.0908618498587463
+University of Miami	Florida	3731	41070.0170030928	0.0908448613429849
+California State University-Sacramento	California	616	6807.71729866669	0.090485543534636
+Columbus State Community College	Ohio	277	3063.6281407966	0.0904156729439019
+University of California-Riverside	California	1197	13385.5071303771	0.0894250765653495
+Sinclair Community College	Ohio	285	3195.1632232446	0.0891973211029233
+SUNY at Binghamton	New York	666	7473.67838539158	0.0891127455125439
+Missouri State University-Springfield	Missouri	606	6833.61003143205	0.0886793359897078
+Santa Rosa Junior College	California	93	1050.20924096273	0.0885537818299395
+Towson University	Maryland	725	8188.31780971533	0.0885407744115399
+Marshall University	West Virginia	514	5849.68618634862	0.0878679613958641
+University of Alabama in Huntsville	Alabama	736	8383.03116011079	0.0877964051359047
+San Joaquin Delta College	California	78	894.852844370611	0.0871651696596671
+Western Kentucky University	Kentucky	726	8372.67406700465	0.0867106487353961
+University of California-Santa Cruz	California	1202	13895.0761111992	0.086505463545551
+University of Northern Iowa	Iowa	658	7612.46343301388	0.0864371968141578
+Illinois State University	Illinois	1041	12254.5125631864	0.0849482992189547
+University of Chicago	Illinois	3836	45343.3536186867	0.0845989476706708
+James Madison University	Virginia	739	8749.67225606819	0.0844603064403331
+California State Polytechnic University-Pomona	California	532	6324.04105060989	0.0841234261040563
+Cochise College	Arizona	136	1648.8492224977	0.0824817685840221
+Appalachian State University	North Carolina	470	5735.75816218107	0.0819420879874194
+Hinds Community College	Mississippi	173	2133.56117986511	0.0810850898641385
+Brigham Young University-Idaho	Idaho	317	3947.08818275046	0.0803123683391092
+Southeastern Louisiana University	Louisiana	379	4768.40566606747	0.0794814926710218
+The University of West Florida	Florida	386	4868.86946919704	0.0792791843038787
+Wichita State University	Kansas	505	6374.79080682999	0.0792182857920514
+Sam Houston State University	Texas	485	6185.2560029876	0.078412275864691
+Glendale Community College	Arizona	75	964.245368181758	0.0777810321675952
+Northern Kentucky University	Kentucky	609	7854.81941169758	0.0775320179981557
+Fresno City College	California	71	932.138379552719	0.0761689482564476
+University of Rochester	New York	3287	43319.5776257467	0.0758779327997509
+Ball State University	Indiana	668	8863.60028023575	0.0753644093686762
+Boston University	Massachusetts	3214	42899.0796456374	0.0749200222137364
+University of Akron Main Campus	Ohio	738	9885.8453698119	0.0746521893062993
+Delgado Community College	Louisiana	256	3448.91200434506	0.0742263066374213
+Central Michigan University	Michigan	770	10381.9501295961	0.0741671834663261
+North Carolina Central University	North Carolina	367	4972.44040025845	0.0738068172684231
+Northwestern University	Illinois	3209	43482.1839875131	0.073800340868838
+Cornell University	New York	3154	43024.4004722217	0.0733072388082747
+California Polytechnic State University-San Luis Obispo	California	599	8193.4963562684	0.0731067634565721
+University of Northern Colorado	Colorado	501	6859.5027641974	0.0730373639638907
+Arkansas State University-Main Campus	Arkansas	521	7181.6083597984	0.0725464232937684
+University of Alaska Anchorage	Alaska	405	5588.68744007386	0.0724678208153018
+Cleveland State University	Ohio	674	9323.45521414842	0.0722907961178597
+CUNY LaGuardia Community College	New York	295	4082.76610244091	0.0722549351586984
+Edison State College	Florida	204	2825.41499935535	0.0722017827634328
+University of Missouri-Kansas City	Missouri	670	9351.419365535	0.0716468777423574
+Eastern Michigan University	Michigan	642	8994.09965337313	0.0713801297230708
+Kirkwood Community College	Iowa	283	3977.12375275827	0.0711569510010167
+Pensacola State College	Florida	187	2630.7016489599	0.0710836974135529
+Seminole State College of Florida	Florida	230	3242.80585153285	0.0709262319516541
+Western Michigan University	Michigan	703	9949.02363775936	0.0706601999950946
+California State University-Fresno	California	454	6486.64741237631	0.06998993025793
+University of Maryland-Baltimore County	Maryland	684	9805.060043584	0.069759899170386
+Forsyth Technical Community College	North Carolina	118	1713.06319975578	0.0688824557184013
+Idaho State University	Idaho	412	6002.97116431951	0.0686326801715869
+Monroe Community College	New York	261	3820.73164685554	0.0683115235833962
+CUNY Hunter College	New York	391	5726.43677838554	0.0682798073447403
+Santa Fe Community College	New Mexico	119	1749.31302562727	0.0680267043443119
+University of New Hampshire-Main Campus	New Hampshire	1068	15794.5669868655	0.067618188006555
+Austin Community College District	Texas	446	6602.6468551651	0.0675486679483857
+Oklahoma City Community College	Oklahoma	199	2951.77153525028	0.0674171417481085
+Chattahoochee Technical College	Georgia	148	2197.77515712319	0.0673408285284864
+University of Nebraska at Omaha	Nebraska	438	6504.25447065675	0.0673405387160035
+Metropolitan Community College Area	Nebraska	166	2470.16670581471	0.0672019421236795
+University of Vermont	Vermont	1017	15311.9264481193	0.0664188143435675
+Long Beach City College	California	74	1120.63747408449	0.0660338438712792
+Tennessee State University	Tennessee	413	6305.39828301884	0.0654994310370935
+University of Massachusetts-Boston	Massachusetts	772	11814.3361061754	0.0653443403896789
+Western Carolina University	North Carolina	364	5579.36605627833	0.0652403868698307
+University of South Dakota	South Dakota	481	7466.42842021728	0.0644216984251223
+Universidad Del Turabo	Puerto Rico	346	5379.47415932981	0.064318554147141
+California State University-San Bernardino	California	434	6750.75328658292	0.0642891217580966
+Oakland Community College	Michigan	232	3616.69691266455	0.0641469289803102
+Kansas City Kansas Community College	Kansas	140	2206.0608316081	0.0634615319732354
+California State University-Los Angeles	California	398	6312.64824819314	0.0630480242763279
+El Camino Community College District	California	115	1824.9198053021	0.0630164677186802
+De Anza College	California	79	1264.60106825986	0.0624702935833411
+Buffalo State SUNY	New York	409	6579.86125033159	0.0621593654394139
+Antelope Valley College	California	50	807.853262279024	0.0618924281607104
+Wayne County Community College District	Michigan	186	3011.8426752659	0.0617562137383484
+New Mexico Institute of Mining and Technology	New Mexico	337	5490.29505556552	0.0613810362811709
+Miami University-Oxford	Ohio	836	13622.6845625077	0.0613682271041375
+CUNY City College	New York	344	5653.93712664255	0.060842558432247
+Palomar College	California	66	1089.56619476607	0.0605745665724976
+Central Arizona College	Arizona	130	2174.98955228968	0.0597704020523432
+Tarleton State University	Texas	325	5469.58086935324	0.0594195437937515
+College of Central Florida	Florida	145	2449.45251960242	0.0591969016911319
+University of Rhode Island	Rhode Island	695	11790.5147920313	0.0589456874664812
+University of Wisconsin-Oshkosh	Wisconsin	427	7244.78662774586	0.058938933876215
+The University of Texas at Brownsville	Texas	326	5543.11623040684	0.0588116839787199
+Bowling Green State University-Main Campus	Ohio	612	10526.949433082	0.0581365004069199
+Northeastern Illinois University	Illinois	474	8160.35365832875	0.0580857178311406
+Mesa Community College	Arizona	111	1920.2050618786	0.0578063261073819
+Baltimore City Community College	Maryland	185	3223.12737463118	0.0573976695603503
+George Washington University	District of Columbia	2621	45724.4946449927	0.0573215739255201
+Arizona Western College	Arizona	136	2382.13141441251	0.0570917285155492
+Amarillo College	Texas	149	2628.63023033867	0.05668351458501
+Citrus College	California	65	1151.70875340292	0.0564378796357557
+Saint Cloud State University	Minnesota	413	7358.71465191341	0.0561239319006087
+Nova Southeastern University	Florida	1348	24042.9559365965	0.0560663174509325
+Universidad Metropolitana	Puerto Rico	301	5369.11706622366	0.0560613591187175
+Morehead State University	Kentucky	403	7189.89403428331	0.0560508956152051
+Wake Forest University	North Carolina	2401	43060.6502980932	0.0557585634071653
+Saddleback College	California	44	789.210494687969	0.0557519195400415
+Lorain County Community College	Ohio	185	3338.09110810935	0.0554208959577444
+Prince George's Community College	Maryland	286	5172.33229720698	0.0552942045418153
+Fort Hays State University	Kansas	233	4227.76540592689	0.0551118564131676
+Western Illinois University	Illinois	611	11101.7681004729	0.055036278408119
+Mohave Community College	Arizona	112	2038.27592328861	0.0549483996353624
+Metropolitan State University of Denver	Colorado	275	5006.61880750872	0.0549272893689383
+Tidewater Community College	Virginia	199	3624.98258714946	0.0548968154234598
+University of Missouri-St Louis	Missouri	513	9360.74074933053	0.0548033551764254
+Southeast Community College Area	Nebraska	133	2434.95258925383	0.054621186706866
+Fort Valley State University	Georgia	341	6245.32714300322	0.0546008226938168
+Murray State University	Kentucky	371	6810.82442659854	0.0544721133246544
+CUNY Kingsborough Community College	New York	222	4091.05177692582	0.0542647739762461
+Asheville-Buncombe Technical Community College	North Carolina	105	1941.9549574015	0.0540692252411966
+Texas Woman's University	Texas	303	5622.86584732413	0.0538871117019794
+Case Western Reserve University	Ohio	2171	40516.9482312249	0.0535825153368015
+Universidad Del Este	Puerto Rico	287	5379.47415932981	0.0533509394226285
+University of Notre Dame	Indiana	2287	42895.9725177055	0.0533150285625539
+Washtenaw Community College	Michigan	189	3554.5543540277	0.0531712223744285
+Community College of Denver	Colorado	175	3299.76986361663	0.0530340015313055
+Guilford Technical Community College	North Carolina	127	2396.6313447611	0.0529910452342262
+Indiana State University	Indiana	438	8267.03171732201	0.0529815313375723
+Minnesota State University-Mankato	Minnesota	391	7403.25015226982	0.0528146411316549
+Blinn College	Texas	148	2808.84365038553	0.0526907220270827
+Chaffey College	California	49	930.066960931491	0.0526843787149744
+Chattanooga State Community College	Tennessee	186	3532.80445850481	0.0526493900765515
+College of William and Mary	Virginia	716	13600.9346669848	0.0526434408760182
+College of Charleston	South Carolina	524	9959.3807308655	0.0526137130570831
+Clovis Community College	New Mexico	61	1159.99442788783	0.052586459497975
+California State University-East Bay	California	348	6643.03951827905	0.0523856585592243
+Princeton University	New Jersey	2046	39217.1330464041	0.0521710752690424
+New Mexico Highlands University	New Mexico	176	3401.26937605681	0.0517453869543381
+Bakersfield College	California	56	1083.35193890238	0.0516914199246621
+Drexel University	Pennsylvania	1842	35737.1497627406	0.0515430025122053
+CUNY Borough of Manhattan Community College	New York	209	4057.90907898617	0.0515043575230169
+Milwaukee Area Technical College	Wisconsin	203	3955.37385723537	0.0513225822203031
+CUNY Queens College	New York	298	5807.22210461344	0.0513154128827377
+Youngstown State University	Ohio	396	7717.0700733859	0.0513148119991417
+California State University-Chico	California	364	7136.03715013137	0.0510087030577326
+Carnegie Mellon University	Pennsylvania	2325	45581.566760128	0.0510074612449208
+Clayton  State University	Georgia	259	5101.90406408522	0.0507653606862636
+Eastern Arizona College	Arizona	84	1657.13489698261	0.0506898986636218
+University of Arkansas-Fort Smith	Arkansas	223	4401.76457011006	0.0506615009612893
+Merced College	California	47	930.066960931491	0.0505339959102816
+Des Moines Area Community College	Iowa	205	4070.33759071354	0.0503643728391735
+Montclair State University	New Jersey	553	11026.1613207981	0.0501534472343431
+Oakland University	Michigan	516	10292.8791288833	0.0501317457961818
+College of the Mainland	Texas	105	2097.31135399362	0.0500640974455524
+Fayetteville Technical Community College	North Carolina	115	2297.20325094215	0.0500608729126756
+Delaware State University	Delaware	364	7307.96489569332	0.0498086683769527
+College of the Sequoias	California	41	826.496029870078	0.0496070138491107
+Southeast Missouri State University	Missouri	336	6789.07453107564	0.0494912816853058
+Hutchinson Community College	Kansas	134	2717.70123105148	0.0493063764585172
+Sonoma State University	California	349	7107.03728943418	0.0491062570501562
+Allan Hancock College	California	54	1099.92328787221	0.0490943328461228
+CUNY Bernard M Baruch College	New York	282	5748.18667390844	0.0490589495431707
+Harrisburg Area Community College-Harrisburg	Pennsylvania	339	6913.35964834934	0.0490354931962698
+MiraCosta College	California	46	940.424054037633	0.0489141040177597
+Stephen F Austin State University	Texas	372	7606.24917715019	0.0489071540171888
+Bellevue College	Washington	171	3513.12598160314	0.0486745994579926
+Northwest Mississippi Community College	Mississippi	98	2019.63315569756	0.048523663677997
+Ivy Tech Community College	Indiana	168	3473.7690277998	0.0483624554930202
+McLennan Community College	Texas	147	3057.41388493292	0.0480798496809421
+Anne Arundel Community College	Maryland	304	6361.326585792	0.0477887742281591
+Davidson County Community College	North Carolina	85	1787.63427011999	0.0475488758639061
+Colorado Mountain College	Colorado	140	2951.77153525028	0.0474291449484181
+Columbus State University	Georgia	268	5651.86570802132	0.0474179702500088
+University of Houston-Downtown	Texas	234	4956.90476059924	0.0472068783447257
+Laredo Community College	Texas	162	3442.69774848138	0.0470561204716448
+Arkansas State University-Beebe	Arkansas	100	2126.31121469081	0.0470298041552402
+Richland College	Texas	121	2578.91618342919	0.0469189346972518
+Kapiolani Community College	Hawaii	116	2473.27383374655	0.0469013978222871
+University of Puerto Rico-Humacao	Puerto Rico	143	3049.12821044801	0.0468986510668861
+Truckee Meadows Community College	Nevada	122	2602.73749757332	0.0468737243435989
+Northeastern State University	Oklahoma	223	4766.33424744624	0.0467864795926726
+CUNY Brooklyn College	New York	270	5783.40079046932	0.0466853344220831
+Howard University	District of Columbia	973	20891.2925043977	0.0465744280683055
+Cerritos College	California	51	1097.85186925098	0.0464543545704351
+Gulf Coast State College	Florida	133	2863.73624384808	0.0464428245742647
+Eastern Washington University	Washington	348	7498.53540884632	0.0464090627070255
+Western Washington University	Washington	372	8032.96141312321	0.0463091979244758
+Eastern New Mexico University-Roswell Campus	New Mexico	75	1621.92078042173	0.0462414693154733
+Emporia State University	Kansas	237	5128.83250616118	0.0462093468085175
+CUNY John Jay College of Criminal Justice	New York	261	5653.93712664255	0.0461625225314432
+Owens Community College	Ohio	185	4012.33786931915	0.0461077820526098
+Durham Technical Community College	North Carolina	106	2299.27466956337	0.0461014951380859
+Spokane Community College	Washington	149	3233.48446773732	0.046080320312862
+Napa Valley College	California	43	934.209798173948	0.046028204889362
+University of West Georgia	Georgia	267	5846.57905841678	0.0456677310495998
+University of the Virgin Islands	Virgin Islands	217	4758.04857296133	0.0456069324792418
+Southern Crescent Technical College	Georgia	98	2152.20394745617	0.0455347180808922
+Washburn University	Kansas	248	5458.18806693648	0.045436323732098
+Georgia Highlands College	Georgia	114	2510.55936892866	0.0454082071951351
+Greenville Technical College	South Carolina	190	4204.97980109338	0.0451845214454053
+Itawamba Community College	Mississippi	94	2092.13280744055	0.0449302260667652
+Tyler Junior College	Texas	169	3772.05330925667	0.0448031844049689
+Chicago State University	Illinois	420	9385.59777278527	0.0447494139603812
+Central Washington University	Washington	362	8106.49677417682	0.044655541115263
+Honolulu Community College	Hawaii	109	2442.20255442813	0.0446318425973164
+Lane Community College	Oregon	159	3570.08999368692	0.0445366924310491
+University of Massachusetts-Lowell	Massachusetts	520	11700.4080820079	0.0444428943294399
+Pitt Community College	North Carolina	91	2049.66872570537	0.04439741840169
+Norfolk State University	Virginia	308	6939.25238111469	0.0443851848994897
+University of Wisconsin Colleges	Wisconsin	224	5056.3328544182	0.044300880984184
+McNeese State University	Louisiana	201	4539.51390842174	0.0442778685240072
+Pittsburg State University	Kansas	236	5346.33146139015	0.0441424183487934
+CUNY Queensborough Community College	New York	180	4080.69468381968	0.04411013661809
+Southwest Tennessee Community College	Tennessee	154	3501.73317918638	0.0439782222458712
+Nassau Community College	New York	204	4655.51335121053	0.0438190129874627
+CUNY Lehman College	New York	248	5704.68688286264	0.0434730257930567
+Indiana University-Purdue University-Fort Wayne	Indiana	302	6947.5380555996	0.0434686355919408
+University of Southern Indiana	Indiana	271	6247.39856162445	0.0433780552540151
+Community College of Rhode Island	Rhode Island	165	3807.26742581755	0.0433381692289632
+Pasco-Hernando Community College	Florida	127	2945.55727938659	0.0431157801237691
+Nicholls State University	Louisiana	211	4906.15500437915	0.0430072021392853
+California State University-Dominguez Hills	California	271	6312.64824819314	0.04292968487157
+Central Wyoming College	Wyoming	98	2286.84615783601	0.0428537790634484
+Georgetown University	District of Columbia	1835	42871.1154942508	0.0428027117756262
+University of Central Missouri	Missouri	345	8062.99698313102	0.0427880601619709
+Orange Coast College	California	41	959.066821628687	0.0427498888246116
+CUNY Bronx Community College	New York	175	4095.19461416828	0.0427330118560292
+Leeward Community College	Hawaii	105	2457.73819408734	0.0427222070489859
+Southern Utah University	Utah	230	5383.61699657226	0.0427222070489859
+Tennessee Technological University	Tennessee	283	6634.75384379413	0.0426541823046994
+Radford University	Virginia	366	8617.10146430958	0.0424736788252875
+Riverside City College	California	49	1156.88729995599	0.0423550332014745
+Iowa Central Community College	Iowa	184	4349.97910457936	0.0422990537601198
+Jefferson Community and Technical College	Kentucky	145	3438.55491123892	0.0421688772588937
+Laramie County Community College	Wyoming	111	2634.84448620235	0.0421277235075024
+Syracuse University	New York	1638	39013.0983122132	0.041985898861235
+Paris Junior College	Texas	88	2100.41848192546	0.0418964129087886
+Edmonds Community College	Washington	173	4139.73011452469	0.0417901639029585
+Montgomery College	Maryland	367	8824.24332643241	0.0415899682753168
+Holmes Community College	Mississippi	92	2214.34650609302	0.0415472464435227
+University of Wisconsin-Stevens Point	Wisconsin	307	7401.17873364859	0.0414798792257591
+Coppin State University	Maryland	246	5936.68576844021	0.041437261393849
+Butler Community College	Kansas	125	3026.3426056145	0.0413039818320963
+Southeastern Community College	Iowa	95	2306.52463473767	0.041187507199898
+North Idaho College	Idaho	160	3898.4098451516	0.0410423753159227
+Arkansas Tech University	Arkansas	215	5251.04620481365	0.0409442217063161
+Humboldt State University	California	299	7314.17915155701	0.040879501828493
+New Mexico Junior College	New Mexico	69	1690.27759492226	0.0408216971030568
+Bunker Hill Community College	Massachusetts	143	3504.84030711823	0.0408007177130357
+Angelo State University	Texas	259	6432.79052822438	0.0402624644566953
+Catawba Valley Community College	North Carolina	92	2294.0961230103	0.0401029403594815
+State University of New York at New Paltz	New York	268	6688.61072794607	0.0400681114360945
+Delta College	Michigan	176	4426.6215935648	0.0397594409822289
+Northeastern University	Massachusetts	1569	39617.9525496118	0.0396032580945522
+University of North Alabama	Alabama	249	6301.25544577638	0.0395159349026074
+Mississippi Gulf Coast Community College	Mississippi	110	2808.84365038553	0.0391620231282371
+Glendale Community College	Arizona	75	1920.2050618786	0.0390583284509338
+South Plains College	Texas	97	2487.77376409515	0.0389906837188955
+Austin Peay State University	Tennessee	259	6661.6822858701	0.0388790682121477
+Rutgers University-Newark	New Jersey	495	12733.0102646901	0.0388753318901095
+Alcorn State University	Mississippi	211	5434.36675279235	0.0388269709422135
+Caldwell Community College and Technical Institute	North Carolina	88	2282.70332059355	0.0385507828398472
+SUNY College at Cortland	New York	262	6808.75300797731	0.0384798801914292
+Eastern New Mexico University-Main Campus	New Mexico	165	4295.08651111681	0.0384159898928547
+Brookdale Community College	New Jersey	253	6598.50401792264	0.0383420240880069
+Central Community College	Nebraska	102	2672.13002138446	0.0381717952284195
+Camden County College	New Jersey	160	4194.62270798724	0.0381440742442304
+Polk State College	Florida	123	3225.19879325241	0.0381371840574088
+Fayetteville State University	North Carolina	162	4255.72955731347	0.0380663286560592
+Spokane Falls Community College	Washington	123	3233.48446773732	0.038039459050215
+GateWay Community College	Arizona	73	1920.2050618786	0.0380167730255755
+North Shore Community College	Massachusetts	153	4026.83779966775	0.0379950739542139
+Louisiana Tech University	Louisiana	232	6106.54209538093	0.0379920413838608
+Iowa Western Community College	Iowa	165	4344.80055802629	0.0379764267188721
+University of Colorado Colorado Springs	Colorado	256	6744.53903071923	0.0379566340759541
+Garden City Community College	Kansas	89	2353.13155371531	0.037821939814406
+University of Central Arkansas	Arkansas	281	7439.49997814132	0.0377713557128345
+Midlands Technical College	South Carolina	182	4820.19113159817	0.0377578388555842
+American River College	California	38	1006.70944991694	0.0377467401375197
+Cuesta College	California	29	768.496308475687	0.0377360303233226
+West Chester University of Pennsylvania	Pennsylvania	323	8569.45883602133	0.0376919950466748
+SUNY College at Oswego	New York	253	6742.467612098	0.0375233541420418
+Elizabeth City State University	North Carolina	148	3950.1953106823	0.0374665018713813
+Bridgewater State University	Massachusetts	293	7821.67671375793	0.0374599987601927
+University of Wisconsin-Whitewater	Wisconsin	277	7451.92848986868	0.0371715859024408
+Central Connecticut State University	Connecticut	310	8342.63849699684	0.0371585080800988
+Sandhills Community College	North Carolina	77	2073.49003984949	0.0371354568964262
+Tufts University	Massachusetts	1647	44496.1434026044	0.0370144438159016
+Rochester Institute of Technology	New York	1224	33181.019184145	0.0368885594865895
+Northern Michigan University	Michigan	321	8714.45813950731	0.0368353367313493
+Del Mar College	Texas	139	3790.69607684773	0.0366687271102963
+CUNY Hostos Community College	New York	150	4096.2303234789	0.0366190346134165
+Armstrong Atlantic State University	Georgia	184	5027.332993721	0.0365999229073966
+Green River Community College	Washington	136	3721.30355303658	0.0365463333108164
+Vance-Granville Community College	North Carolina	64	1754.49157218034	0.0364778041768909
+Holyoke Community College	Massachusetts	131	3591.83988920981	0.0364715588780934
+Coahoma Community College	Mississippi	77	2112.84699365283	0.0364437179934536
+University of North Carolina at Pembroke	North Carolina	175	4808.79832918142	0.0363916280160972
+Passaic County Community College	New Jersey	149	4095.19461416828	0.0363841072374191
+University of Wisconsin-Eau Claire	Wisconsin	302	8305.35296181473	0.0363620909777701
+Kilgore College	Texas	103	2833.70067384027	0.0363482286435049
+Midland College	Texas	132	3635.33968025561	0.0363102245209501
+DePaul University	Illinois	1151	31711.3476723835	0.0362961553034964
+Albany State University	Georgia	218	6009.1854201832	0.0362777955341165
+Clark College	Washington	133	3686.0894364757	0.0360815987490424
+Indiana University of Pennsylvania-Main Campus	Pennsylvania	310	8660.60125535538	0.0357942815815828
+Mercer County Community College	New Jersey	157	4387.26463976147	0.0357853954322974
+Lincoln Land Community College	Illinois	169	4722.83445640045	0.0357835959655476
+Atlanta Technical College	Georgia	76	2125.2755053802	0.035760069603966
+Athens Technical College	Georgia	76	2133.56117986511	0.0356211955472516
+Kean University	New Jersey	375	10564.2349682642	0.0354971279157016
+Northwest Missouri State University	Missouri	218	6159.36327022225	0.0353932688227584
+Victor Valley College	California	32	905.209937476752	0.0353509154895042
+SUNY at Purchase College	New York	249	7072.85888218391	0.0352050004316098
+Eastern Illinois University	Illinois	384	10910.1618780093	0.0351965446795063
+Northeast Community College	Nebraska	100	2841.98634832518	0.0351866574091502
+Grambling State University	Louisiana	178	5060.47569166065	0.0351745588449981
+Odessa College	Texas	121	3448.91200434506	0.0350835277465937
+Missouri University of Science and Technology	Missouri	328	9408.38337761878	0.034862524924342
+Georgia Piedmont Technical College	Georgia	81	2326.20311163934	0.0348206911059099
+Rio Hondo College	California	33	949.74543783316	0.0347461526904403
+California State University-Bakersfield	California	240	6920.60961352363	0.0346790258954953
+College of Lake County	Illinois	250	7220.96531360173	0.0346214099005695
+University of Wisconsin-Stout	Wisconsin	306	8847.02893126592	0.034587882822286
+University of Massachusetts-Dartmouth	Massachusetts	396	11532.6231736884	0.0343373744234939
+Mohawk Valley Community College	New York	142	4153.19433556267	0.0341905503395525
+South Florida State College	Florida	106	3118.52073425915	0.0339904746617571
+Columbus Technical College	Georgia	72	2121.13266813774	0.0339441285693896
+Winston-Salem State University	North Carolina	161	4747.69147985518	0.0339112178377924
+Michigan Technological University	Michigan	450	13311.9717693234	0.033804158226732
+Highline Community College	Washington	124	3668.48237819526	0.0338014435443473
+Hartnell College	California	38	1126.85172994818	0.0337222715199165
+Dartmouth College	New Hampshire	1498	44531.3575191652	0.0336392170248863
+Savannah State University	Georgia	210	6247.39856162445	0.0336139911562479
+Fort Lewis College	Colorado	194	5791.68646495423	0.033496288373672
+Northeast Texas Community College	Texas	92	2746.70109174868	0.0334947258281492
+Lee College	Texas	77	2299.27466956337	0.0334888219399303
+Genesee Community College	New York	129	3852.83863548457	0.0334818071050037
+Rowan-Cabarrus Community College	North Carolina	78	2330.3459488818	0.0334714251493122
+University of Hawaii Maui College	Hawaii	85	2541.63064824708	0.0334430968790147
+Kentucky State University	Kentucky	201	6015.39967604688	0.0334142385917224
+Coastal Carolina University	South Carolina	337	10108.5228715939	0.0333382042342712
+Phoenix College	Arizona	64	1920.2050618786	0.0333297736114635
+University of Wisconsin-Platteville	Wisconsin	245	7367.00032639833	0.0332564122634943
+Sheridan College	Wyoming	84	2527.13071789848	0.033239277812211
+East Los Angeles College	California	33	993.245228878953	0.0332244233755305
+Langston University	Oklahoma	141	4258.83668524531	0.0331076325346057
+New Jersey Institute of Technology	New Jersey	479	14473.0019065219	0.0330961056381918
+Darton State College	Georgia	104	3148.55630426696	0.0330310116605054
+Casper College	Wyoming	73	2212.27508747179	0.0329977046766933
+Salem State University	Massachusetts	261	7943.8904124104	0.0328554381354822
+CUNY New York City College of Technology	New York	186	5664.29421974869	0.0328372772995278
+California Institute of Technology	California	1281	39050.3838473953	0.0328037748618813
+California State University-Stanislaus	California	223	6817.03868246222	0.032712151182844
+Richmond Community College	North Carolina	74	2264.06055300249	0.0326846381833139
+Barton County Community College	Kansas	94	2883.41472074975	0.0326002358674087
+Metropolitan State University	Minnesota	214	6567.43273860422	0.0325850310947352
+Essex County College	New Jersey	202	6201.82735195743	0.0325710453607266
+Burlington County College	New Jersey	138	4241.22962696487	0.0325377336616306
+Alabama State University	Alabama	272	8370.60264838342	0.0324946734931362
+New Jersey City University	New Jersey	337	10378.8430016642	0.0324699005415115
+State College of Florida-Manatee-Sarasota	Florida	103	3183.77042082784	0.0323515789097689
+Coastline Community College	California	30	927.995542310263	0.0323277414946568
+University of Maryland Eastern Shore	Maryland	217	6713.46775140081	0.0323230866722673
+Northern Essex Community College	Massachusetts	118	3653.98244784666	0.0322935322443979
+Gaston College	North Carolina	80	2485.70234547392	0.0321840626435694
+Kalamazoo Valley Community College	Michigan	137	4264.01523179838	0.0321293411379816
+Walters State Community College	Tennessee	112	3495.5189233227	0.0320410223651535
+Lenoir Community College	North Carolina	67	2091.09709812993	0.0320405972826025
+University of Michigan-Flint	Michigan	289	9023.09951407033	0.0320289053167753
+Western Iowa Tech Community College	Iowa	111	3467.55477193612	0.0320110300487115
+St Philip's College	Texas	120	3761.69621615053	0.031900502620278
+Quinsigamond Community College	Massachusetts	157	4921.69064403836	0.0318996075444469
+University of Minnesota-Duluth	Minnesota	412	12931.8664523281	0.0318592835395257
+Modesto Junior College	California	30	942.495472658861	0.0318303916255082
+Cameron University	Oklahoma	151	4753.90573571887	0.0317633559423463
+Hocking College	Ohio	130	4135.58727728223	0.0314344714024344
+Crafton Hills College	California	29	923.852705067806	0.0313902853137953
+Hawkeye Community College	Iowa	126	4030.9806369102	0.0312579025674955
+Indian Hills Community College	Iowa	101	3231.41304911609	0.0312556762211588
+Scottsdale Community College	Arizona	60	1920.2050618786	0.031246662760747
+University of Hawaii at Hilo	Hawaii	192	6156.2561422904	0.0311877861418169
+Aims Community College	Colorado	98	3144.41346702451	0.031166384773417
+Massasoit Community College	Massachusetts	120	3852.83863548457	0.031145867074422
+Tacoma Community College	Washington	108	3469.62619055734	0.0311272725269149
+College of DuPage	Illinois	329	10572.5206427491	0.0311184069643446
+College of the Siskiyous	California	29	932.138379552719	0.0311112605554504
+CUNY Medgar Evers College	New York	175	5625.97297525597	0.0311057306477797
+University of North Carolina at Asheville	North Carolina	173	5585.58031214202	0.0309726098869136
+Stark State College	Ohio	108	3492.41179539086	0.030924188305209
+University of Wisconsin-La Crosse	Wisconsin	266	8626.42284810511	0.0308354928437608
+Imperial Valley College	California	33	1075.06626441747	0.0306957822901096
+Cape Fear Community College	North Carolina	72	2345.88158854101	0.0306920862296291
+J Sargeant Reynolds Community College	Virginia	123	4011.30216000854	0.0306633594512706
+Eastfield College	Texas	79	2578.91618342919	0.0306330234800239
+Jacksonville State University	Alabama	194	6338.54098095849	0.0306064125139827
+The Evergreen State College	Washington	237	7753.3198992574	0.0305675508142905
+Pearl River Community College	Mississippi	69	2257.84629713881	0.0305600961799031
+Central Carolina Community College	North Carolina	70	2295.13183232092	0.0304993373427327
+Western New Mexico University	New Mexico	127	4173.90852177496	0.0304271162957815
+Volunteer State Community College	Tennessee	106	3487.23324883779	0.0303965902009358
+CUNY York College	New York	173	5692.25837113527	0.0303921552256414
+The University of Tennessee-Martin	Tennessee	211	6955.82373008452	0.03033429370664
+Purdue University-Calumet Campus	Indiana	199	6562.25419205114	0.0303249453885905
+University of Arkansas at Pine Bluff	Arkansas	170	5629.08010318781	0.0302003163720706
+Norwalk Community College	Connecticut	109	3614.62549404332	0.0301552678637455
+Davenport University	Michigan	391	12983.6519178588	0.030114793778643
+Randolph Community College	North Carolina	52	1729.6345487256	0.0300641543257295
+Mississippi Valley State University	Mississippi	165	5496.5093114292	0.0300190522113564
+Craven Community College	North Carolina	53	1773.1343397714	0.0298905721981749
+Oglala Lakota College	South Dakota	74	2481.55950823146	0.0298199578750935
+Sacramento City College	California	30	1006.70944991694	0.029800058003305
+SUNY College at Plattsburgh	New York	200	6734.18193761309	0.0296992272933584
+Baylor University	Texas	973	32788.4853554222	0.0296750517583483
+Orange County Community College	New York	133	4490.83557082288	0.0296158694529156
+Midwestern State University	Texas	173	5849.68618634862	0.0295742360340165
+The Richard Stockton College of New Jersey	New Jersey	366	12390.1904828769	0.0295394974359602
+SUNY College at Potsdam	New York	199	6738.32477485555	0.0295325628622978
+University of Nebraska at Kearney	Nebraska	193	6545.68284308132	0.0294850827066878
+Weatherford College	Texas	99	3366.05525949593	0.0294112818619696
+Southeastern Oklahoma State University	Oklahoma	149	5079.11845925171	0.0293357993508881
+SUNY Westchester Community College	New York	137	4674.15611880158	0.0293101035818902
+Salisbury University	Maryland	221	7593.82066542282	0.0291026098372702
+El Centro College	Texas	75	2578.91618342919	0.0290819843164784
+Santa Ana College	California	27	930.066960931491	0.0290301678633533
+College of the Desert	California	31	1072.99484579624	0.0288910987051347
+University of Wisconsin-Green Bay	Wisconsin	217	7542.03519989211	0.0287720746786098
+SUNY College at Geneseo	New York	201	6999.32352113031	0.0287170609264166
+California University of Pennsylvania	Pennsylvania	265	9230.24137619315	0.0287099750916042
+Wisconsin Indianhead Technical College	Wisconsin	106	3698.51794820307	0.0286601285932654
+National Park Community College	Arkansas	80	2794.34372003693	0.0286292625443167
+Cincinnati State Technical and Community College	Ohio	155	5420.90253175437	0.0285930247024451
+Missouri Western State University	Missouri	168	5878.68604704582	0.0285778146095119
+Meridian Community College	Mississippi	66	2309.63176266952	0.0285759838718688
+Waubonsee Community College	Illinois	190	6696.89640243098	0.0283713512323454
+Copiah-Lincoln Community College	Mississippi	66	2330.3459488818	0.0283219751263411
+Manchester Community College	Connecticut	102	3614.62549404332	0.0282186910284591
+Southern Connecticut State University	Connecticut	241	8542.53039394537	0.0282117813910047
+Boston College	Massachusetts	1228	43711.0757451589	0.0280935661972585
+Central State University	Ohio	165	5874.54320980336	0.028087290212565
+Bristol Community College	Massachusetts	118	4202.90838247215	0.0280757963918767
+Madison Area Technical College	Wisconsin	106	3784.48182098404	0.028009118556801
+San Diego City College	California	26	930.066960931491	0.0279549764610068
+Roane State Community College	Tennessee	98	3507.94743505007	0.0279365645621772
+Mississippi Delta Community College	Mississippi	67	2413.20269373093	0.0277639338684869
+Wiregrass Georgia Technical College	Georgia	110	3964.6952410309	0.027744881589284
+Gallaudet University	District of Columbia	344	12414.011797021	0.0277106229335588
+Solano Community College	California	32	1155.85159064537	0.027685215177264
+Northampton County Area Community College	Pennsylvania	215	7767.819829606	0.0276782938734697
+University of Mary Washington	Virginia	255	9244.74130654175	0.0275832488486787
+Bismarck State College	North Dakota	95	3453.05484158752	0.0275118711860146
+Community College of Aurora	Colorado	96	3490.34037676963	0.0275044808348605
+Adams State University	Colorado	160	5827.93629082573	0.0274539720435637
+Rose State College	Oklahoma	80	2936.23589559107	0.0272457673173074
+Southern Oregon University	Oregon	193	7084.25168460067	0.0272435267114425
+Clackamas Community College	Oregon	106	3892.19558928791	0.0272339859517165
+College of Southern Maryland	Maryland	154	5656.00854526378	0.0272276816358342
+Delaware Technical Community College-Stanton/Wilmington	Delaware	87	3196.19893255521	0.0272198326311459
+Dalton State College	Georgia	102	3751.33912304439	0.0271902903614915
+Los Angeles City College	California	27	993.245228878953	0.027183619125434
+Raritan Valley Community College	New Jersey	119	4381.05038389778	0.0271624358481189
+Auburn University at Montgomery	Alabama	213	7850.67657445513	0.0271314195636423
+Indian River State College	Florida	74	2728.05832415763	0.0271255197679287
+Harper College	Illinois	253	9402.1691217551	0.0269086842327266
+Reedley College	California	25	930.066960931491	0.0268797850586604
+San Diego Mesa College	California	25	930.066960931491	0.0268797850586604
+Colorado Mesa University	Colorado	182	6781.82456590134	0.0268364358634528
+Somerset Community College	Kentucky	90	3355.69816638979	0.0268200522029745
+Southeast Kentucky Community and Technical College	Kentucky	94	3504.84030711823	0.0268200522029745
+Laney College	California	29	1083.35193890238	0.0267687710324143
+Mount Wachusett Community College	Massachusetts	131	4898.90503920485	0.0267406693846148
+Truman State University	Missouri	194	7258.25084878384	0.0267282027091287
+Kutztown University of Pennsylvania	Pennsylvania	230	8657.49412742354	0.0265665788061525
+Missouri Southern State University	Missouri	140	5271.76039102594	0.0265565939298608
+Frostburg State University	Maryland	196	7382.53596605754	0.0265491425847626
+Abraham Baldwin Agricultural College	Georgia	87	3285.26993326803	0.0264818422130253
+Southern Methodist University	Texas	1081	40838.0181175153	0.0264704324506963
+Isothermal Community College	North Carolina	59	2243.34636679021	0.0262999957890664
+Millersville University of Pennsylvania	Pennsylvania	227	8659.56554604476	0.0262137862220677
+Los Angeles Valley College	California	26	994.280938189567	0.0261495508979001
+Ocean County College	New Jersey	106	4053.76624174372	0.0261485230471514
+Winona State University	Minnesota	231	8844.95751264469	0.0261165754238801
+Grayson College	Texas	55	2108.70415641037	0.0260823690382561
+Bergen Community College	New Jersey	194	7488.17831574018	0.0259075027089314
+Rice University	Texas	953	36820.501701643	0.0258823197935262
+Cosumnes River College	California	26	1006.70944991694	0.0258267169361977
+Bloomsburg University of Pennsylvania	Pennsylvania	216	8370.60264838342	0.025804593656314
+Everett Community College	Washington	95	3682.98230854386	0.0257943134235582
+Illinois Central College	Illinois	180	6991.0378466454	0.0257472501148555
+Minneapolis Community and Technical College	Minnesota	138	5377.40274070858	0.0256629467150188
+Dyersburg State Community College	Tennessee	90	3507.94743505007	0.0256560286795505
+William Paterson University of New Jersey	New Jersey	303	11873.3715368804	0.0255192890291387
+SUNY at Fredonia	New York	176	6926.82386938732	0.0254084705080811
+Chemeketa Community College	Oregon	103	4054.80195105433	0.0254019804773
+Clark State Community College	Ohio	82	3234.52017704794	0.0253515190852324
+American University	District of Columbia	999	39430.4891643906	0.0253357242370249
+Sul Ross State University	Texas	125	4934.11915576573	0.0253338024587291
+Farmingdale State College	New York	169	6674.11079759747	0.0253217252642608
+Piedmont Community College	North Carolina	58	2300.31037887399	0.0252139887437239
+Howard Community College	Maryland	173	6895.7525900689	0.0250879070471801
+Citadel Military College of South Carolina	South Carolina	265	10580.806317234	0.0250453502365287
+Moraine Valley Community College	Illinois	198	7929.3904820618	0.0249703934303556
+Howard College	Texas	76	3047.05679182678	0.0249421015728546
+University of Puerto Rico-Aguadilla	Puerto Rico	71	2849.23631349948	0.0249189579901137
+Rogers State University	Oklahoma	123	4947.58337680371	0.0248606219708543
+Lakeland Community College	Ohio	96	3900.48126377282	0.0246123474279023
+Marquette University	Wisconsin	809	32958.3416823629	0.0245461379033194
+Oklahoma State University-Oklahoma City	Oklahoma	65	2650.38012586157	0.024524783960516
+Christopher Newport University	Virginia	256	10444.0926882329	0.0245114638142218
+Loyola University Chicago	Illinois	845	34482.9057875869	0.0245048954170266
+Delta State University	Mississippi	134	5476.83083452753	0.0244667042033186
+Gateway Technical College	Wisconsin	90	3691.26798302877	0.0243818656390677
+Creighton University	Nebraska	804	33032.9127527271	0.0243393613520692
+Pellissippi State Community College	Tennessee	86	3535.91158643665	0.0243218751084971
+Temple College	Texas	93	3827.98161202983	0.0242947875474996
+Elgin Community College	Illinois	203	8362.31697389851	0.0242755686771535
+Fort Scott Community College	Kansas	61	2516.77362479234	0.0242373805093547
+Phillips Community College of the University of Arkansas	Arkansas	64	2641.05874206604	0.0242327059904523
+Community College of Vermont	Vermont	131	5422.9739503756	0.0241564870491268
+Wilkes Community College	North Carolina	56	2328.27453026057	0.024052146459607
+West Virginia State University	West Virginia	122	5093.6183896003	0.0239515390962717
+Northeast State Community College	Tennessee	84	3519.34023746682	0.0238681100240715
+Nashville State Community College	Tennessee	82	3439.59062054953	0.023840046402644
+Southwest Texas Junior College	Texas	77	3235.55588635855	0.0237980744899633
+Gloucester County College	New Jersey	98	4122.12305624425	0.0237741568271593
+Fairmont State University	West Virginia	131	5516.18778833087	0.0237482850524273
+Coastal Carolina Community College	North Carolina	53	2235.0606923053	0.0237130025965131
+North Arkansas College	Arkansas	53	2237.13211092653	0.0236910461126275
+Mitchell Community College	North Carolina	54	2279.59619266171	0.0236884059439266
+Rhode Island College	Rhode Island	178	7527.53526954352	0.0236465182328922
+Dodge City Community College	Kansas	61	2589.27327653533	0.0235587338550928
+Jones County Junior College	Mississippi	58	2464.98815926164	0.0235295247898365
+Naugatuck Valley Community College	Connecticut	85	3614.62549404332	0.0235155758570493
+Westfield State University	Massachusetts	192	8167.60362350305	0.0235075070792493
+Gadsden State Community College	Alabama	92	3914.98119412142	0.0234994743111777
+Winthrop University	South Carolina	308	13107.9370351325	0.0234972138769423
+University of Wisconsin-River Falls	Wisconsin	177	7536.85665333904	0.0234845915401063
+Southwestern Community College	Iowa	54	2303.41750680583	0.0234434269256216
+Alvin Community College	Texas	59	2527.13071789848	0.0233466356061958
+Fordham University	New York	972	41730.7995432646	0.0232921489796109
+West Kentucky Community and Technical College	Kentucky	78	3355.69816638979	0.0232440452425779
+University of Dayton	Ohio	760	32769.8425878312	0.0231920552551638
+Western Nevada College	Nevada	60	2602.73749757332	0.023052651316524
+James A Rhodes State College	Ohio	106	4599.58504843736	0.0230455571282483
+Coastal Bend College	Texas	62	2692.84420759675	0.0230239832757843
+Black Hawk College	Illinois	148	6447.29045857298	0.0229553796204736
+Columbia Basin College	Washington	91	3964.6952410309	0.0229525838602258
+Cerro Coso Community College	California	24	1046.06640372027	0.0229430941617524
+Grossmont College	California	26	1135.13740443309	0.022904716114949
+SUNY College at Old Westbury	New York	150	6549.82568032378	0.0229013728488397
+Shippensburg University of Pennsylvania	Pennsylvania	210	9172.24165479876	0.0228951665147343
+Western Technical College	Wisconsin	87	3800.01746064325	0.0228946316434222
+Seattle Community College-North Campus	Washington	82	3588.73276127797	0.0228492912274692
+Windward Community College	Hawaii	56	2452.55964753427	0.0228332876863161
+Yuba College	California	23	1010.85228715939	0.0227530770738349
+The College of New Jersey	New Jersey	327	14382.8951964985	0.022735339132528
+Brazosport College	Texas	67	2948.66440731844	0.0227221517083156
+Southeastern Community College	Iowa	95	4194.62270798724	0.0226480440825118
+Slippery Rock University of Pennsylvania	Pennsylvania	199	8808.7076867732	0.0225912820672674
+Lewis-Clark State College	Idaho	125	5538.97339316438	0.0225673588095335
+Hill College	Texas	50	2218.48934333547	0.0225378589940962
+Mountain View College	Texas	58	2578.91618342919	0.02249006787141
+North Lake College	Texas	58	2578.91618342919	0.02249006787141
+Western Piedmont Community College	North Carolina	50	2231.95356437346	0.0224018997519045
+Lincoln University	Missouri	150	6709.32491415835	0.0223569437937731
+Palo Alto College	Texas	84	3761.69621615053	0.0223303518341946
+Acadiana Technical College-Lafayette Campus	Louisiana	34	1526.63552384523	0.0222711966732977
+Shelton State Community College	Alabama	94	4225.69398730566	0.022244866827173
+Parkland College	Illinois	179	8047.46134347181	0.0222430394332005
+Los Angeles Harbor College	California	22	994.280938189567	0.022126543067454
+Bevill State Community College	Alabama	96	4347.90768595813	0.0220795856154073
+Wilmington University	Delaware	216	9808.16717151584	0.0220224631394224
+Rowan University	New Jersey	273	12448.1902042713	0.0219308988310869
+Housatonic Community College	Connecticut	79	3614.62549404332	0.0218556528553752
+Cloud County Community College	Kansas	63	2889.62897661343	0.0218021069520954
+University of Wisconsin-Parkside	Wisconsin	156	7177.46552255594	0.0217346916553975
+Cleveland Community College	North Carolina	50	2301.3460881846	0.0217264149259019
+Mott Community College	Michigan	85	3913.94548481081	0.0217172161262509
+Brookhaven College	Texas	56	2578.91618342919	0.0217145482896372
+West Virginia University at Parkersburg	West Virginia	51	2348.98871647285	0.0217114708309794
+Kankakee Community College	Illinois	109	5021.11873785732	0.0217083095801304
+Thomas Nelson Community College	Virginia	81	3735.80348338518	0.0216820826791998
+University of St Thomas	Minnesota	568	26203.4455585376	0.021676538634246
+Northwest Florida State College	Florida	64	2952.80724456089	0.0216742898195908
+Chabot College	California	20	923.852705067806	0.0216484726302036
+Moberly Area Community College	Missouri	75	3479.98328366349	0.0215518276631045
+Saint Johns River State College	Florida	57	2647.27299792972	0.0215315912052049
+Schenectady County Community College	New York	82	3812.44597237062	0.0215085015221898
+Anoka-Ramsey Community College	Minnesota	107	4984.86891198582	0.021464957632632
+Madisonville Community College	Kentucky	72	3355.69816638979	0.0214560417623796
+Wayne State College	Nebraska	118	5507.90211384596	0.0214237649037675
+Pace University-New York	New York	777	36282.9685694343	0.0214150062862983
+Pierce College at Fort Steilacoom	Washington	84	3932.58825240186	0.0213599783676047
+Union County College	New Jersey	133	6232.89863127585	0.0213383864984782
+Wayne Community College	North Carolina	49	2299.27466956337	0.0213110685072284
+Victoria College	Texas	84	3946.05247343985	0.0212870965516522
+Mt Hood Community College	Oregon	93	4369.65758148103	0.0212831322056313
+SUNY College of Technology at Alfred	New York	144	6775.61031003766	0.0212526980465026
+Columbia State Community College	Tennessee	74	3487.23324883779	0.0212202610836721
+Georgia Southwestern State University	Georgia	105	4956.90476059924	0.0211825736162231
+Surry Community College	North Carolina	49	2315.8460185332	0.0211585742781963
+Lake Michigan College	Michigan	103	4878.19085299256	0.0211143850464181
+North Georgia Technical College	Georgia	46	2191.56090125951	0.0209896060718931
+Minot State University	North Dakota	125	5968.79275706925	0.020942258357346
+Community College of Philadelphia	Pennsylvania	190	9072.8135609798	0.0209416845968431
+Western Wyoming Community College	Wyoming	45	2156.34678469862	0.0208686285152828
+Joliet Junior College	Illinois	179	8580.85163843809	0.0208604002891934
+Clarion University of Pennsylvania	Pennsylvania	180	8637.81565052187	0.0208386017116636
+Northwestern Michigan College	Michigan	110	5282.11748413208	0.0208249817105449
+University of Denver	Colorado	816	39183.9903484645	0.0208248315892099
+College of the Albemarle	North Carolina	48	2308.5960533589	0.0207918574278779
+Oakton Community College	Illinois	177	8513.53053324817	0.0207904346274153
+Webster University	Missouri	481	23199.8885577566	0.0207328582119065
+Northwest College	Wyoming	50	2413.20269373093	0.0207193536331992
+Centralia College	Washington	78	3774.1247278779	0.0206670435197454
+Jackson State Community College	Tennessee	72	3484.12612090594	0.0206651531837425
+West Valley College	California	20	969.423914734828	0.0206308093869035
+Atlanta Metropolitan State College	Georgia	62	3009.77125664467	0.0205995720980864
+Longwood University	Virginia	224	10906.0190407668	0.0205391169007395
+Northern New Mexico College	New Mexico	60	2922.77167455308	0.0205284595175142
+Carteret Community College	North Carolina	48	2341.73875129855	0.020497589653578
+Hofstra University	New York	724	35369.4729574726	0.0204696293006831
+West Liberty University	West Virginia	111	5454.04522969402	0.0203518664267159
+Wilson Community College	North Carolina	47	2312.73889060136	0.0203222249563067
+Onondaga Community College	New York	177	8714.45813950731	0.0203110735247627
+South Mountain Community College	Arizona	39	1920.2050618786	0.0203103307944855
+Berkeley City College	California	22	1083.35193890238	0.0203073435418316
+Hagerstown Community College	Maryland	88	4354.12194182181	0.0202107339150864
+Gateway Community College	Connecticut	73	3614.62549404332	0.0201957298537011
+Alamance Community College	North Carolina	45	2235.0606923053	0.0201336814498696
+Southwestern Oklahoma State University	Oklahoma	100	4971.40469094784	0.0201150391522309
+Middlesex County College	New Jersey	146	7295.53638396595	0.0200122365671258
+Roxbury Community College	Massachusetts	82	4103.48028865319	0.0199830373809139
+Delaware County Community College	Pennsylvania	154	7716.03436407529	0.0199584388474216
+North Iowa Area Community College	Iowa	91	4562.29951325526	0.0199460819561735
+South Puget Sound Community College	Washington	74	3713.01787855167	0.0199298797960179
+Chippewa Valley Technical College	Wisconsin	71	3562.84002851262	0.0199279225089543
+Tunxis Community College	Connecticut	72	3614.62549404332	0.0199190760200888
+Duquesne University	Pennsylvania	591	29694.8216446178	0.0199024600003657
+Cumberland County College	New Jersey	89	4474.26422185305	0.0198915387172061
+Pratt Community College	Kansas	58	2920.70025593185	0.0198582514183726
+Angelina College	Texas	53	2672.13002138446	0.019834364187316
+Dutchess Community College	New York	68	3438.55491123892	0.0197757493352053
+Southern West Virginia Community and Technical College	West Virginia	47	2384.20283303373	0.0197130878920212
+Indiana Wesleyan University	Indiana	448	22740.0336238439	0.0197009383280002
+Hazard Community and Technical College	Kentucky	66	3355.69816638979	0.0196680382821813
+Montgomery County Community College	Pennsylvania	145	7394.96447778491	0.0196079373248637
+Henry Ford Community College	Michigan	75	3830.05303065106	0.0195819742963848
+Northeastern Junior College	Colorado	63	3222.09166532057	0.0195525163601241
+Kellogg Community College	Michigan	86	4398.65744217822	0.0195514202073014
+Western Connecticut State University	Connecticut	164	8393.38825321693	0.0195391890679123
+Three Rivers Community College	Connecticut	70	3614.62549404332	0.0193657683528641
+Minnesota State Community and Technical College	Minnesota	103	5321.47443793541	0.0193555378685538
+Labette Community College	Kansas	48	2485.70234547392	0.0193104375861416
+Worcester State University	Massachusetts	153	7926.28335412996	0.0193028678340499
+Tulane University of Louisiana	Louisiana	867	44984.9981972142	0.0192730918027177
+Shoreline Community College	Washington	72	3740.98202993825	0.0192462833084468
+Rutgers University-Camden	New Jersey	251	13065.4729533973	0.0192109387004421
+Edinboro University of Pennsylvania	Pennsylvania	166	8658.52983673415	0.0191718459288248
+Northern State University	South Dakota	138	7199.21541807884	0.0191687554804168
+Inter American University of Puerto Rico-Metro	Puerto Rico	132	6900.93113662197	0.0191278535297216
+Columbia College	California	18	942.495472658861	0.0190982349753049
+Guam Community College	Guam	68	3566.98286575507	0.019063730485738
+Robeson Community College	North Carolina	42	2208.13225022933	0.0190205998737793
+Kauai Community College	Hawaii	47	2473.27383374655	0.0190031525659267
+Cedar Valley College	Texas	49	2578.91618342919	0.0190002297534325
+Virginia Western Community College	Virginia	71	3744.08915787009	0.0189632236323106
+Normandale Community College	Minnesota	107	5642.5443242258	0.0189630765576097
+SUNY College of Agriculture and Technology at Cobleskill	New York	128	6751.78899589353	0.0189579384186695
+Ventura College	California	16	847.210216082361	0.0188855135316789
+East Arkansas Community College	Arkansas	51	2703.20130070289	0.0188665194807131
+Cayuga County Community College	New York	82	4348.94339526874	0.0188551545851824
+Northcentral Technical College	Wisconsin	71	3804.16029788571	0.0186637771387974
+Azusa Pacific University	California	577	31009.1367597871	0.0186074189833062
+East Mississippi Community College	Mississippi	47	2537.48781100463	0.0185222564601767
+Lassen Community College	California	17	918.674158514736	0.0185049289156938
+Embry-Riddle Aeronautical University-Daytona Beach	Florida	572	30917.9943404531	0.0185005532280467
+Beaufort County Community College	North Carolina	42	2270.27480886618	0.0184999630159204
+Texas State Technical College-West Texas	Texas	96	5192.01077410865	0.0184899462225174
+SUNY College of Environmental Science and Forestry	New York	120	6492.86166824	0.0184818353033737
+Big Sandy Community and Technical College	Kentucky	62	3355.69816638979	0.0184760359620491
+Bethel University	Minnesota	259	14035.9325774427	0.0184526392222944
+Olympic College	Washington	63	3414.7335970948	0.0184494626619188
+Skyline College	California	21	1150.6730440923	0.0182501885377576
+College of Coastal Georgia	Georgia	73	4009.23074138731	0.0182079817074185
+Elizabethtown Community and Technical College	Kentucky	61	3355.69816638979	0.0181780353820161
+Trinidad State Junior College	Colorado	69	3800.01746064325	0.0181578113034038
+Los Angeles Mission College	California	18	994.280938189567	0.0181035352370078
+Finger Lakes Community College	New York	73	4033.05205553143	0.0181004358473079
+Framingham State University	Massachusetts	142	7850.67657445513	0.0180876130424282
+University of Arkansas at Monticello	Arkansas	101	5623.90155663474	0.0179590625801133
+The University of Texas of the Permian Basin	Texas	95	5306.97450758682	0.0179009716108846
+Blue Ridge Community College	North Carolina	41	2292.02470438908	0.0178881143477589
+Maysville Community and Technical College	Kentucky	60	3355.69816638979	0.017880034801983
+Mid-State Technical College	Wisconsin	68	3806.23171650694	0.0178654388552059
+Florida Gateway College	Florida	54	3027.37831492511	0.017837215697086
+Wayland Baptist University	Texas	209	11724.229396152	0.0178263315172421
+Capital Community College	Connecticut	64	3614.62549404332	0.01770584535119
+San Jose City College	California	19	1079.20910165993	0.0176054853232577
+Hopkinsville Community College	Kentucky	59	3355.69816638979	0.01758203422195
+Evergreen Valley College	California	19	1081.28052028115	0.0175717583398798
+James Sprunt Community College	North Carolina	40	2276.48906472986	0.017570916820875
+Delaware Technical Community College-Owens	Delaware	56	3196.19893255521	0.0175208118085537
+Jefferson State Community College	Alabama	75	4287.83654594251	0.0174913383932442
+Western State Colorado University	Colorado	99	5668.43705699115	0.0174651317470128
+Tuskegee University	Alabama	323	18508.1253806746	0.0174517944608947
+University of Guam	Guam	91	5238.61769308628	0.0173709946652717
+Rock Valley College	Illinois	148	8528.03046359677	0.0173545346292747
+Loyola Marymount University	California	675	39175.7046739796	0.0172300665838012
+Highland Community College	Illinois	55	3200.34176979767	0.0171856645184108
+Canada College	California	19	1106.13754373589	0.01717688736595
+Black Hills State University	South Dakota	132	7689.10592199932	0.0171671454833695
+University of St Thomas	Minnesota	568	33218.3047193271	0.0170990062496936
+Southwest Mississippi Community College	Mississippi	37	2164.63245918354	0.0170929710690727
+Galveston College	Texas	40	2340.70304198794	0.0170888828195944
+SUNY College of Technology at Canton	New York	117	6865.71702006109	0.0170411917150292
+Bishop State Community College	Alabama	72	4225.69398730566	0.0170386213995367
+Springfield Technical Community College	Massachusetts	84	4946.5476674931	0.0169815405908281
+Eastern Wyoming College	Wyoming	40	2361.41722820022	0.0169389803387207
+University of South Carolina-Upstate	South Carolina	168	9938.66654465322	0.0169036760862432
+Western Texas College	Texas	42	2485.70234547392	0.0168966328878739
+Ramapo College of New Jersey	New Jersey	223	13213.5793848151	0.0168765777618341
+Shawnee State University	Ohio	118	7003.46635837277	0.0168487994318598
+Lincoln University of Pennsylvania	Pennsylvania	158	9385.59777278527	0.0168343033470005
+Yakima Valley Community College	Washington	67	3987.48084586441	0.0168025885489804
+Greenfield Community College	Massachusetts	80	4762.19141020378	0.0167989887656735
+Inter American University of Puerto Rico-Ponce	Puerto Rico	80	4764.26282882501	0.0167916848575145
+Stanly Community College	North Carolina	39	2328.27453026057	0.0167506019986549
+Cuyamaca College	California	19	1135.13740443309	0.0167380617763089
+Blackhawk Technical College	Wisconsin	61	3649.8396106042	0.016713063177563
+University of Alaska Southeast	Alaska	93	5572.11609110403	0.0166902480995462
+Tri-County Technical College	South Carolina	80	4809.83403849203	0.0166325905134726
+Skagit Valley College	Washington	62	3728.55351821088	0.0166284323658442
+Merritt College	California	18	1083.35193890238	0.0166150992614985
+University of Maine at Augusta	Maine	128	7713.96294545406	0.0165932868624203
+Bemidji State University	Minnesota	135	8138.60376280585	0.0165876118231683
+Chipola College	Florida	53	3210.69886290381	0.0165073095494437
+Rend Lake College	Illinois	73	4427.65730287542	0.0164872741963549
+Columbia College-Chicago	Illinois	352	21381.1830083182	0.0164630740901033
+Big Bend Community College	Washington	61	3713.01787855167	0.0164286846967174
+Villanova University	Pennsylvania	698	42578.009759347	0.0163934388653939
+Front Range Community College	Colorado	48	2937.27160490168	0.0163416961236742
+Florida Keys Community College	Florida	52	3183.77042082784	0.0163328359544464
+The New School	New York	646	39562.0242468386	0.0163287903563636
+Touro College	New York	246	15069.5704694356	0.0163242874439548
+Chadron State College	Nebraska	90	5530.68771867947	0.0162728406624789
+Xavier University of Louisiana	Louisiana	301	18539.196659993	0.0162358707079012
+Mercer University	Georgia	528	32674.5573312547	0.0161593619967712
+Inver Hills Community College	Minnesota	86	5335.97436828401	0.0161170189480608
+Westmoreland County Community College	Pennsylvania	91	5686.04411527159	0.0160040967243979
+Morgan Community College	Colorado	47	2937.27160490168	0.0160012441210976
+Henderson State University	Arkansas	116	7260.32226740507	0.015977252211073
+North Dakota State College of Science	North Dakota	69	4330.30062767769	0.0159342285750272
+Lake Land College	Illinois	102	6418.29059787578	0.0158920819250157
+Mercy College	New York	284	17979.9136322613	0.015795404016314
+University of Wisconsin-Superior	Wisconsin	122	7805.1053647881	0.0156307947552367
+Wenatchee Valley College	Washington	54	3456.16196951936	0.0156242677502495
+Lock Haven University	Pennsylvania	132	8533.20901014984	0.0154689753694059
+Northeast Iowa Community College-Calmar	Iowa	81	5236.54627446505	0.0154682104873168
+Harding University	Arkansas	234	15131.7130280725	0.0154642107979368
+Eastern Gateway Community College	Ohio	49	3169.27049047925	0.01546097126995
+Mississippi University for Women	Mississippi	78	5050.11859855451	0.0154451818264874
+Iowa Lakes Community College	Iowa	80	5182.68939031312	0.015436001267899
+Southern State Community College	Ohio	58	3762.73192546114	0.0154143322322628
+The University of Montana-Western	Montana	63	4087.94464899398	0.0154111675693808
+University of Tulsa	Oklahoma	502	32677.6644591865	0.0153621749995929
+Edgecombe Community College	North Carolina	35	2278.56048335109	0.0153605753526127
+Lamar State College-Orange	Texas	51	3322.55546845014	0.0153496308742709
+Moorpark College	California	13	847.210216082361	0.0153444797444891
+Oxnard College	California	13	847.210216082361	0.0153444797444891
+El Camino College-Compton Center	California	28	1824.9198053021	0.0153431399662873
+Southwestern Oregon Community College	Oregon	72	4700.04885156693	0.0153189897113508
+Francis Marion University	South Carolina	139	9116.3133520256	0.0152473916409548
+Barry University	Florida	444	29165.574186894	0.0152234273583929
+Cecil College	Maryland	90	5913.9001636067	0.0152183833866265
+Middlesex Community College	Connecticut	55	3614.62549404332	0.0152159608486789
+New York Institute of Technology	New York	430	28264.5070866597	0.0152134264603168
+John Tyler Community College	Virginia	57	3749.26770442316	0.0152029688178187
+Ashland Community and Technical College	Kentucky	51	3355.69816638979	0.0151980295816856
+University of Montevallo	Alabama	134	8824.24332643241	0.0151854380078813
+Cape Cod Community College	Massachusetts	62	4084.83752106214	0.0151780822811965
+Motlow State Community College	Tennessee	53	3492.41179539086	0.0151757590757044
+Whatcom Community College	Washington	57	3759.6247975293	0.0151610873610203
+Morrisville State College	New York	118	7788.53401581828	0.0151504762976377
+Lord Fairfax Community College	Virginia	57	3790.69607684773	0.0150368161531431
+Adelphi University	New York	443	29476.2869800782	0.0150290299554827
+Wharton County Junior College	Texas	49	3281.12709602557	0.014933892703929
+Triton College	Illinois	118	7908.67629584952	0.0149203223884541
+North Hennepin Community College	Minnesota	87	5857.97186083354	0.0148515564886344
+University of New Mexico-Valencia County Campus	New Mexico	24	1616.74223386866	0.0148446669464254
+City Colleges of Chicago-Kennedy-King College	Illinois	86	5807.22210461344	0.0148091459997163
+Butler County Community College	Pennsylvania	90	6089.9707464111	0.0147783961118431
+Horry-Georgetown Technical College	South Carolina	68	4602.69217636921	0.0147739621496133
+Fitchburg State University	Massachusetts	127	8596.3872780973	0.014773648032771
+College of Alameda	California	16	1083.35193890238	0.014768977121332
+Allegany College of Maryland	Maryland	90	6116.89918848707	0.0147133371381032
+South Dakota School of Mines and Technology	South Dakota	134	9134.95611961665	0.0146689265110146
+Carl Sandburg College	Illinois	87	5934.61434981898	0.014659756282673
+Trinity Valley Community College	Texas	51	3479.98328366349	0.0146552428109111
+Catholic University of America	District of Columbia	538	36726.2521543771	0.0146489219139089
+Nash Community College	North Carolina	34	2324.13169301811	0.0146291193834406
+Pepperdine University	California	617	42207.2258261471	0.0146183500081584
+Navarro College	Texas	40	2746.70109174868	0.0145629242731083
+Northern Oklahoma College	Oklahoma	40	2765.34385933973	0.0144647472555368
+Drake University	Iowa	425	29395.5016538503	0.0144579944579491
+Colorado Northwestern Community College	Colorado	41	2837.84351108272	0.014447590164814
+Seton Hall University	New Jersey	501	34685.9048124673	0.0144439074808256
+Hawaii Pacific University	Hawaii	248	17203.1316493007	0.0144159798957349
+Rochester Community and Technical College	Minnesota	81	5629.08010318781	0.0143895625066925
+Chesapeake College	Maryland	81	5634.25864974088	0.0143763368058591
+Pikes Peak Community College	Colorado	98	6819.11010108345	0.0143713766968551
+Haywood Community College	North Carolina	33	2313.77459991197	0.014262409139272
+Lewis and Clark Community College	Illinois	122	8583.95876636993	0.0142125566210743
+Prairie State College	Illinois	96	6756.9675424466	0.0142075567770509
+Samford University	Alabama	352	24818.7022102465	0.0141828527945622
+Plymouth State University	New Hampshire	169	11929.2998396536	0.0141667995835125
+The University of Virginia's College at Wise	Virginia	113	7996.71158725172	0.0141308084913483
+Manchester Community College	Connecticut	102	7225.10815084419	0.0141174357352813
+University of San Francisco	California	546	38760.3852404233	0.0140865472985696
+Jefferson Community College	New York	60	4266.08665041961	0.0140644119345533
+Cleveland State Community College	Tennessee	49	3485.16183021656	0.0140596053747539
+Frederick Community College	Maryland	95	6775.61031003766	0.0140208771834566
+Three Rivers Community College	Connecticut	70	4996.26171440258	0.0140104750314046
+Highland Community College	Illinois	55	3927.40970584879	0.0140041411819329
+Luzerne County Community College	Pennsylvania	87	6214.2558636848	0.0140000672499527
+Keene State College	New Hampshire	171	12221.3698652468	0.013991884861145
+City Colleges of Chicago-Harry S Truman College	Illinois	81	5807.22210461344	0.0139481491392676
+Niagara County Community College	New York	57	4099.33745141074	0.0139046859829469
+Inter American University of Puerto Rico-Arecibo	Puerto Rico	66	4764.26282882501	0.0138531400074494
+Kaskaskia College	Illinois	81	5866.25753531845	0.013807781112972
+Mansfield University of Pennsylvania	Pennsylvania	123	8963.0283740547	0.0137230403460563
+Tougaloo College	Mississippi	145	10582.8777358552	0.0137013772264168
+Elon University	North Carolina	395	28876.6112892326	0.0136788903671424
+State Fair Community College	Missouri	51	3728.55351821088	0.013678226623517
+Peninsula College	Washington	52	3809.33884443878	0.0136506627852007
+Sampson Community College	North Carolina	31	2282.70332059355	0.0135803894094916
+Northwestern Connecticut Community College	Connecticut	49	3614.62549404332	0.0135560378470049
+George C Wallace State Community College-Selma	Alabama	53	3914.98119412142	0.0135377406357871
+Illinois Institute of Technology	Illinois	491	36379.2895353214	0.0134966901847623
+Lehigh University	Pennsylvania	572	42422.6533627549	0.0134833621817298
+Massachusetts College of Art and Design	Massachusetts	135	10046.3803129571	0.0134376756398408
+Lower Columbia College	Washington	53	3950.1953106823	0.0134170581025892
+Jefferson College	Missouri	45	3355.69816638979	0.0134100261014873
+Montana Tech of the University of Montana	Montana	89	6649.25377414273	0.0133849606321387
+Ulster County Community College	New York	64	4793.26268952221	0.0133520743897263
+Potomac State College of West Virginia University	West Virginia	42	3167.19907185802	0.0132609283619678
+Hampton University	Virginia	258	19469.2636209245	0.0132516568178119
+Lamar State College-Port Arthur	Texas	68	5131.93963409303	0.0132503507150114
+West Virginia Northern Community College	West Virginia	34	2566.48767170182	0.0132476771172077
+Great Basin College	Nevada	34	2602.73749757332	0.0130631690793636
+Sullivan County Community College	New York	64	4911.33355093222	0.013031083988961
+Quinebaug Valley Community College	Connecticut	47	3614.62549404332	0.0130027301797802
+Massachusetts Maritime Academy	Massachusetts	92	7112.21583598725	0.0129354904465198
+Benedict College	South Carolina	230	17803.8430494569	0.0129185591763019
+Mountain Empire Community College	Virginia	39	3028.41402423572	0.0128780278019754
+Halifax Community College	North Carolina	30	2330.3459488818	0.0128736250574278
+Middlesex Community College	Connecticut	55	4277.47945283637	0.0128580395549369
+Saint Joseph's College-New York	New York	245	19082.9440480654	0.0128386898469598
+West Virginia University Institute of Technology	West Virginia	71	5534.83055592193	0.0128278543096562
+Lakeshore Technical College	Wisconsin	47	3667.44666888464	0.0128154556135083
+Concord University	West Virginia	72	5640.47290560457	0.0127648871300239
+John C Calhoun State Community College	Alabama	46	3604.26840093718	0.0127626455310706
+Grays Harbor College	Washington	46	3608.41123817964	0.0127479926659374
+Latter-day Saints Business College	Utah	39	3086.41374563012	0.0126360245949585
+Inter American University of Puerto Rico-Bayamon	Puerto Rico	60	4760.11999158255	0.0126047242729384
+Santa Clara University	California	509	40442.3771608607	0.0125858081481076
+Berklee College of Music	Massachusetts	452	35918.3988920981	0.0125840798571742
+Abilene Christian University	Texas	329	26172.3742792191	0.0125705064618928
+Lake Superior College	Minnesota	63	5045.97576131205	0.0124851967151778
+Glenville State College	West Virginia	69	5543.11623040684	0.0124478717623671
+Bluefield State College	West Virginia	63	5083.26129649416	0.0123936182551643
+Central Carolina Technical College	South Carolina	52	4196.69412660847	0.0123907052625785
+North Florida Community College	Florida	36	2906.20032558326	0.0123873085014451
+Atlantic Cape Community College	New Jersey	83	6705.1820769159	0.0123784856321421
+Zane State College	Ohio	55	4443.19294253463	0.0123784856321421
+Suffolk University	Massachusetts	382	30961.4941314989	0.0123379058638959
+Southwestern Community College	Iowa	54	4381.05038389778	0.0123258112251968
+Southern New Hampshire University	New Hampshire	345	28206.5073652653	0.0122312201057848
+City Colleges of Chicago-Olive-Harvey College	Illinois	71	5807.22210461344	0.0122261554183704
+Delaware Technical Community College-Terry	Delaware	39	3196.19893255521	0.0122019939380999
+Dakota State University	South Dakota	87	7143.28711530567	0.0121792668551133
+Monmouth University	New Jersey	350	28999.8606971957	0.0120690234913385
+Aiken Technical College	South Carolina	51	4227.76540592689	0.0120631102020238
+Montana State University-Northern	Montana	68	5675.68702216545	0.011980928429358
+Gonzaga University	Washington	399	33372.6254066086	0.0119559068289841
+South Central College	Minnesota	64	5353.58142656445	0.011954614098598
+Purdue University-North Central Campus	Indiana	85	7117.39438254032	0.0119425727213478
+Terra State Community College	Ohio	50	4189.44416143417	0.0119347574698032
+Roosevelt University	Illinois	309	25892.7327653533	0.0119338504282355
+University of South Carolina-Aiken	South Carolina	108	9062.45646787366	0.0119172986245903
+Lehigh Carbon Community College	Pennsylvania	77	6462.82609823219	0.0119142924209368
+City Colleges of Chicago-Malcolm X College	Illinois	69	5807.22210461344	0.011881756674191
+Baker College of Flint	Michigan	93	7829.96238824284	0.0118774516898887
+Piedmont Virginia Community College	Virginia	45	3795.8746234008	0.011854975325735
+Hudson County Community College	New Jersey	93	7864.14079549311	0.01182583099902
+H Councill Trenholm State Technical College	Alabama	39	3305.98411948031	0.0117967898787519
+University of the Incarnate Word	Texas	278	23603.8151888961	0.0117777570183137
+University of Maine at Farmington	Maine	114	9701.48911252258	0.0117507733789909
+Oregon Institute of Technology	Oregon	96	8170.71075143489	0.0117492838653162
+University of Cincinnati-Blue Ash College	Ohio	69	5894.22168670503	0.0117063801919151
+Northwestern Oklahoma State University	Oklahoma	60	5145.40385513101	0.0116608922621628
+Shawnee Community College	Illinois	50	4287.83654594251	0.0116608922621628
+Edison State Community College	Ohio	46	3955.37385723537	0.0116297476952411
+Xavier University	Ohio	375	32272.7021187364	0.0116197273665005
+Southwestern Michigan College	Michigan	62	5338.04578690524	0.0116147373917422
+County College of Morris	New Jersey	90	7776.10550409091	0.0115739170401755
+Lake Superior State University	Michigan	111	9698.38198459074	0.0114452080951608
+Colegio Universitario de San Juan	Puerto Rico	28	2454.63106615549	0.0114070095445562
+Southern Arkansas University Main Campus	Arkansas	80	7028.3233818275	0.0113825155238088
+Muskegon Community College	Michigan	56	4924.7977719702	0.0113710252873179
+Massachusetts College of Liberal Arts	Massachusetts	95	8363.35268320912	0.0113590809330245
+Saint Joseph's University	Pennsylvania	431	37948.3891409018	0.0113575308401024
+Southwest Virginia Community College	Virginia	34	2995.27132629607	0.0113512254137071
+Frank Phillips College	Texas	38	3366.05525949593	0.0112891788965136
+Dabney S Lancaster Community College	Virginia	34	3020.12834975081	0.0112577996901374
+Seattle University	Washington	381	33867.6944570821	0.0112496585937614
+Rappahannock Community College	Virginia	34	3025.30689630388	0.0112385292353443
+Flathead Valley Community College	Montana	58	5208.58212307847	0.0111354680850688
+Linn-Benton Community College	Oregon	44	3958.48098516722	0.0111153748533521
+Louisiana State University-Alexandria	Louisiana	50	4559.19238532341	0.0109668546036697
+Life University	Georgia	100	9129.77757306358	0.0109531693625307
+Danville Area Community College	Illinois	67	6121.04202572952	0.0109458487163409
+Biola University	California	339	30975.9940618475	0.010943958709546
+Cheyney University of Pennsylvania	Pennsylvania	95	8704.10104640117	0.0109143953515198
+Germanna Community College	Virginia	43	3954.33814792476	0.0108741332661615
+University of Hartford	Connecticut	345	31852.204138627	0.0108312755531295
+Oral Roberts University	Oklahoma	231	21497.1824511069	0.0107455942435891
+Butler University	Indiana	355	33088.8410555003	0.0107286924738329
+George C Wallace State Community College-Dothan	Alabama	37	3448.91200434506	0.0107280208811898
+John Wood Community College	Illinois	80	7457.10703642176	0.0107280208811898
+Technical College of the Lowcountry	South Carolina	40	3732.69635545333	0.010716114087759
+Arapahoe Community College	Colorado	30	2822.30787142351	0.0106295986712706
+Southside Virginia Community College	Virginia	40	3775.16043718851	0.0105955761789529
+Mississippi College	Mississippi	154	14539.2873024012	0.0105919909825681
+Metropolitan Community College-Kansas City	Missouri	51	4878.19085299256	0.0104546955084206
+Pueblo Community College	Colorado	33	3160.98481599433	0.0104397844092837
+Central Alabama Community College	Alabama	29	2796.41513865816	0.0103704201851501
+Bayamon Central University	Puerto Rico	60	5799.97213943914	0.0103448772782902
+Benedictine University	Illinois	247	24011.8846572781	0.0102865728169794
+Ridgewater College	Minnesota	55	5357.72426380691	0.0102655525540092
+National Louis University	Illinois	200	19569.727424054	0.0102198664123533
+Central Lakes College-Brainerd	Minnesota	55	5395.00979898902	0.0101946061358974
+Claflin University	South Carolina	140	13847.433482911	0.010110176746671
+Andrews University	Michigan	244	24264.5977290679	0.0100558023967444
+Eastern Maine Community College	Maine	34	3383.66231777637	0.0100482840209491
+Salem Community College	New Jersey	49	4903.0478764473	0.00999378371061407
+Lesley University	Massachusetts	316	31635.7408927087	0.00998870236899781
+City Colleges of Chicago-Harold Washington College	Illinois	58	5807.22210461344	0.00998756358120399
+Fairleigh Dickinson University-Metropolitan Campus	New Jersey	336	33699.9095487627	0.00997035317005285
+Riverland Community College	Minnesota	55	5532.7591373007	0.00994079059563638
+Virginia Highlands Community College	Virginia	37	3759.6247975293	0.0098414075852237
+Lewis University	Illinois	251	25654.5196239121	0.00978385109834791
+Quinnipiac University	Connecticut	366	37420.1773924886	0.00978081948038727
+Peru State College	Nebraska	57	5849.68618634862	0.00974411245051411
+Cisco College	Texas	28	2877.20046488606	0.00973168200885468
+Blue Ridge Community College	North Carolina	41	4244.33675489672	0.00965993095451205
+Vermont Technical College	Vermont	120	12515.5113094612	0.00958810207852117
+Emmanuel College	Massachusetts	144	15069.5704694356	0.00955568045499793
+Ithaca College	New York	349	36537.7530598454	0.00955176415551255
+Calvin College	Michigan	252	26477.9085258503	0.00951736802602718
+Valparaiso University	Indiana	305	32148.4170014627	0.00948724784757281
+Enterprise State Community College	Alabama	36	3798.98175133264	0.00947622346102916
+Saint Mary's University of Minnesota	Minnesota	267	28223.0787142351	0.00946034281743086
+University of Detroit Mercy	Michigan	318	33660.5525949593	0.00944726023445083
+Miles College	Alabama	102	10864.5906683423	0.00938829663387249
+Danville Community College	Virginia	35	3728.55351821088	0.00938701827104108
+Sacred Heart University	Connecticut	317	33892.5514805369	0.0093530875119284
+Cardinal Stritch University	Wisconsin	225	24163.0982166277	0.00931171979614631
+Bucknell University	Pennsylvania	423	45432.4246193995	0.00931053104789349
+Denmark Technical College	South Carolina	25	2686.62995173306	0.00930533808121706
+Renton Technical College	Washington	51	5492.36647418675	0.00928561490564986
+Aurora University	Illinois	187	20144.5460914449	0.00928290958511179
+Henderson Community College	Kentucky	31	3355.69816638979	0.00923801798102455
+George C Wallace State Community College-Hanceville	Alabama	39	4225.69398730566	0.0092292532580824
+North Central Michigan College	Michigan	34	3700.5893668243	0.00918772569169908
+Wheaton College	Illinois	275	29994.1416353853	0.00916845707214943
+Lake Tahoe Community College	California	9	981.852426462198	0.00916634695544698
+Oklahoma Panhandle State University	Oklahoma	54	5907.68590774301	0.00914063490227602
+Southern Union State Community College	Alabama	31	3392.9837015719	0.00913650129991439
+Smith College	Massachusetts	378	41500.8720763083	0.00910824233536504
+Dakota County Technical College	Minnesota	52	5718.15110390063	0.00909384852815944
+Wytheville Community College	Virginia	34	3759.6247975293	0.00904345561885421
+Pratt Institute-Main	New York	365	40371.9489277389	0.00904093088627719
+Valley City State University	North Dakota	58	6418.29059787578	0.00903667403579325
+Rider University	New Jersey	298	33070.1982879093	0.00901113435745413
+Regis University	Colorado	291	32301.7019794336	0.00900881322554704
+York College Pennsylvania	Pennsylvania	148	16447.0638525524	0.00899856663334057
+University of New England	Maine	282	31589.133973731	0.00892712032670811
+Bellingham Technical College	Washington	39	4374.8361280341	0.00891461962428414
+Bethune-Cookman University	Florida	129	14489.5732554917	0.00890295371198096
+Richard Bland College of the College of William and Mary	Virginia	32	3595.98272645227	0.00889881916412057
+Miami University-Middletown	Ohio	44	4964.15472577354	0.00886354322752172
+Southern University at Shreveport	Louisiana	55	6210.11302644234	0.00885652157469805
+Southern Arkansas University Tech	Arkansas	32	3639.48251749806	0.00879245877570479
+Mayville State University	North Dakota	55	6301.25544577638	0.00872841935599762
+Bentley University	Massachusetts	346	39696.6664572185	0.00871609711543129
+Baker College of Muskegon	Michigan	68	7829.96238824284	0.00868458833239174
+Miami University-Hamilton	Ohio	43	4964.15472577354	0.00866209906325987
+Marion Technical College	Ohio	38	4387.26463976147	0.00866143328934588
+Ashland University	Ohio	256	29602.6435159731	0.00864787632435145
+Lake Region State College	North Dakota	35	4047.55198588003	0.00864720209205422
+Berry College	Georgia	233	27021.6559139227	0.00862271360209084
+Emerson College	Massachusetts	292	33896.6943177793	0.00861440933627683
+The University of Tampa	Florida	213	24832.1664312844	0.00857758426311347
+Alabama Southern Community College	Alabama	36	4225.69398730566	0.00851931069976837
+Red Rocks Community College	Colorado	25	2936.23589559107	0.00851430228665857
+University of New Mexico-Gallup Campus	New Mexico	15	1764.84866528648	0.00849931231784403
+Bethel University	Minnesota	259	30511.9962906924	0.00848846458725507
+Kennebec Valley Community College	Maine	28	3299.76986361663	0.00848544024500888
+Spoon River College	Illinois	61	7208.53680187436	0.00846218888473161
+Northern Maine Community College	Maine	29	3431.30494606462	0.00845159507995937
+Niagara University	New York	231	27342.7258002131	0.00844831644393697
+Lurleen B Wallace Community College	Alabama	34	4039.26631139512	0.00841737022985662
+Eastern University	Pennsylvania	225	26773.0856793753	0.00840396219899781
+Cedarville University	Ohio	212	25271.3071789848	0.00838896059070088
+Gardner-Webb University	North Carolina	204	24349.5258925383	0.0083779865324817
+Central Virginia Community College	Virginia	30	3605.3041102478	0.00832107336374963
+Point Park University	Pennsylvania	204	24567.0248477672	0.00830381380179784
+William Carey University	Mississippi	89	10719.5913648563	0.00830255529065993
+Drury University	Missouri	180	21794.4310232532	0.00825899055625504
+Lipscomb University	Tennessee	200	24332.9545435684	0.00821930602968488
+Baker College of Owosso	Michigan	64	7829.96238824284	0.00817373019519223
+Stevenson University	Maryland	199	24480.0252656756	0.00812907657734428
+University of Mary	North Dakota	112	13903.3617856841	0.00805560566763954
+King's College	Pennsylvania	112	14023.5040657154	0.00798659161612948
+Spring Arbor University	Michigan	178	22288.4643644161	0.0079861939831162
+North Park University	Illinois	174	21801.6809884275	0.00798103596196828
+Alverno College	Wisconsin	173	21821.3594653292	0.00792801201386517
+Marist College	New York	237	29921.6419836423	0.00792068831414948
+Stetson University	Florida	286	36330.6111977225	0.00787214942362237
+St Catherine University	Minnesota	257	32769.8425878312	0.0078425765797067
+Northwood University-Michigan	Michigan	163	20859.1855157686	0.00781430319399476
+Marymount University	Virginia	194	24828.023594042	0.00781375123417211
+Oklahoma City University	Oklahoma	222	28482.0060418886	0.00779439480749717
+Gannon University	Pennsylvania	206	26433.3730254939	0.00779317871394322
+The College of Saint Rose	New York	205	26373.3018854783	0.00777301230199308
+City Colleges of Chicago-Richard J Daley College	Illinois	45	5807.22210461344	0.00774897174403758
+Freed-Hardeman University	Tennessee	136	17690.9507346	0.00768754613815135
+St Mary's College of Maryland	Maryland	115	14960.8209918211	0.00768674393356279
+Oberlin College	Ohio	344	44752.9993116367	0.00768663565104458
+Fairfield University	Connecticut	323	42029.0838247215	0.00768515443608151
+Lincoln Memorial University	Tennessee	141	18352.7689840824	0.00768276438952024
+Faulkner University	Alabama	126	16447.0638525524	0.00766094186351967
+The Southern Baptist Theological Seminary	Kentucky	106	13847.433482911	0.00765484810819377
+Loyola University Maryland	Maryland	324	42329.4395247996	0.00765424734268399
+University of Pittsburgh-Johnstown	Pennsylvania	99	12975.3662433739	0.00762984243705309
+California Baptist University	California	203	26729.5858883295	0.00759458080825084
+University of Scranton	Pennsylvania	283	37277.2495076239	0.00759176183162659
+Roger Williams University	Rhode Island	243	32011.7033724616	0.00759097375021422
+Trinity University	Texas	246	32475.7011436167	0.00757489419280336
+University of New Haven	Connecticut	249	32883.7706119987	0.007572124344802
+Baldwin Wallace University	Ohio	207	27338.5829629706	0.00757171651070488
+University of Bridgeport	Connecticut	214	28305.9354590842	0.00756025181747953
+Hamline University	Minnesota	249	33136.4836837886	0.00751437606887115
+Bay de Noc Community College	Michigan	44	5874.54320980336	0.007489944056684
+Davidson College	North Carolina	298	40253.8780663289	0.00740301343162431
+Kishwaukee College	Illinois	73	9880.66682325883	0.00738816532383826
+The University of Findlay	Ohio	215	29107.5744654996	0.00738639354010186
+Morehouse College	Georgia	182	24641.5959181314	0.00738588525697247
+Limestone College	South Carolina	152	20714.1862122827	0.00733796628273383
+Babson College	Massachusetts	305	41842.656148811	0.0072892122076401
+Siena College	New York	221	30341.104254441	0.00728384827878017
+University of Maine at Presque Isle	Maine	55	7560.67796748317	0.00727447991258761
+Culinary Institute of America	New York	195	27114.869751878	0.00719162591538889
+Point Loma Nazarene University	California	210	29320.9305834861	0.00716211920362018
+Mercyhurst University	Pennsylvania	205	28644.6124036551	0.00715666866464012
+Wesleyan University	Connecticut	323	45233.5684317616	0.00714071454449301
+Lyndon State College	Vermont	70	9806.09575289461	0.00713841693615291
+John Brown University	Arkansas	153	21507.5395442131	0.0071137844329184
+Carlow University	Pennsylvania	173	24343.3116366746	0.00710667482641785
+Wilkes University	Pennsylvania	207	29217.3596524247	0.00708482910374215
+Jacksonville University	Florida	204	28896.2897661343	0.00705972987020232
+Furman University	South Carolina	289	40972.6603278951	0.00705348390090361
+Norwich University	Vermont	220	31272.2069246831	0.00703500077656349
+University of Minnesota-Morris	Minnesota	88	12522.7612746355	0.00702720415011357
+Saint Edward's University	Texas	208	29724.8572146256	0.00699751048417676
+Johnson State College	Vermont	67	9806.09575289461	0.00683248478174636
+Stevens Institute of Technology	New Jersey	295	43274.0064160797	0.00681702537924439
+Tiffin University	Ohio	134	19806.9048561847	0.00676531749775931
+Southwestern Assemblies of God University	Texas	110	16291.7074559603	0.00675190125389568
+Widener University-Main Campus	Pennsylvania	243	36003.3270555685	0.00674937623472818
+Pennsylvania State University-Penn State Altoona	Pennsylvania	95	14122.9321595343	0.00672664846979853
+University of La Verne	California	218	32417.7014222224	0.00672472107632409
+Saint Augustine College	Illinois	61	9072.8135609798	0.00672338294951279
+University of Pittsburgh-Bradford	Pennsylvania	87	12942.2235454342	0.00672218337865846
+Dominican University	Illinois	185	27560.2247554421	0.00671257225373206
+Pacific Lutheran University	Washington	215	32055.2031635074	0.00670717945237553
+Universidad Adventista de las Antillas	Puerto Rico	44	6561.21848274053	0.00670607145848644
+Medaille College	New York	150	22369.249690644	0.00670563394277536
+Western New England University	Massachusetts	214	31945.4179765823	0.00669892627972103
+John Carroll University	Ohio	220	32842.3422395742	0.00669866961360953
+University of Mary Hardin-Baylor	Texas	159	23769.5286785943	0.00668923654944776
+Messiah College	Pennsylvania	196	29368.5732117743	0.00667380054817986
+Dallas Baptist University	Texas	137	20610.6152812212	0.00664706017412413
+Providence College	Rhode Island	282	42438.1890024141	0.00664495838839774
+University of Minnesota-Crookston	Minnesota	76	11493.266219885	0.00661256761533191
+Flagler College-St Augustine	Florida	98	15028.1420970111	0.00652109884025459
+LeTourneau University	Texas	159	24432.3826373874	0.00650775662610539
+Southeastern University	Florida	119	18350.6975654612	0.00648476710901585
+Augsburg College	Minnesota	204	31504.2058102607	0.00647532590501166
+Friends University	Kansas	141	21780.9668022152	0.00647354184414164
+Champlain College	Vermont	189	29414.1444214414	0.00642548011229009
+Ohio State University-Lima Campus	Ohio	42	6552.93280825562	0.00640934391194839
+University of Portland	Oregon	237	37016.2507613491	0.0064025933238886
+Washington and Lee University	Virginia	278	43424.1842661187	0.00640196251693107
+Queens University of Charlotte	North Carolina	168	26261.445279932	0.00639721074789359
+Anderson University	Indiana	138	21656.6816849415	0.00637216735267228
+Simmons College	Massachusetts	220	34547.119764845	0.00636811408584837
+Wellesley College	Massachusetts	268	42111.9405695706	0.00636399074408013
+Wheaton College	Illinois	275	43390.0058588685	0.0063378650119217
+The College of Saint Scholastica	Minnesota	193	30559.6389189806	0.00631551964706388
+D'Youville College	New York	142	22537.0345989635	0.00630074020503703
+Stonehill College	Massachusetts	221	35131.2598160314	0.00629069384807975
+Union University	Tennessee	156	24888.0947340576	0.00626805714406595
+Saint Francis University	Pennsylvania	180	28801.0045095578	0.00624978201507749
+Belhaven University	Mississippi	119	19077.7655015123	0.00623762777619668
+Chaminade University of Honolulu	Hawaii	119	19098.4796877246	0.006230862453229
+Anoka Technical College	Minnesota	35	5619.75871939228	0.00622802539177071
+Bowdoin College	Maine	274	44344.9298432547	0.00617883489653729
+Richland Community College	Illinois	74	12001.7994913966	0.00616574206668313
+James H Faulkner State Community College	Alabama	26	4225.69398730566	0.00615283550538827
+Saint Norbert College	Wisconsin	187	30444.6751855024	0.00614228921348612
+Nazareth College	New York	174	28401.2207156607	0.00612649722848196
+Bryant University	Rhode Island	219	35860.3991707037	0.00610701512154144
+Ohio State University-Marion Campus	Ohio	40	6552.93280825562	0.00610413705899847
+Campbellsville University	Kentucky	131	21480.6111021371	0.00609852295994348
+Skidmore College	New York	267	43893.3605838269	0.00608292453456798
+Lackawanna College	Pennsylvania	74	12200.6556790345	0.00606524779870323
+Williams College	Massachusetts	270	44732.2851254244	0.00603590894681436
+Kent State University at Ashtabula	Ohio	33	5476.83083452753	0.00602538237842922
+Union College	Kentucky	125	20796.0072478212	0.00601076920730043
+Augustana College	Illinois	165	27539.5105692298	0.00599139187986719
+Trevecca Nazarene University	Tennessee	127	21221.6837744836	0.00598444503035624
+Monroe County Community College	Michigan	26	4349.97910457936	0.00597704020523432
+Mount Holyoke College	Massachusetts	256	42936.3651808195	0.00596231187530425
+Montcalm Community College	Michigan	30	5033.54724958469	0.005960011600661
+Lafayette College	Pennsylvania	255	42834.8656683793	0.0059530944248587
+Shenandoah University	Virginia	172	28937.7181385589	0.00594379968650029
+NHTI-Concord's Community College	New Hampshire	45	7622.82052612002	0.00590332670771993
+Livingstone College	North Carolina	94	15958.2090579426	0.00589038529691496
+Inter American University of Puerto Rico-Barranquitas	Puerto Rico	28	4760.11999158255	0.00588220466070459
+Arcadia University	Pennsylvania	208	35369.4729574726	0.00588077747864929
+Jefferson Davis Community College	Alabama	23	3923.26686860633	0.00586246125239253
+Edgewood College	Wisconsin	138	23665.9577475329	0.00583116058399901
+Chattahoochee Valley Community College	Alabama	25	4287.83654594251	0.00583044613108141
+Rollins College	Florida	230	39771.2375275827	0.00578307375626638
+Methodist University	North Carolina	153	26462.3728861911	0.00578179442403067
+University of Evansville	Indiana	174	30466.4250810253	0.00571120502445718
+Siena Heights University	Michigan	121	21287.9691703629	0.00568396163258524
+Le Moyne College	New York	167	29393.4302352291	0.00568154171403392
+Dickinson College	Pennsylvania	253	44597.6429150446	0.00567294555189716
+Graceland University-Lamoni	Iowa	128	22568.105878282	0.00567172099822425
+Sauk Valley Community College	Illinois	44	7766.78412029538	0.00566515037865204
+Buena Vista University	Iowa	159	28198.2216907804	0.00563865344927004
+Southern Adventist University	Tennessee	107	18978.3374076934	0.00563800704463315
+Marywood University	Pennsylvania	164	29181.1098265532	0.00562007411557627
+Mount Vernon Nazarene University	Ohio	128	22868.46157836	0.00559722828583816
+Sewanee-The University of the South	Tennessee	187	33445.1250583516	0.00559124834108833
+Texas Wesleyan University	Texas	114	20465.6159777353	0.00557031853446394
+Malone University	Ohio	135	24256.312054583	0.00556556164416977
+Amherst College	Massachusetts	247	44429.8580067251	0.00555932454167675
+Clark University	Massachusetts	215	38683.7427514379	0.00555789033603809
+Concordia College at Moorhead	Minnesota	169	30408.4253596309	0.00555767021808232
+Hobart William Smith Colleges	New York	247	44447.4650650055	0.00555712231594662
+North Central College	Illinois	170	30794.74493249	0.00552042240884552
+Community College of Beaver County	Pennsylvania	39	7071.8231728733	0.00551484377460108
+Macalester College	Minnesota	240	43521.5409413165	0.00551451062644153
+Wheeling Jesuit University	West Virginia	146	26555.5867241464	0.0054979014968344
+Clarkson University	New York	209	38093.3884443878	0.00548651638866722
+Maryville University of Saint Louis	Missouri	130	23699.1004454726	0.00548544027226294
+University of Saint Francis-Fort Wayne	Indiana	136	24805.2379892085	0.00548271296809032
+Marian University	Indiana	126	23241.3169301811	0.00542137953621624
+Anderson University	Indiana	138	25488.8061342138	0.00541414137929205
+Lakeland College	Wisconsin	113	20952.3993537239	0.00539317708164608
+Mount Olive College	North Carolina	91	16882.0617630104	0.00539033687220518
+Seattle Pacific University	Washington	169	31422.3847747222	0.00537833144147457
+University of Dubuque	Iowa	126	23427.7446060917	0.00537823858499966
+Maharishi University of Management	Iowa	136	25302.3784583033	0.00537498876732555
+Carson-Newman University	Tennessee	121	22555.6773665546	0.00536450304877201
+Houston Baptist University	Texas	141	26353.6234085766	0.0053503079183454
+Gordon College	Massachusetts	169	31719.6333468684	0.00532793043828436
+Fontbonne University	Missouri	117	21977.7515712319	0.00532356549853575
+Southern Nazarene University	Oklahoma	109	20500.8300942961	0.00531685787837082
+Nyack College	New York	118	22267.7501782039	0.00529914333759236
+Virginia Union University	Virginia	80	15152.4272142848	0.00527968218349737
+Saint Ambrose University	Iowa	136	25809.8760205042	0.00526930078594555
+Gettysburg College	Pennsylvania	231	44131.5737252682	0.00523434766768214
+University of South Carolina-Sumter	South Carolina	33	6309.5411202613	0.00523017432979871
+Trinity College	Connecticut	237	45643.7093187648	0.00519239131826137
+Saint John Fisher College	New York	141	27197.7264967271	0.00518425685385752
+Saint Vincent College	Pennsylvania	154	29832.5709829295	0.00516214308475527
+The College of Wooster	Ohio	204	39657.3095034151	0.00514407060273295
+Franklin and Marshall College	Pennsylvania	227	44131.5737252682	0.0051437096128305
+Ohio University-Southern Campus	Ohio	24	4688.65604915018	0.00511873759738678
+Kent State University at Tuscarawas	Ohio	28	5476.83083452753	0.00511244565442479
+Drew University	New Jersey	217	42778.9373656061	0.00507258976877873
+University of South Carolina-Lancaster	South Carolina	32	6309.5411202613	0.00507168419859268
+DePauw University	Indiana	194	38290.1732134045	0.00506657410293681
+Paul D Camp Community College	Virginia	19	3752.374832355	0.00506346003500816
+Palm Beach Atlantic University	Florida	125	24960.5943858006	0.00500789356487076
+Grand View University	Iowa	109	21768.5382904878	0.00500722641756932
+Meredith College	North Carolina	144	28761.6475557545	0.00500666728916888
+Misericordia University	Pennsylvania	134	26918.0849828613	0.00497806586483836
+Salve Regina University	Rhode Island	169	33971.2653881436	0.00497479260984442
+St Lawrence University	New York	220	44261.037389095	0.00497051160518446
+Rhode Island School of Design	Rhode Island	204	41197.4092482984	0.00495176768933416
+Springfield College	Massachusetts	157	31754.8474634293	0.00494412704015694
+Keystone College	Pennsylvania	100	20320.6166742493	0.00492111049595862
+Capital University	Ohio	154	31537.3485082003	0.00488309915971398
+Florida Southern College	Florida	132	27044.4415187562	0.00488085508840896
+Centenary College	New Jersey	146	29921.6419836423	0.00487941136652246
+American International College	Massachusetts	141	28898.3611847555	0.00487916941374448
+George Fox University	Oregon	148	30429.1395458432	0.00486375895634609
+Baker University	Kansas	117	24225.2407752646	0.00482967335950956
+Shorter University	Georgia	89	18508.1253806746	0.00480869878334249
+Pennsylvania State University-Penn State Abington	Pennsylvania	65	13569.8633876664	0.00479002611471228
+Elizabethtown College	Pennsylvania	172	36073.7552886902	0.0047680092805288
+Ohio Dominican University	Ohio	132	27746.6524313526	0.00475733064832157
+California Lutheran University	California	161	34033.4079467804	0.00473064584809617
+Boricua College	New York	54	11418.6951495208	0.00472908675578979
+Saint Johns University	Minnesota	164	34806.0470924985	0.00471182491835867
+Pacific University	Oregon	164	34812.2613483622	0.00471098382144358
+Gogebic Community College	Michigan	22	4679.33466535465	0.00470152309534214
+Marian University	Indiana	126	26928.4420759675	0.00467906756894971
+Alpena Community College	Michigan	25	5344.26004276892	0.00467791608191416
+City University of Seattle	Washington	74	15825.6382661839	0.00467595674533535
+Missouri Baptist University	Missouri	95	20351.6879535677	0.0046679174826551
+Evangel University	Missouri	87	18642.7675910544	0.00466668908331756
+Bloomfield College	New Jersey	114	24546.3106615549	0.00464428245742647
+Kettering University	Michigan	144	31058.8508066966	0.00463635956449979
+Charleston Southern University	South Carolina	100	21584.1820331985	0.00463302245348888
+William Woods University	Missouri	91	19678.4769016685	0.00462434163247076
+Pomona College	California	190	41307.1944352235	0.00459968299948213
+Talladega College	Alabama	53	11540.9088481733	0.00459235929312352
+Trinity International University-Illinois	Illinois	117	25488.8061342138	0.00459025029983456
+University of Pittsburgh-Greensburg	Pennsylvania	60	13076.865755814	0.0045882554061797
+University of Mount Union	Ohio	122	26617.7292827832	0.00458341125585463
+University of St Francis	Illinois	123	26858.0138428457	0.0045796387148994
+Otterbein University	Ohio	140	30605.2101286476	0.0045743845381723
+Inter American University of Puerto Rico-Guayama	Puerto Rico	25	5470.61657866385	0.00456986879641747
+Assumption College	Massachusetts	154	33707.159513937	0.00456876231105517
+Central College	Iowa	131	28838.2900447399	0.00454257169189871
+Polytechnic Institute of New York University	New York	178	39234.7401046846	0.00453679569496491
+Saint Anselm College	New Hampshire	152	33701.9809673839	0.00451012064089356
+Alvernia University	Pennsylvania	124	27580.9389416544	0.00449585854427631
+Merrimack College	Massachusetts	153	34038.5864933335	0.00449489875350627
+The University of the Arts	Pennsylvania	155	34696.2619055734	0.00446734003858501
+University of Puget Sound	Washington	179	40102.6645069792	0.00446354381187933
+DeSales University	Pennsylvania	134	30035.5700078098	0.00446137695955686
+Hamilton College	New York	197	44162.6450045866	0.00446078354182681
+Philadelphia University	Pennsylvania	140	31636.7766020193	0.0044252295915338
+Northeast Alabama Community College	Alabama	18	4070.33759071354	0.00442223761514694
+Southwestern College	Kansas	99	22454.1778541144	0.00440897906141149
+Saint Peter's University	New Jersey	136	30864.1374563012	0.00440640857670346
+Louisiana College	Louisiana	61	13857.7905760171	0.00440185610147474
+Adrian College	Michigan	125	28419.8634832518	0.00439833217614378
+Marymount Manhattan College	New York	112	25590.305646654	0.00437665737746451
+AIB College of Business	Iowa	62	14258.6100792248	0.00434824991044084
+Occidental College	California	193	44401.8938553385	0.00434666144261312
+Manhattanville College	New York	159	36633.0383164219	0.00434034432597755
+Itasca Community College	Minnesota	23	5301.79596103375	0.00433815261263194
+Curry College	Massachusetts	144	33360.1968948812	0.00431652128594287
+Emmanuel College	Massachusetts	144	33453.4107328365	0.00430449382725139
+Hardin-Simmons University	Texas	100	23262.0311163934	0.00429885075381604
+East Texas Baptist University	Texas	91	21232.0408675897	0.00428597517155827
+Georgetown College	Kentucky	130	30346.2828009941	0.00428388547132835
+Bryn Mawr College	Pennsylvania	181	42281.7968965114	0.00428080198301445
+Southwestern University	Texas	148	34634.1193469366	0.00427324276726819
+Notre Dame College	Ohio	109	25532.3059252596	0.00426910128364725
+Boston Architectural College	Massachusetts	74	17426.8448603934	0.00424632230290765
+Manchester University	Indiana	114	26876.6566104367	0.00424159900736059
+Centenary College of Louisiana	Louisiana	111	26193.0884654314	0.00423775913812124
+Milwaukee School of Engineering	Wisconsin	136	32096.631535932	0.00423720476236732
+St Olaf College	Minnesota	167	39512.3101999292	0.00422653090024332
+Bridgewater College	Virginia	117	27705.2240589281	0.0042230302758478
+Allegheny College	Pennsylvania	158	37482.3199511255	0.004215320722037
+Kent State University at Trumbull	Ohio	23	5476.83083452753	0.00419950893042037
+Kenyon College	Ohio	185	44152.2879114805	0.00419004334205513
+Goucher College	Maryland	158	37859.318140189	0.00417334510396999
+Chatham University	Pennsylvania	131	31394.4206233356	0.00417271596032026
+McMurry University	Texas	95	22832.2117524886	0.00416078832089693
+University of Dallas	Texas	134	32262.3450256302	0.00415344885480414
+Nebraska Wesleyan University	Nebraska	106	25536.4487625021	0.00415092955899378
+Viterbo University	Wisconsin	94	22650.9626231311	0.00414993400342322
+Bellarmine University	Kentucky	138	33287.6972431382	0.0041456757730049
+Ohio Wesleyan University	Ohio	162	39170.5261274265	0.00413576267709538
+Art Center College of Design	California	145	35259.6877705475	0.00411234498001195
+Asbury University	Kentucky	103	25094.2008868698	0.00410453397039207
+Rhodes College	Tennessee	154	37766.1043022337	0.00407773062234781
+Columbia International University	South Carolina	76	18710.0886962443	0.00406197967491493
+Franklin Pierce University	New Hampshire	123	30501.6391975862	0.00403257015805674
+College of Saint Benedict	Minnesota	143	35533.1150285497	0.00402441496854707
+Hanover College	Indiana	120	29880.2136112177	0.00401603554651126
+Saint Mary's College	Indiana	133	33142.6979396523	0.00401295031087006
+MidAmerica Nazarene University	Kansas	89	22267.7501782039	0.00399681150038746
+Whitworth University	Washington	133	33291.8400803807	0.00399497293267303
+Delaware Valley College	Pennsylvania	127	31800.4186730963	0.0039936581120375
+Lynchburg College	Virginia	127	31905.0253134684	0.00398056415101443
+Carleton College	Minnesota	177	44475.4292163921	0.00397972550503827
+Franklin College	Indiana	106	26788.6213190345	0.00395690389354536
+Huntingdon College	Alabama	90	22775.2477404048	0.00395165844191166
+Wartburg College	Iowa	126	32065.5602566135	0.00392944950880789
+Simpson College	Iowa	114	29127.2529424013	0.0039138603364153
+King's College	Pennsylvania	112	28668.4337177992	0.00390673592783212
+Hiram College	Ohio	117	29983.7845422791	0.00390210914953121
+College of Saint Elizabeth	New Jersey	114	29228.7524548414	0.00390026909893368
+Aquinas College	Michigan	98	25153.2363175748	0.00389611892333419
+Brenau University	Georgia	85	21878.3234774129	0.00388512401728375
+Texas Lutheran University	Texas	96	24784.5238029962	0.00387338488982365
+Greenville College	Illinois	89	22990.6752770125	0.00387113466340798
+McDaniel College	Maryland	139	36021.9698231595	0.00385875621689719
+Ranken Technical College	Missouri	55	14270.0028816415	0.00385423888531641
+Susquehanna University	Pennsylvania	143	37140.5358786228	0.0038502406230037
+Immaculata University	Pennsylvania	115	29880.2136112177	0.00384870073207329
+Lake Area Technical Institute	South Dakota	23	5982.25697810723	0.00384470277424912
+Morton College	Illinois	29	7544.10661851334	0.00384406020042633
+Waynesburg University	Pennsylvania	76	19771.6907396238	0.00384387966617801
+Schreiner University	Texas	81	21081.8630175507	0.00384216517926179
+Denison University	Ohio	160	41645.8713797943	0.00384191745061261
+Dominican College of Blauvelt	New York	91	23759.1715854882	0.00383009986996271
+Benedictine College	Kansas	85	22241.8574454385	0.00382162327083129
+Maryland Institute College of Art	Maryland	148	38808.0278687116	0.00381364393214433
+Millikin University	Illinois	113	29633.7147952916	0.00381322425421852
+Mount Aloysius College	Pennsylvania	74	19419.549574015	0.00381059301699862
+Grinnell College	Iowa	155	41231.5876555486	0.00375925373756839
+Wheelock College	Massachusetts	117	31128.2433305078	0.0037586444810823
+University of Mobile	Alabama	67	17834.9143287754	0.00375667630160131
+Carthage College	Wisconsin	121	32417.7014222224	0.00373252867080374
+New England Institute of Technology	Rhode Island	77	20646.8651070927	0.00372937971942038
+Thiel College	Pennsylvania	96	25743.5906246249	0.00372908353771644
+Mary Baldwin College	Virginia	104	27922.723014157	0.00372456511305403
+Avila University	Missouri	89	23924.8850751865	0.00371997607178919
+Lawrence Technological University	Michigan	101	27216.3692643182	0.00371100197161182
+Westminster College	Missouri	79	21304.5405193327	0.00370812972606998
+Birmingham Southern College	Alabama	112	30335.9257078879	0.00369199216396016
+Mills College	California	150	40666.0903719533	0.00368857686165603
+Rocky Mountain College	Montana	84	22924.3898811332	0.00366421965581435
+Washington College	Maryland	146	39918.3082496899	0.00365746962738919
+Doane College-Crete	Nebraska	89	24432.3826373874	0.00364270653914075
+Mount Ida College	Massachusetts	97	26840.4067845652	0.00361395416912163
+Spring Hill College	Alabama	105	29062.0032558326	0.00361296497958816
+Wittenberg University	Ohio	135	37735.0330229153	0.0035775773647268
+Heidelberg University	Ohio	87	24515.2393822365	0.00354881299111602
+Trine University	Indiana	98	27684.5098727158	0.00353988567796835
+Lawrence University	Wisconsin	141	39855.1299817424	0.00353781307612324
+West Virginia Wesleyan College	West Virginia	91	25855.4472301712	0.00351956781833618
+Rockhurst University	Missouri	104	29683.428842201	0.00350363836175633
+Washington Adventist University	Maryland	73	20900.6138881932	0.00349272037608608
+Multnomah University	Oregon	73	20962.75644683	0.00348236646192772
+Cornell College	Iowa	118	34095.5505054172	0.00346086214332429
+Beloit College	Wisconsin	131	37983.6032574627	0.00344885657929944
+Calumet College of Saint Joseph	Indiana	53	15411.3545419383	0.00343902282280076
+Coker College	South Carolina	79	22992.7466956337	0.00343586614708376
+Alma College	Michigan	104	30273.7831492511	0.00343531561573509
+Bay Path College	Massachusetts	96	28010.7583055592	0.00342725459099574
+Virginia Wesleyan College	Virginia	104	30739.8523390275	0.00338323030484961
+Albright College	Pennsylvania	119	35203.7594677744	0.00338032078957172
+The Juilliard School	New York	117	34830.9041159533	0.00335908593157682
+Millsaps College	Mississippi	102	30534.7818955259	0.00334045287596915
+Muhlenberg College	Pennsylvania	138	41340.3371331631	0.00333814403969378
+Maryville College	Tennessee	103	30992.5654108173	0.00332337767573284
+Trinity Washington University	District of Columbia	72	21724.0027901314	0.00331430633182884
+Clarke University	Iowa	88	26679.8718414201	0.00329836666844034
+Carroll College	Montana	86	26097.8032088549	0.00329529651640642
+Rose-Hulman Institute of Technology	Indiana	138	41891.3344864098	0.00329423738087812
+Barton College	North Carolina	78	23802.671376534	0.00327694311138945
+Mitchell College	Connecticut	94	28703.6478343601	0.00327484508388777
+Earlham College	Indiana	128	39651.0952475515	0.0032281579916233
+Regis College	Massachusetts	106	32920.0204378702	0.00321992509694984
+Northwestern College	Iowa	82	25509.5203204261	0.00321448615928464
+Spartanburg Methodist College	South Carolina	47	14622.1440472503	0.00321430289895402
+University of Great Falls	Montana	65	20279.1883018247	0.00320525649412463
+Howard Payne University	Texas	72	22474.8920403267	0.00320357489908341
+Sweet Briar College	Virginia	103	32205.3810135465	0.00319822330177294
+Vermilion Community College	Minnesota	17	5324.58156586726	0.00319273914573437
+The College of Idaho	Idaho	75	23505.4228043877	0.0031907530710743
+Linfield College-McMinnville Campus	Oregon	107	33573.5530128677	0.00318703236321131
+Eastern Nazarene College	Massachusetts	83	26203.4455585376	0.00316752237084932
+Averett University	Virginia	80	25354.163923834	0.00315530025917347
+Savannah College of Art and Design	Georgia	101	32117.3457221443	0.00314471814930717
+Saint Joseph's College of Maine	Maine	93	29724.8572146256	0.00312869459148288
+Metropolitan College of New York	New York	54	17317.0596734683	0.00311831228962814
+California College of the Arts	California	119	38362.6728651475	0.00310197364032243
+Saint Michael's College	Vermont	116	37534.1054166562	0.00309052257173349
+Quincy University	Illinois	77	25002.0227582252	0.00307975081634819
+Reed College	Oregon	136	44328.3584942849	0.00306801344826549
+Westmont College	California	112	36923.0369233938	0.00303333661942197
+Lebanon Valley College	Pennsylvania	104	34385.5491123892	0.00302452636891375
+Goshen College	Indiana	80	26617.7292827832	0.00300551557760959
+William Jewell College	Missouri	92	30656.9955941783	0.00300094638163012
+Randolph College	Virginia	94	31460.7060192149	0.00298785411689708
+College of Mount Saint Vincent	New York	86	28803.075928179	0.00298579221936027
+Dakota Wesleyan University	South Dakota	64	21553.1107538801	0.00296940895125676
+Pennsylvania State University-Penn State Hazleton	Pennsylvania	40	13513.9350848932	0.0029599076618856
+Kalamazoo College	Michigan	110	37202.6784372596	0.00295677635645265
+Voorhees College	South Carolina	33	11164.9463684204	0.00295567922236862
+Becker College	Massachusetts	87	29507.3582593966	0.00294841711125715
+Hollins University	Virginia	94	31894.6682203622	0.00294720106039506
+Roanoke College	Virginia	100	34074.836319205	0.00293471695838019
+Hilbert College	New York	57	19616.3343430317	0.00290574166422934
+Milligan College	Tennessee	76	26162.017186113	0.00290497477542907
+Sarah Lawrence College	New York	135	46826.4893514862	0.00288298358193524
+Columbia College	California	18	6249.46998024568	0.00288024425381629
+California Institute of the Arts	California	114	39626.2382240967	0.00287688171042884
+Pennsylvania State University-Penn State Beaver	Pennsylvania	39	13569.8633876664	0.00287401566882737
+Presbyterian College	South Carolina	93	32396.9872360101	0.00287063730100891
+Ursinus College	Pennsylvania	124	43313.363369883	0.00286285779612813
+Dunwoody College of Technology	Minnesota	52	18189.1269130054	0.0028588507985405
+Salem College	North Carolina	67	23531.3155371531	0.00284726962647775
+Wesley College	Delaware	63	22335.0712833938	0.00282067602116143
+Westminster College	Missouri	79	28152.6504811134	0.00280613010320284
+Wilmington College	Ohio	78	27798.4378968833	0.00280591306206976
+Lincoln College	Illinois	65	23821.3141441251	0.0027286487893461
+Pennsylvania State University-Penn State Greater Allegheny	Pennsylvania	37	13569.8633876664	0.00272663024991315
+Coe College	Iowa	91	33536.2674776856	0.00271348026611935
+Brevard College	North Carolina	64	23676.3148406391	0.00270312337163838
+Briar Cliff University	Iowa	69	25575.8057163054	0.00269786222046605
+Culver-Stockton College	Missouri	63	23355.2449543487	0.00269746689119052
+Hannibal-LaGrange University	Missouri	47	17505.5587680001	0.00268486145588882
+Dean College	Massachusetts	85	31661.633625474	0.00268463721756958
+Pennsylvania State University-Penn State Schuylkill	Pennsylvania	36	13458.00678212	0.00267498750616092
+Ohio University-Lancaster Campus	Ohio	13	4881.29798092441	0.00266322606216679
+Ohio University-Zanesville Campus	Ohio	13	4881.29798092441	0.00266322606216679
+Hampshire College	Massachusetts	118	44431.9294253463	0.0026557478265323
+Otis College of Art and Design	California	97	36668.2524329828	0.00264534013932852
+Hood College	Maryland	85	32169.131187675	0.00264228460209601
+Walla Walla University	Washington	65	24751.3811050565	0.00262611608314337
+Pennsylvania State University-Penn State York	Pennsylvania	35	13429.0069214228	0.0026062984556338
+LaGrange College	Georgia	62	24103.0270766121	0.00257229101568576
+Notre Dame de Namur University	California	79	30957.3512942564	0.00255189790783739
+Whitman College	Washington	106	41942.0842426299	0.00252729452801636
+Austin College	Texas	81	32386.6301429039	0.00250103205065154
+Westminster College	Missouri	79	31599.4910668372	0.00250004026434807
+College of Our Lady of the Elms	Massachusetts	73	29215.2882338035	0.00249869176082732
+Warren Wilson College	North Carolina	69	27627.545860632	0.00249750739164719
+Oakland City University	Indiana	43	17234.2029286192	0.00249503851022864
+Pacific Union College	California	67	26892.192250096	0.00249142945940976
+Nichols College	Massachusetts	78	31485.5630426696	0.00247732587453791
+Saint Martin's University	Washington	71	28893.1826382025	0.0024573270757
+Oglethorpe University	Georgia	74	30190.926404402	0.00245106754952741
+College of Saint Mary	Nebraska	61	25120.0936196352	0.00242833489889222
+Thomas More College	Kentucky	65	26767.9071328223	0.00242828098877773
+Fisher College	Massachusetts	64	26698.5146090111	0.0023971371043391
+Hampden-Sydney College	Virginia	84	35083.6171877431	0.00239427991562245
+Stephens College	Missouri	66	27570.5818485482	0.00239385589910847
+North Central University	Minnesota	43	18021.3420046859	0.00238605981667842
+Lyon College	Arkansas	56	23723.9574689273	0.00236048307173651
+Saint Josephs College	Indiana	64	27270.2261484701	0.00234688189425193
+Pennsylvania State University-Penn State Wilkes-Barre	Pennsylvania	31	13458.00678212	0.00230346146363857
+Converse College	South Carolina	65	28295.5783659781	0.00229717870259738
+Huntington University	Indiana	55	24038.813099354	0.00228796653864237
+Kentucky Wesleyan College	Kentucky	46	20211.8671966348	0.00227589067118246
+Bethany College	Kansas	51	22451.0707261826	0.00227160658046137
+Ripon College	Wisconsin	67	29713.4644122089	0.00225487001685575
+Ohio University-Chillicothe Campus	Ohio	11	4881.29798092441	0.00225349897567959
+Otero Junior College	Colorado	8	3562.84002851262	0.0022453997193188
+Pitzer College	California	98	44069.4311666314	0.00222376367031948
+Thomas College	Maine	52	23583.1010026838	0.00220496871866352
+Anna Maria College	Massachusetts	68	30926.280014938	0.0021987772201233
+Brescia University	Kentucky	41	18994.9087566632	0.00215847312167886
+Mount Marty College	South Dakota	46	21393.6115200455	0.00215017459566837
+The New England Conservatory of Music	Massachusetts	79	38010.5316995387	0.00207837134782723
+Pennsylvania State University-Penn State Brandywine	Pennsylvania	28	13569.8633876664	0.00206339586479914
+Columbus College of Art and Design	Ohio	58	28616.6482522685	0.00202679221859612
+Pennsylvania State University-Penn State Lehigh Valley	Pennsylvania	27	13561.5777131815	0.00199091879802132
+Iowa Wesleyan College	Iowa	46	23987.0276338233	0.0019177032145132
+Sterling College	Kansas	40	20869.5426088748	0.00191666874304135
+Bennington College	Vermont	84	44328.3584942849	0.00189494948275222
+Minneapolis College of Art and Design	Minnesota	60	31678.2049744439	0.00189404671282368
+Pennsylvania State University-Penn State Worthington Scranton	Pennsylvania	25	13429.0069214228	0.00186164175402414
+Goldey-Beacom College	Delaware	36	20569.1869087967	0.00175019071777719
+Ohio University-Eastern Campus	Ohio	8	4688.65604915018	0.00170624586579559
+Pennsylvania State University-Penn State New Kensington	Pennsylvania	23	13513.9350848932	0.00170194690558422
+Southwestern Adventist University	Texas	30	17689.9150252894	0.00169588152103117
+The Master's College and Seminary	California	42	27601.6531278666	0.00152164798990234
+Capitol College	Maryland	31	21720.8956621996	0.00142719713229637
+San Francisco Art Institute	California	51	36162.8262894031	0.00141028800104998
+Sterling College	Kansas	40	28535.8629260406	0.0014017448886572
+Moore College of Art and Design	Pennsylvania	45	32602.0576795117	0.00138028097619984
+School of the Museum of Fine Arts-Boston	Massachusetts	41	34350.3349958283	0.0011935837017304
+Cleveland Institute of Art	Ohio	33	35091.902862228	0.000940387876073836
