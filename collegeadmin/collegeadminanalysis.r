@@ -15,6 +15,7 @@ library(gplots)
 library(scales)
 library(XML)
 library(lubridate)
+library(xtable)
 
 ##### Part 1: Load in the data
 
