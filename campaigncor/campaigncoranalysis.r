@@ -182,9 +182,9 @@ dev.off()
 indmatforheat = t(matforheat)
 heatrowcolorsind = heatcolcolors
 heatcolcolorsind = heatrowcolors
-curlook = 5
-# curcompare = c(which(rownames(indmatforheat)==siginfo4aa$cand1id[curlook]),which(rownames(indmatforheat)==siginfo4aa$cand2id[curlook]))
-curcompare = c(which(rownames(indmatforheat)==siginfo4$cand1id[curlook]),which(rownames(indmatforheat)==siginfo4$cand2id[curlook]))
+curlook = 326
+curcompare = c(which(rownames(indmatforheat)==siginfo4aa$cand1id[curlook]),which(rownames(indmatforheat)==siginfo4aa$cand2id[curlook]))
+# curcompare = c(which(rownames(indmatforheat)==siginfo4$cand1id[curlook]),which(rownames(indmatforheat)==siginfo4$cand2id[curlook]))
 png(paste("./plots/topassociations",paste(rownames(indmatforheat[curcompare,]),collapse="-"),".png",sep=""),width=1000,height=200)
 heatmap.2(indmatforheat[curcompare,],Rowv=FALSE,Colv=FALSE,dendrogram="none",breaks=c(-.5,.5,1.5),col=c("#F1F1F1","#3B3C36"),trace="none",labRow="",labCol="",key=FALSE,ColSideColors=heatcolcolorsind,RowSideColors=heatrowcolorsind[curcompare],lwid=c(0.01,5,0.01),lhei=c(0.01,0.89,0.1),keysize=0.1,margins=c(.01,.01),rowsep=1,sepcolor="white")
 dev.off()

@@ -1,0 +1,3 @@
+:v/openRow/d
+:w datacleaned.html
+grep -no 'rel="[^"]*"' datacleaned.html > spreadsheeturls.txt

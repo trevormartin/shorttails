@@ -1,0 +1,273 @@
+/* getsat.widget.css */
+
+
+iframe.gsfn-iframe{
+    border:none;
+    margin:0;padding:0;
+    width:100%;
+}
+
+.gsfn-widget-tab {
+    position: fixed;
+    margin: 0;
+    padding: 6px 10px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-width: 2px;
+    border-style: solid;
+    display: block;
+    z-index: 100000;
+}
+
+.gsfn-bottom {
+    left: 50%;
+    border-bottom: none;
+    bottom: 0px;
+}
+
+.gsfn-right,
+.gsfn-left {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.ie8.gsfn-right,
+.ie8.gsfn-left {
+    position: absolute;
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+}
+
+.gsfn-left{
+    border-top: none;
+    left: 0px;
+    top: 33%;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+}
+
+.gsfn-right {
+    border-bottom: none;
+    right: 0px;
+    top: 33%;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+}
+
+/* jqModal base Styling courtesy of;
+    Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+    the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+.gsfn-modal {
+    display: none;
+    position: fixed;
+    top: 15%; left: 50%;
+
+    margin-left: -372px;
+    width: 745px; height:425px;
+
+    background-color: #EEE;
+    color: #333;
+    border: 1px solid #202020;
+
+    box-shadow: #202020 0 0 75px;
+    -webkit-box-shadow: #202020 0 0 75px;
+    -moz-box-shadow: #202020 0 0 75px;
+}
+
+a#getsat-widget-logo{
+    display:block;
+    margin-top:10px;
+    width:118px;height:30px;
+    background:transparent url('/assets/widget_common/logo_color_bw.png') no-repeat top left;
+    text-indent:-9999px;
+    float:right;
+}
+a#getsat-widget-logo.grayscale{
+    background-position:0 -60px;
+}
+a#getsat-widget-logo.none{
+    display: none;
+}
+a#getsat-widget-logo:focus{ outline:none; }
+
+.gsfn-jqmOverlay { background-color: #000; }
+
+a.gsfn-jqmClose{
+    display:block;
+    position:absolute;
+    top: -21px;
+    width: 42px;
+    height: 42px;
+    left: -21px;
+    background: transparent url('/assets/widget_common/close_x.png');
+    text-indent: -9999px;
+    overflow: hidden;
+    z-index:4;
+    cursor: pointer;
+}
+a.gsfn-jqmClose:focus{ outline:none; }
+
+div.gsfn-jqmContent{ width:100%; height:100%; }
+
+
+div.gsfn-auth-overlay {
+  width: 745px;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -349px;
+  z-index: 3001;
+  color: #333;
+  border: 5px solid #d9d9d9;
+  background: #ffffff url('/assets/widget_common/loader_lrg.gif') no-repeat 50% 50%;
+}
+
+.gsfn-auth-overlay iframe { float: left }
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+    width: expression(this.parentNode.offsetWidth+'px');
+    height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .gsfn-modal {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+.gsfn-oldie-wrap {
+  font-family: Arial, Helvetica;
+  overflow: hidden;
+  background: #d9d9d9 url('/assets/widget_common/not-support-bg.jpg') top left repeat-x;
+}
+
+.gsfn-oldie {
+  padding: 50px;
+  min-height: 224px;
+  position: relative;
+  max-height: 373px;
+  overflow: auto;
+}
+
+.gsfn-compat {
+    background-color: #fff;
+    font-size: 10pt;
+    padding: 25px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.gsfn-not-support-title {
+  padding: 0 0 6px;
+  margin: 0;
+  color: #641D63;
+  font-size: 30px;
+  font-weight: bold;
+  word-spacing: -3px;
+  font-family: georgia;
+}
+
+.gsfn-not-support {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #333333;
+}
+
+.gsfn-browsers {
+  margin: 18px 0;
+  overflow: hidden;
+}
+
+.gsfn-browsers a {
+  margin-right: 7px
+}
+
+.gsfn-browser {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222222;
+}
+
+.gsfn-browser,
+.gsfn-browser-r,
+.gsfn-browser-lbl {
+  background-image: url('/assets/widget_common/buttons-bg.png');
+  float: left;
+}
+
+.gsfn-browser-lbl {
+  height: 43px;
+  line-height: 1;
+  float: left;
+  position: relative;
+  padding: 10px 0 0 32px;
+}
+
+.gsfn-browser-icon {
+  background-image: url('/assets/widget_common/browser-icons.jpg');
+  background-repeat: no-repeat;
+  position: absolute;
+  overflow: hidden;
+  top: 11px;
+  left: -5px;
+  width: 30px;
+  height: 30px;
+}
+
+.gsfn-ff {
+  background-position: 0 0
+}
+
+.gsfn-ie {
+  background-position: 0 -30px
+}
+
+.gsfn-ch {
+  background-position: 0 -60px
+}
+
+.gsfn-browser {
+  text-decoration: none;
+  padding-left: 14px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.gsfn-browser-r {
+  padding-right: 14px;
+  background-position: 100% -106px;
+  background-repeat: no-repeat;
+}
+
+.gsfn-browser-lbl {
+  background-position: 0 -53px;
+  background-repeat: repeat-x
+}
+
+.gsfn-browser:hover {
+  background-position: 0 -159px;
+}
+
+.gsfn-browser:hover .gsfn-browser-r {
+  background-position: 100% -265px;
+}
+
+.gsfn-browser:hover .gsfn-browser-lbl {
+  background-position: 0 -212px;
+}
