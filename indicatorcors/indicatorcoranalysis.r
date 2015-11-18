@@ -57,18 +57,55 @@ allspreadnamescc = allspreadnamesc[!namethresh]
 
 ##### Part 2: Format and clean up the data
 
-# Convert data to ranks for each country
+# Put country data as row names and combine duplicated rows
+allspreaddataccf = vector("list",length(allspreaddatacc))
+for(i in 1:length(allspreaddatacc)) {
+	allspreaddatacollapse = aggregate(.~country,data=allspreaddatacc[[i]],FUN=sum,na.action=na.pass)
+	allspreaddataccf[[i]] = allspreaddatacollapse[,-1]
+	rownames(allspreaddataccf[[i]]) = allspreaddatacollapse[,1]
+}
 
-
+# Take median of each column for a combined representation for each indicator
+allspreaddatacomb = vector("list",length(allspreaddataccf))
+for(i in 1:length(allspreaddataccf)) {
+	allspreaddatacomb[[i]] = apply(allspreaddataccf[[i]],2,median,na.rm=TRUE)
+}
 
 ##### Part 3: Analysis of correlations between indicators
 
 
-# Look at correlations between indicators for each country across years
+
+# Look at spearman correlations between indicators for each country across years
 # Take median of country correlations as measure of indicator correlation
 # Heatmap indicator correlations
 
-# Could also take first PC of each indicator matrix and just correlate those
+# also look at correlations between medians of indicator matrices
+
+combcors = matrix(-10,nrow=length(allspreaddatacomb),ncol=length(allspreaddatacomb))
+for(i in 1:length(allspreaddatacomb)) {
+	curivar = allspreaddatacomb[[i]]
+	for(j in 1:length(allspreaddatacomb)) {
+		curjvar = allspreaddatacomb[[j]]
+		curmatchup = match(names(curivar),names(curjvar))
+		combcors[i,j] = cor(curivar[!is.na(curmatchup)],curjvar[curmatchup[!is.na(curmatchup)]],method="spearman",use="na.or.complete")
+	}
+}
+
+# Remove indicators if they were NA with all others
+removenainds = which(apply(is.na(combcors),2,sum)==ncol(combcors))
+combcorsnona = combcors[-removenainds,-removenainds]
+png("./plots/test.png",width=1500,height=1000)
+heatmap.2(combcorsnona,Rowv=TRUE,trace="none",labRow=allspreadnamescc[-removenainds],labCol="",key=TRUE,na.rm=FALSE)
+dev.off()
+
+
+
+
+
+
+
+
+
 
 
 
