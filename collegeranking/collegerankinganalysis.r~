@@ -22,8 +22,8 @@ scorecardrawdata2011 = read.csv("~/Dropbox/Short Tails/College Rankings/CollegeS
 scorecardrawdata2013 = read.csv("~/Dropbox/Short Tails/College Rankings/CollegeScorecard_Raw_Data/MERGED2013_PP.csv",header=TRUE,comment.char="",quote="",stringsAsFactors=FALSE)
 
 # Extract variables of interest (latitude and longitude only available in 2013 data)
-scorecardpulldata2011 = scorecardrawdata3[,c("UNITID","INSTNM","CITY","STABBR","SAT_AVG","CURROPER","COSTT4_A","GRAD_DEBT_MDN","md_earn_wne_p6","UGDS","CONTROL","LO_INC_DEBT_MDN","ADM_RATE_ALL")]
-scorecardpulldata2013 = scorecardrawdata[,c("UNITID","LATITUDE","LONGITUDE")]
+scorecardpulldata2011 = scorecardrawdata2011[,c("UNITID","INSTNM","CITY","STABBR","SAT_AVG","CURROPER","COSTT4_A","GRAD_DEBT_MDN","md_earn_wne_p6","UGDS","CONTROL","LO_INC_DEBT_MDN","ADM_RATE_ALL")]
+scorecardpulldata2013 = scorecardrawdata2013[,c("UNITID","LATITUDE","LONGITUDE")]
 scorecardpullmerge = merge(scorecardpulldata2013,scorecardpulldata2011,by="UNITID")
 
 ##### Part 2: Format and clean up the data for analysis
@@ -56,7 +56,7 @@ scorecarddatapmap = scorecarddatap[-which(scorecarddatap$LATITUDE < 25 | scoreca
 all_states = map_data("state")
 rankingmapbase = ggplot() + geom_polygon(data=all_states, aes(x=long, y=lat, group=group),colour="white", fill="grey10") + theme_bw(base_size=25) + theme(axis.line = element_line(colour = "black"),panel.grid = element_blank(),panel.border = element_blank())
 rankingmap = rankingmapbase + geom_point(data=scorecarddatapmap, aes(x=LONGITUDE, y=LATITUDE, size=log10(UGDS), color=log10(edratio), alpha=(edratio^2))) + scale_size(name="Total Enrollment") + scale_color_continuous(name="Earnings to Debt Ratio",low="light grey",high="red")
-png("./plots/rankingscatter.png",width=7,height=4,units="in",res=300)
+png("./plots/rankingmap.png",width=17,height=9,units="in",res=300)
 rankingmap
 dev.off()
 
@@ -83,6 +83,21 @@ sink()
 sink("bottomearningdebtratiohtmltable.html")
 print(xtable(forwritehtmlobottomhtml,display=c("s","s","s","d","f","d","d")),type="html")
 sink()
+# Create graphic table
+forwritegraphictop = forwritehtmlotophtml
+forwritegraphictop$"E/D Ratio" = round(forwritehtmlotophtml$"E/D Ratio",2)
+forwritegraphictop = data.frame(Institution=rownames(forwritehtmlotophtml),forwritegraphictop)
+rownames(forwritegraphictop) = 1:nrow(forwritegraphictop)
+forwritegraphicbottom = forwritehtmlobottomhtml
+forwritegraphicbottom$"E/D Ratio" = round(forwritehtmlobottomhtml$"E/D Ratio",2)
+forwritegraphicbottom = data.frame(Institution=rownames(forwritehtmlobottomhtml),forwritegraphicbottom)
+rownames(forwritegraphicbottom) = 1:nrow(forwritegraphicbottom)
+png("./plots/topearningdebtratiographic.png",width=10,height=5,units="in",res=300)
+grid::grid.draw(tableGrob(format(forwritegraphictop, big.mark=",")))
+dev.off()
+png("./plots/bottomearningdebtratiographic.png",width=10,height=5,units="in",res=300)
+grid::grid.draw(tableGrob(format(forwritegraphicbottom, big.mark=",")))
+dev.off()
 
 # Scatterplot of earnings versus debt for students whose families earn $0-30,000
 scorecarddataplo = data.frame(scorecarddata,edratio=(scorecarddata$md_earn_wne_p6/scorecarddata$LO_INC_DEBT_MDN))
@@ -111,6 +126,14 @@ rownames(forwritehtmllootophtml) = forwritehtmllootop[,1]
 sink("topearningdebtratiolowincomehtmltable.html")
 print(xtable(forwritehtmllootophtml,display=c("s","s","s","d","f","d","d")),type="html")
 sink()
+# Create graphic table
+forwritegraphiclootop = forwritehtmllootophtml
+forwritegraphiclootop$"E/D Ratio" = round(forwritehtmllootophtml$"E/D Ratio",2)
+forwritegraphiclootop = data.frame(Institution=rownames(forwritehtmllootophtml),forwritegraphiclootop)
+rownames(forwritegraphiclootop) = 1:nrow(forwritegraphiclootop)
+png("./plots/topearningdebtratiolowincomegraphic.png",width=10,height=5,units="in",res=300)
+grid::grid.draw(tableGrob(format(forwritegraphiclootop, big.mark=",")))
+dev.off()
 
 ##### Part 4: Analysis of college student debt and earnings compared to college selectivity
 
