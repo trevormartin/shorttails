@@ -20,7 +20,7 @@ library(lubridate)
 ##### Part 1: Load in the data
 
 # CEO pay data from Execucomp
-ceopayraw = read.table("~/Dropbox/Short Tails/CEO Worker Compensation/execcomplarge.txt",header=TRUE,comment.char="",quote="",stringsAsFactors=FALSE,sep="\t")
+ceopayrawc = read.table("~/Dropbox/Short Tails/CEO Worker Compensation/execcomplarge.txt",header=TRUE,comment.char="",quote="",stringsAsFactors=FALSE,sep="\t")
 # Worker pay data from http://data.bls.gov/timeseries/CES0500000031
 workerpayraw = read.table("~/Dropbox/Short Tails/CEO Worker Compensation/averageweeklyearnings.csv",header=TRUE,sep=",")
 # CPI data from https://fred.stlouisfed.org/series/CPIAUCSL/downloaddata
@@ -28,6 +28,30 @@ monthlycpi = read.csv("~/Dropbox/Short Tails/CEO Worker Compensation/CPIAUCSL.cs
 monthlycpi$cpi_year = year(monthlycpi$DATE)
 yearlycpi = monthlycpi %>% group_by(cpi_year) %>% summarize(cpi = mean(VALUE))
 yearlycpi$adj_factor = yearlycpi$cpi/yearlycpi$cpi[yearlycpi$cpi_year == 2015]
+# SIC divisions
+sicdivs = c(rep("Agriculture, Forestry and Fishing",999),rep("Mining",500),rep("Construction",300),rep("not used",200),rep("Manufacturing",2000),rep("Transportation, Communications, Electric, Gas and Sanitary Service",1000),rep("Wholesale Trade",200),rep("Retail Trade",800),rep("Finance, Insurance and Real Estate",800),rep("Services",2200),rep("Public Administration",730),rep("Nonclassifiable",270))
+ceopayraw = data.frame(ceopayrawc,sicdiv=sicdivs[match(ceopayrawc$SIC,1:length(sicdivs))])
+# Stock price information
+stockdataraw = xts()
+allsymbols = unique(ceopayraw$TICKER)
+#for(i in 1:length(allsymbols)) {
+for(i in 907:length(allsymbols)) {
+    print(i)
+    symbol = allsymbols[i]
+    #cursymboldata = tryCatch(getSymbols(symbol,src="google",from="1992-01-01",to="2016-01-01",auto.assign=FALSE),error=function(cond) { return(NA) })
+    cursymboldata = tryCatch(getSymbols(symbol,src="yahoo",from="1992-01-01",to="2016-01-01",auto.assign=FALSE),error=function(cond) { return(NA) })
+    if(length(cursymboldata)>1) {
+    stockdataraw = merge(stockdataraw, cursymboldata[,paste(symbol, "Close", sep=".")])
+    }
+}
+1+1
+stockdatarawdf = as.data.frame(stockdataraw)
+stockdatayears = year(rownames(stockdatarawdf))
+stockdatarawyearc = aggregate(stockdatarawdf,by=list(stockdatayears),FUN=mean,na.rm=TRUE)
+stockdatarawyearh = stockdatarawyearc[,-1]; rownames(stockdatarawyearh) = stockdatarawyearc[,1]
+stockdatarawyear = t(stockdatarawyearh)
+rownames(stockdatarawyear) = unlist(sapply(strsplit(colnames(stockdatarawyearh),split="\\."),"[",1))
+save(stockdatarawyear,file="stockdatarawyear.rdata")
 
 ##### Part 2: Format and clean up the data for analysis
 
@@ -45,15 +69,18 @@ ceopaybyyear = ceopayinfadj %>% group_by(YEAR) %>% summarize(TDC1 = mean(TDC1,na
 ceopaybyyearind = ceopayinfadj %>% group_by(YEAR,SIC)%>% summarize(TDC1 = mean(TDC1,na.rm=T),TDC2 = mean(TDC2,na.rm=T),TOTAL_SEC = mean(TOTAL_SEC,na.rm=T),TOTAL_ALT1 = mean(TOTAL_ALT1,na.rm=T),TOTAL_ALT2 = mean(TOTAL_ALT2,na.rm=T))
 ceopaybyyearindtdc2c = dcast(ceopaybyyearind,SIC~YEAR,fun.aggregate=mean,value.var="TDC2")
 ceopaybyyearindtdc2 = ceopaybyyearindtdc2c[,-1]; rownames(ceopaybyyearindtdc2) = ceopaybyyearindtdc2c[,1]
+# Summarize data by year and industry division
+ceopaybyyearinddiv = ceopayinfadj %>% group_by(YEAR,sicdiv)%>% summarize(TDC1 = mean(TDC1,na.rm=T),TDC2 = mean(TDC2,na.rm=T),TOTAL_SEC = mean(TOTAL_SEC,na.rm=T),TOTAL_ALT1 = mean(TOTAL_ALT1,na.rm=T),TOTAL_ALT2 = mean(TOTAL_ALT2,na.rm=T))
+ceopaybyyearinddivtdc2c = dcast(ceopaybyyearinddiv,sicdiv~YEAR,fun.aggregate=mean,value.var="TDC2")
+ceopaybyyearinddivtdc2 = ceopaybyyearinddivtdc2c[,-1]; rownames(ceopaybyyearinddivtdc2) = ceopaybyyearinddivtdc2c[,1]
 # Summarize data by year and gender
-
+ceopaybyyeargender = ceopayinfadj %>% group_by(YEAR,GENDER)%>% summarize(TDC1 = mean(TDC1,na.rm=T),TDC2 = mean(TDC2,na.rm=T),TOTAL_SEC = mean(TOTAL_SEC,na.rm=T),TOTAL_ALT1 = mean(TOTAL_ALT1,na.rm=T),TOTAL_ALT2 = mean(TOTAL_ALT2,na.rm=T))
+ceopaybyyeargendertdc2c = dcast(ceopaybyyeargender,GENDER~YEAR,fun.aggregate=mean,value.var="TDC2")
+ceopaybyyeargendertdc2 = ceopaybyyeargendertdc2c[,-1]; rownames(ceopaybyyeargendertdc2) = ceopaybyyeargendertdc2c[,1]
 # Summarize data by year and company
 ceopaybyyearcomp = ceopayinfadj %>% group_by(YEAR,CONAME)%>% summarize(TDC1 = mean(TDC1,na.rm=T),TDC2 = mean(TDC2,na.rm=T),TOTAL_SEC = mean(TOTAL_SEC,na.rm=T),TOTAL_ALT1 = mean(TOTAL_ALT1,na.rm=T),TOTAL_ALT2 = mean(TOTAL_ALT2,na.rm=T))
 ceopaybyyearcomptdc2c = dcast(ceopaybyyearcomp,CONAME~YEAR,fun.aggregate=mean,value.var="TDC2")
 ceopaybyyearcomptdc2 = ceopaybyyearcomptdc2c[,-1]; rownames(ceopaybyyearcomptdc2) = ceopaybyyearcomptdc2c[,1]
-# Summarize data by state or zipcode
-
-
 
 ##### Part 3: Analysis of CEO pay and comparison to worker pay
 
@@ -69,8 +96,9 @@ ceopayinfadj$SICDESC[match(names(which(test<0)),ceopayinfadj$SIC)]
 test=apply(ceopaybyyearcomptdc2,1,cor,as.numeric(colnames(ceopaybyyearcomptdc2)),method="spearman")
 rownames(ceopaybyyearcomptdc2)[which(test<0)]
 # Have female CEO salaries had same trajectory as men?
+test=sweep(ceopaybyyearinddivtdc2,2,colSums(ceopaybyyearinddivtdc2),`/`)
 # Correlation between age and pay?
-
+# heatmap of company pay over time, with barplot of total pay over time on top?
 
 
 
