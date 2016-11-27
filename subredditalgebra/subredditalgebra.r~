@@ -133,7 +133,6 @@ tsnecolors = kmeanscols
 tsneclusters = kmeans_out$cluster
 save(tsnecoords,tsnesizes,tsnecolors,tsneclusters,file="tsnedata.rdata")
 ## Subreddit similarity matrix
-# need sim mat, names
 subsimmat = subredditvecsppmi
 save(subsimmat,file="subredsimdata.rdata")
 
