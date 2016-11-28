@@ -15,7 +15,6 @@ library(ggplot2)
 library(reshape2)
 library(gridExtra)
 library(gplots)
-#library(scales)
 library(xtable)
 library(lubridate)
 library(lsa)
@@ -24,6 +23,7 @@ library(Rtsne)
 ##### Part 0: Formatted and processed data in BigQuery
 
 ## Creating list of number of users in each subreddit: 
+## Thanks to Reddit users /u/Stuck_In_the_Matrix for pulling the data originally and /u/fhoffa for hosting the data on BigQery
 #SELECT subreddit, authors, DENSE_RANK() OVER (ORDER BY authors DESC) AS rank_authors
 #FROM (SELECT subreddit, SUM(1) as authors
 #      FROM (SELECT subreddit, author, COUNT(1) as cnt 
@@ -135,12 +135,3 @@ save(tsnecoords,tsnesizes,tsnecolors,tsneclusters,file="tsnedata.rdata")
 ## Subreddit similarity matrix
 subsimmat = subredditvecsppmi
 save(subsimmat,file="subredsimdata.rdata")
-
-
-
-
-
-
-test=cosine(x=cursubmat[which(rownames(cursubmat)=="dataisbeautiful"),],y=t(cursubmat))
-test=cosine(x=(cursubmat[which(rownames(cursubmat)=="Sacramento"),]+cursubmat[which(rownames(cursubmat)=="sanfrancisco"),]),y=t(cursubmat))
-

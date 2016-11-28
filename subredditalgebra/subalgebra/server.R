@@ -1,8 +1,10 @@
+require(shiny)
 require(lsa)
 
 # Load the subreddit vector representations
 load("./data/subredsimdata.rdata")
 
+subsimmatt = t(subsimmat)
 curallnames = rownames(subsimmat)
 curallnameslc = tolower(curallnames)
 # Function to calculate distance between subreddits
@@ -11,9 +13,9 @@ findrelsubreddit <- function(cursubs,curops,numret=nrow(subsimmat)) {
     for(i in 1:length(cursubs)) {
             curvec = ifelse(curops[i]=="+",list(curvec + subsimmat[which(curallnameslc==cursubs[i]),]),list(curvec - subsimmat[which(curallnameslc==cursubs[i]),]))[[1]]
     }
-    curclosesubs = cosine(x=curvec,y=t(subsimmat))
+    curclosesubs = cosine(x=curvec,y=subsimmatt)
     curclosesubso = order(curclosesubs,decreasing=TRUE)
-return(curclosesubs[curclosesubso][1:10])
+return(curclosesubs[curclosesubso])
 }
 
 # Function to validate subreddit inputs
@@ -65,9 +67,13 @@ function(input, output) {
     dhh = data.frame(data())
     baseurls = paste0("http://www.reddit.com/r/",rownames(dhh))
     dh = data.frame(dhh,subredditlink=paste0("<a href='",baseurls,"' target='_blank'>",baseurls,"</a>"))
-    d = dh[-which(rownames(dh)%in%cursubs),]
-    d
-  },escape=FALSE))
+    d = dh[-which(tolower(rownames(dh))%in%cursubs),]
+    dfull = data.frame(d,subname=rownames(d),rank=1:nrow(d))
+    rownames(dfull) = NULL
+    dfullo = dfull[,c("rank","subname","data..","subredditlink")]
+    dfullo
+  },escape=FALSE,colnames=c("Similarity Rank","Subreddit Name","Similarity Score","Link"),rownames=FALSE,extensions="Buttons",options=list(dom='lBfrtip',buttons=c("copy","csv","excel"))))
+
 
 }
 )
