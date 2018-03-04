@@ -1,0 +1,46 @@
+bigquery: ***
+
+Combine months into one matrix: 
+
+SELECT *
+FROM TABLE_QUERY([fh-bigquery:reddit_posts], "REGEXP_MATCH(table_id, '^2016_..$')")
+
+Subset columns: 
+
+SELECT created_utc,subreddit,num_comments,score,ups,downs,id,gilded,stickied,is_self,hide_score,distinguished
+FROM [subreddit-vectors:posttimes.all_2016_posts]
+
+Calculate hour of day (GMT/UTC): ***
+
+SELECT created_utc,subreddit,num_comments,score,ups,downs,id,gilded,stickied,is_self,hide_score,distinguished, HOUR(FORMAT_UTC_USEC(created_utc*1000000)) hour
+FROM [subreddit-vectors:posttimes.all_2016_posts]
+
+Number of posts per hour per subreddit: 
+
+SELECT subreddit, hour, COUNT(*) total
+FROM [subreddit-vectors:posttimes.all_2016_posts_subsetcols_hours]
+GROUP BY subreddit, hour
+
+Average final score of posts per hour per subreddit: 
+
+SELECT subreddit, hour, AVG(score) avg_score
+FROM [subreddit-vectors:posttimes.all_2016_posts_subsetcols_hours]
+GROUP BY subreddit, hour
+
+Average number of comments per hour per subreddit: 
+
+SELECT subreddit, hour, AVG(num_comments) avg_comments
+FROM [subreddit-vectors:posttimes.all_2016_posts_subsetcols_hours]
+GROUP BY subreddit, hour
+
+Average final score and number of comments per subreddit: 
+
+SELECT subreddit, hour, AVG(score) avg_score, AVG(num_comments) avg_comments
+FROM [subreddit-vectors:posttimes.all_2016_posts_subsetcols_hours]
+GROUP BY subreddit, hour
+
+Average final score, number of comments, and total number of posts per subreddit: ***
+
+SELECT subreddit, hour, COUNT(*) total_posts , AVG(score) avg_score, AVG(num_comments) avg_comments
+FROM [subreddit-vectors:posttimes.all_2016_posts_subsetcols_hours]
+GROUP BY subreddit, hour
